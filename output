@@ -1,0 +1,162 @@
+Stage_0(3):ResultTask0
+	 - RDD_0:Generating InputData(4)
+		 Start:2016-11-01 00:11:08.403000 End: 2016-11-01 00:11:08.911000  Lasting: 508ms
+	 - RDD_1:Generating InputData(4)
+		 Start:2016-11-01 00:11:08.402000 End: 2016-11-01 00:11:08.914000  Lasting: 512ms
+	 - RDD_2:Generating PythonRDD(4)
+		 Start:2016-11-01 00:11:08.391000 End: 2016-11-01 00:11:35.627000  Lasting: 27236ms
+
+
+Stage_1(3):ResultTask1
+	 - RDD_0:Generating InputData(4)
+		 Start:2016-11-01 00:11:36.715000 End: 2016-11-01 00:11:37.265000  Lasting: 550ms
+	 - RDD_1:Generating InputData(4)
+		 Start:2016-11-01 00:11:36.715000 End: 2016-11-01 00:11:37.266000  Lasting: 551ms
+	 - RDD_3:Generating PythonRDD(4)
+		 Start:2016-11-01 00:11:36.716000 End: 2016-11-01 00:12:04.153000  Lasting: 27437ms
+
+
+Stage_2(4):ShuffleMapTask2
+	 - RDD_0:Generating InputData(4)
+		 Start:2016-11-01 00:12:04.957000 End: 2016-11-01 00:12:04.967000  Lasting: 10ms
+	 - RDD_1:Generating InputData(4)
+		 Start:2016-11-01 00:12:04.957000 End: 2016-11-01 00:12:04.968000  Lasting: 11ms
+	 - RDD_4:Generating PythonRDD(4)
+		 Start:2016-11-01 00:12:05.014000 End: 2016-11-01 00:12:05.102000  Lasting: 88ms
+	 - RDD_5:Generating PairwiseRDD(4)
+		 Start:2016-11-01 00:12:05.014000 End: 2016-11-01 00:12:05.106000  Lasting: 92ms
+
+
+Stage_3(8):ShuffleMapTask3
+	 - RDD_6:Generating ShuffledRDD(4)
+		 Start:2016-11-01 00:12:58.024000 End: 2016-11-01 00:12:58.276000  Lasting: 252ms
+	 - RDD_7:Generating MapPartitionedRDD(4)
+		 Start:2016-11-01 00:12:58.016000 End: 2016-11-01 00:12:58.279000  Lasting: 263ms
+	 - RDD_8:Generating ParallelCollectionRDD(64)
+		 Start:2016-11-01 00:12:57.804000 End: 2016-11-01 00:12:57.915000  Lasting: 111ms
+	 - RDD_9:Generating PythonRDD(4)
+		 Start:2016-11-01 00:12:57.785000 End: 2016-11-01 00:13:16.278000  Lasting: 18493ms
+	 - RDD_10:Generating PythonRDD(64)
+		 Start:2016-11-01 00:12:57.799000 End: 2016-11-01 00:12:58.214000  Lasting: 415ms
+	 - RDD_11:Generating UnionRDD(68)
+		 Start:2016-11-01 00:12:57.778000 End: 2016-11-01 00:13:16.280000  Lasting: 18502ms
+	 - RDD_12:Generating PythonRDD(68)
+		 Start:2016-11-01 00:12:57.786000 End: 2016-11-01 00:13:35.455000  Lasting: 37669ms
+	 - RDD_13:Generating PairwiseRDD(68)
+		 Start:2016-11-01 00:12:57.781000 End: 2016-11-01 00:13:35.456000  Lasting: 37675ms
+
+
+Stage_4(8):ShuffleMapTask4
+	 - RDD_8:Generating ParallelCollectionRDD(64)
+		 Start:2016-11-01 00:13:36.863000 End: 2016-11-01 00:13:36.874000  Lasting: 11ms
+	 - RDD_14:Generating ShuffledRDD(4)
+		 Start:2016-11-01 00:13:37.112000 End: 2016-11-01 00:13:37.145000  Lasting: 33ms
+	 - RDD_15:Generating MapPartitionedRDD(4)
+		 Start:2016-11-01 00:13:37.112000 End: 2016-11-01 00:13:37.149000  Lasting: 37ms
+	 - RDD_16:Generating PythonRDD(4)
+		 Start:2016-11-01 00:13:37.111000 End: 2016-11-01 00:13:45.701000  Lasting: 8590ms
+	 - RDD_17:Generating PythonRDD(64)
+		 Start:2016-11-01 00:13:36.968000 End: 2016-11-01 00:13:37.108000  Lasting: 140ms
+	 - RDD_18:Generating UnionRDD(68)
+		 Start:2016-11-01 00:13:37.111000 End: 2016-11-01 00:13:45.701000  Lasting: 8590ms
+	 - RDD_19:Generating PythonRDD(68)
+		 Start:2016-11-01 00:13:37.110000 End: 2016-11-01 00:14:04.550000  Lasting: 27440ms
+	 - RDD_20:Generating PairwiseRDD(68)
+		 Start:2016-11-01 00:13:37.110000 End: 2016-11-01 00:14:04.551000  Lasting: 27441ms
+
+
+Stage_5(7):ShuffleMapTask5
+	 - RDD_21:Generating ShuffledRDD(8)
+		 Start:2016-11-01 00:14:06.274000 End: 2016-11-01 00:14:06.334000  Lasting: 60ms
+	 - RDD_22:Generating MapPartitionedRDD(8)
+		 Start:2016-11-01 00:14:06.259000 End: 2016-11-01 00:14:06.321000  Lasting: 62ms
+	 - RDD_23:Generating PythonRDD(4)
+		 Start:2016-11-01 00:14:06.255000 End: 2016-11-01 00:15:25.211000  Lasting: 78956ms
+	 - RDD_24:Generating PythonRDD(4)
+		 Start:2016-11-01 00:14:06.258000 End: 2016-11-01 00:15:19.499000  Lasting: 73241ms
+	 - RDD_25:Generating UnionRDD(8)
+		 Start:2016-11-01 00:14:06.254000 End: 2016-11-01 00:15:25.211000  Lasting: 78957ms
+	 - RDD_26:Generating PythonRDD(8)
+		 Start:2016-11-01 00:14:06.254000 End: 2016-11-01 00:15:44.967000  Lasting: 98713ms
+	 - RDD_27:Generating PairwiseRDD(8)
+		 Start:2016-11-01 00:14:06.254000 End: 2016-11-01 00:15:44.967000  Lasting: 98713ms
+
+
+Stage_6(7):ShuffleMapTask6
+	 - RDD_32:Generating UnionRDD(8)
+		 Start:2016-11-01 00:15:46.271000 End: 2016-11-01 00:17:07.135000  Lasting: 80864ms
+	 - RDD_33:Generating PythonRDD(8)
+		 Start:2016-11-01 00:15:46.269000 End: 2016-11-01 00:17:24.736000  Lasting: 98467ms
+	 - RDD_34:Generating PairwiseRDD(8)
+		 Start:2016-11-01 00:15:46.269000 End: 2016-11-01 00:17:24.737000  Lasting: 98468ms
+	 - RDD_28:Generating ShuffledRDD(8)
+		 Start:2016-11-01 00:15:46.267000 End: 2016-11-01 00:15:46.286000  Lasting: 19ms
+	 - RDD_29:Generating MapPartitionedRDD(8)
+		 Start:2016-11-01 00:15:46.255000 End: 2016-11-01 00:15:46.275000  Lasting: 20ms
+	 - RDD_30:Generating PythonRDD(4)
+		 Start:2016-11-01 00:15:46.271000 End: 2016-11-01 00:17:07.134000  Lasting: 80863ms
+	 - RDD_31:Generating PythonRDD(4)
+		 Start:2016-11-01 00:15:46.271000 End: 2016-11-01 00:17:01.258000  Lasting: 74987ms
+
+
+Stage_7(7):ShuffleMapTask7
+	 - RDD_35:Generating ShuffledRDD(8)
+		 Start:2016-11-01 00:17:25.963000 End: 2016-11-01 00:17:25.984000  Lasting: 21ms
+	 - RDD_36:Generating MapPartitionedRDD(8)
+		 Start:2016-11-01 00:17:25.963000 End: 2016-11-01 00:17:25.986000  Lasting: 23ms
+	 - RDD_37:Generating PythonRDD(4)
+		 Start:2016-11-01 00:17:25.962000 End: 2016-11-01 00:18:45.628000  Lasting: 79666ms
+	 - RDD_38:Generating PythonRDD(4)
+		 Start:2016-11-01 00:17:25.962000 End: 2016-11-01 00:18:40.186000  Lasting: 74224ms
+	 - RDD_39:Generating UnionRDD(8)
+		 Start:2016-11-01 00:17:25.961000 End: 2016-11-01 00:18:45.628000  Lasting: 79667ms
+	 - RDD_40:Generating PythonRDD(8)
+		 Start:2016-11-01 00:17:25.960000 End: 2016-11-01 00:19:04.404000  Lasting: 98444ms
+	 - RDD_41:Generating PairwiseRDD(8)
+		 Start:2016-11-01 00:17:25.959000 End: 2016-11-01 00:19:04.405000  Lasting: 98446ms
+
+
+Stage_8(7):ShuffleMapTask8
+	 - RDD_42:Generating ShuffledRDD(8)
+		 Start:2016-11-01 00:19:05.649000 End: 2016-11-01 00:19:05.678000  Lasting: 29ms
+	 - RDD_43:Generating MapPartitionedRDD(8)
+		 Start:2016-11-01 00:19:05.649000 End: 2016-11-01 00:19:05.679000  Lasting: 30ms
+	 - RDD_44:Generating PythonRDD(4)
+		 Start:2016-11-01 00:19:05.648000 End: 2016-11-01 00:20:27.810000  Lasting: 82162ms
+	 - RDD_45:Generating PythonRDD(4)
+		 Start:2016-11-01 00:19:05.648000 End: 2016-11-01 00:20:22.374000  Lasting: 76726ms
+	 - RDD_46:Generating UnionRDD(8)
+		 Start:2016-11-01 00:19:05.647000 End: 2016-11-01 00:20:27.810000  Lasting: 82163ms
+	 - RDD_47:Generating PythonRDD(8)
+		 Start:2016-11-01 00:19:05.646000 End: 2016-11-01 00:20:46.210000  Lasting: 100564ms
+	 - RDD_48:Generating PairwiseRDD(8)
+		 Start:2016-11-01 00:19:05.646000 End: 2016-11-01 00:20:46.210000  Lasting: 100564ms
+
+
+Stage_9(3):ResultTask9
+	 - RDD_49:Generating ShuffledRDD(4)
+		 Start:2016-11-01 00:20:47.459000 End: 2016-11-01 00:20:47.481000  Lasting: 22ms
+	 - RDD_50:Generating MapPartitionedRDD(4)
+		 Start:2016-11-01 00:20:47.459000 End: 2016-11-01 00:20:47.482000  Lasting: 23ms
+	 - RDD_51:Generating PythonRDD(4)
+		 Start:2016-11-01 00:20:47.455000 End: 2016-11-01 00:21:02.376000  Lasting: 14921ms
+
+
+Stage_10(0):10
+
+
+Stage_11(0):11
+
+
+Stage_12(0):12
+
+
+Stage_13(0):13
+
+
+Stage_14(0):14
+
+
+Stage_15(0):15
+
+
