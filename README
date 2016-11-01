@@ -5,6 +5,6 @@ Use:
 
 Note:
 - k_10_iter_1_part_4_10M inside /history_plus_log is for history server to render the DAG, so that we can compare the result in output with the DAG. 
-- In the top of `extra_logParser.py` there's explanation of format for the output.
+- In the top and middle (around line 50) of `extra_logParser.py` there's explanation of format for the output.
 
 
