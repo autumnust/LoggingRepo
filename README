@@ -1,6 +1,10 @@
+Use:
 1. Combined all the output 'hx_Extra_spark.log' into a file named 'combined'
 2. run `Python extra_logParser.py` 
 3. Check the result in `output`
 
-k_10_iter_1_part_4_10M inside /history_plus_log is for history server to render the DAG,
-so that we can compare the result in output with the DAG. 
+Note:
+- k_10_iter_1_part_4_10M inside /history_plus_log is for history server to render the DAG, so that we can compare the result in output with the DAG. 
+- In the top of `extra_logParser.py` there's explanation of format for the output.
+
+
