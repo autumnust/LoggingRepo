@@ -115,7 +115,8 @@ with open (output, 'w') as f :
 				stage_time_map[stage_id][part_id].append(timestamp)
 	
 	# Output all the stage. 
-	for i in xrange(len(stage_info)):
-		output_stage_info(stage_info, i, f, stage_id_name_map, rdd_id_name_map)
+	for stage_id, rdd_list in stage_info.iteritems(): 
+		output_stage_info( stage_info, stage_id, f, stage_id_name_map, rdd_id_name_map )
+
 	fd.close()
 f.close()

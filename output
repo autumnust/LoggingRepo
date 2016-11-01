@@ -142,21 +142,81 @@ Stage_9(3):ResultTask9
 		 Start:2016-11-01 00:20:47.455000 End: 2016-11-01 00:21:02.376000  Lasting: 14921ms
 
 
-Stage_10(0):10
+Stage_16(7):ShuffleMapTask16
+	 - RDD_42:Generating ShuffledRDD(8)
+		 Start:2016-11-01 00:21:02.678000 End: 2016-11-01 00:21:02.694000  Lasting: 16ms
+	 - RDD_43:Generating MapPartitionedRDD(8)
+		 Start:2016-11-01 00:21:02.678000 End: 2016-11-01 00:21:02.694000  Lasting: 16ms
+	 - RDD_52:Generating PythonRDD(4)
+		 Start:2016-11-01 00:21:02.675000 End: 2016-11-01 00:22:33.340000  Lasting: 90665ms
+	 - RDD_53:Generating PythonRDD(4)
+		 Start:2016-11-01 00:21:02.676000 End: 2016-11-01 00:22:29.243000  Lasting: 86567ms
+	 - RDD_54:Generating UnionRDD(8)
+		 Start:2016-11-01 00:21:02.674000 End: 2016-11-01 00:22:33.340000  Lasting: 90666ms
+	 - RDD_55:Generating PythonRDD(8)
+		 Start:2016-11-01 00:21:02.673000 End: 2016-11-01 00:22:52.330000  Lasting: 109657ms
+	 - RDD_56:Generating PairwiseRDD(8)
+		 Start:2016-11-01 00:21:02.673000 End: 2016-11-01 00:22:52.331000  Lasting: 109658ms
 
 
-Stage_11(0):11
+Stage_17(3):ResultTask17
+	 - RDD_57:Generating ShuffledRDD(4)
+		 Start:2016-11-01 00:22:53.555000 End: 2016-11-01 00:22:53.574000  Lasting: 19ms
+	 - RDD_58:Generating MapPartitionedRDD(4)
+		 Start:2016-11-01 00:22:53.572000 End: 2016-11-01 00:22:53.594000  Lasting: 22ms
+	 - RDD_59:Generating PythonRDD(4)
+		 Start:2016-11-01 00:22:53.571000 End: 2016-11-01 00:23:08.065000  Lasting: 14494ms
 
 
-Stage_12(0):12
+Stage_32(7):ShuffleMapTask32
+	 - RDD_68:Generating PythonRDD(4)
+		 Start:2016-11-01 00:25:15.339000 End: 2016-11-01 00:26:47.774000  Lasting: 92435ms
+	 - RDD_69:Generating PythonRDD(4)
+		 Start:2016-11-01 00:25:15.341000 End: 2016-11-01 00:26:40.627000  Lasting: 85286ms
+	 - RDD_70:Generating UnionRDD(8)
+		 Start:2016-11-01 00:25:15.339000 End: 2016-11-01 00:26:47.774000  Lasting: 92435ms
+	 - RDD_71:Generating PythonRDD(8)
+		 Start:2016-11-01 00:25:15.338000 End: 2016-11-01 00:27:07.823000  Lasting: 112485ms
+	 - RDD_72:Generating PairwiseRDD(8)
+		 Start:2016-11-01 00:25:15.337000 End: 2016-11-01 00:27:07.823000  Lasting: 112486ms
+	 - RDD_42:Generating ShuffledRDD(8)
+		 Start:2016-11-01 00:25:15.344000 End: 2016-11-01 00:25:15.360000  Lasting: 16ms
+	 - RDD_43:Generating MapPartitionedRDD(8)
+		 Start:2016-11-01 00:25:15.343000 End: 2016-11-01 00:25:15.361000  Lasting: 18ms
 
 
-Stage_13(0):13
+Stage_24(7):ShuffleMapTask24
+	 - RDD_64:Generating PairwiseRDD(8)
+		 Start:2016-11-01 00:23:08.338000 End: 2016-11-01 00:24:58.905000  Lasting: 110567ms
+	 - RDD_42:Generating ShuffledRDD(8)
+		 Start:2016-11-01 00:23:08.339000 End: 2016-11-01 00:23:08.353000  Lasting: 14ms
+	 - RDD_43:Generating MapPartitionedRDD(8)
+		 Start:2016-11-01 00:23:08.328000 End: 2016-11-01 00:23:08.343000  Lasting: 15ms
+	 - RDD_60:Generating PythonRDD(4)
+		 Start:2016-11-01 00:23:08.341000 End: 2016-11-01 00:24:39.900000  Lasting: 91559ms
+	 - RDD_61:Generating PythonRDD(4)
+		 Start:2016-11-01 00:23:08.341000 End: 2016-11-01 00:24:35.192000  Lasting: 86851ms
+	 - RDD_62:Generating UnionRDD(8)
+		 Start:2016-11-01 00:23:08.340000 End: 2016-11-01 00:24:39.901000  Lasting: 91561ms
+	 - RDD_63:Generating PythonRDD(8)
+		 Start:2016-11-01 00:23:08.339000 End: 2016-11-01 00:24:58.905000  Lasting: 110566ms
 
 
-Stage_14(0):14
+Stage_25(3):ResultTask25
+	 - RDD_65:Generating ShuffledRDD(4)
+		 Start:2016-11-01 00:25:00.111000 End: 2016-11-01 00:25:00.131000  Lasting: 20ms
+	 - RDD_66:Generating MapPartitionedRDD(4)
+		 Start:2016-11-01 00:25:00.111000 End: 2016-11-01 00:25:00.131000  Lasting: 20ms
+	 - RDD_67:Generating PythonRDD(4)
+		 Start:2016-11-01 00:25:00.123000 End: 2016-11-01 00:25:15.094000  Lasting: 14971ms
 
 
-Stage_15(0):15
+Stage_33(3):ResultTask33
+	 - RDD_73:Generating ShuffledRDD(4)
+		 Start:2016-11-01 00:27:09.058000 End: 2016-11-01 00:27:09.080000  Lasting: 22ms
+	 - RDD_74:Generating MapPartitionedRDD(4)
+		 Start:2016-11-01 00:27:09.049000 End: 2016-11-01 00:27:09.075000  Lasting: 26ms
+	 - RDD_75:Generating PythonRDD(4)
+		 Start:2016-11-01 00:27:09.065000 End: 2016-11-01 00:27:23.427000  Lasting: 14362ms
 
 
