@@ -1,222 +1,1247 @@
 Stage_0(3):ResultTask0
 	 - RDD_0:Generating InputData(4)
-		 Start:2016-11-01 00:11:08.403000 End: 2016-11-01 00:11:08.911000  Lasting: 508ms
+		Partition_0 start from :2016-11-01 00:11:08.403000 , end at: 2016-11-01 00:11:08.911000, Lasting : 508ms  
+		Partition_1 start from :2016-11-01 00:11:08.403000 , end at: 2016-11-01 00:11:08.911000, Lasting : 508ms  
+		Partition_2 start from :2016-11-01 00:11:08.404000 , end at: 2016-11-01 00:11:08.911000, Lasting : 507ms  
+		Partition_3 start from :2016-11-01 00:11:08.403000 , end at: 2016-11-01 00:11:08.911000, Lasting : 508ms  
 	 - RDD_1:Generating InputData(4)
-		 Start:2016-11-01 00:11:08.402000 End: 2016-11-01 00:11:08.914000  Lasting: 512ms
+		Partition_0 start from :2016-11-01 00:11:08.402000 , end at: 2016-11-01 00:11:08.914000, Lasting : 512ms  
+		Partition_1 start from :2016-11-01 00:11:08.402000 , end at: 2016-11-01 00:11:08.912000, Lasting : 510ms  
+		Partition_2 start from :2016-11-01 00:11:08.402000 , end at: 2016-11-01 00:11:08.913000, Lasting : 511ms  
+		Partition_3 start from :2016-11-01 00:11:08.402000 , end at: 2016-11-01 00:11:08.913000, Lasting : 511ms  
 	 - RDD_2:Generating PythonRDD(4)
-		 Start:2016-11-01 00:11:08.391000 End: 2016-11-01 00:11:35.627000  Lasting: 27236ms
+		Partition_0 start from :2016-11-01 00:11:08.391000 , end at: 2016-11-01 00:11:35.627000, Lasting : 27236ms  
+		Partition_1 start from :2016-11-01 00:11:08.392000 , end at: 2016-11-01 00:11:34.713000, Lasting : 26321ms  
+		Partition_2 start from :2016-11-01 00:11:08.391000 , end at: 2016-11-01 00:11:34.627000, Lasting : 26236ms  
+		Partition_3 start from :2016-11-01 00:11:08.391000 , end at: 2016-11-01 00:11:32.063000, Lasting : 23672ms  
 
 
 Stage_1(3):ResultTask1
 	 - RDD_0:Generating InputData(4)
-		 Start:2016-11-01 00:11:36.715000 End: 2016-11-01 00:11:37.265000  Lasting: 550ms
+		Partition_0 start from :2016-11-01 00:11:36.721000 , end at: 2016-11-01 00:11:37.270000, Lasting : 549ms  
+		Partition_1 start from :2016-11-01 00:11:36.760000 , end at: 2016-11-01 00:11:37.251000, Lasting : 491ms  
+		Partition_2 start from :2016-11-01 00:11:36.715000 , end at: 2016-11-01 00:11:37.265000, Lasting : 550ms  
+		Partition_3 start from :2016-11-01 00:11:35.875000 , end at: 2016-11-01 00:11:35.884000, Lasting : 9ms  
 	 - RDD_1:Generating InputData(4)
-		 Start:2016-11-01 00:11:36.715000 End: 2016-11-01 00:11:37.266000  Lasting: 551ms
+		Partition_0 start from :2016-11-01 00:11:36.721000 , end at: 2016-11-01 00:11:37.271000, Lasting : 550ms  
+		Partition_1 start from :2016-11-01 00:11:36.759000 , end at: 2016-11-01 00:11:37.252000, Lasting : 493ms  
+		Partition_2 start from :2016-11-01 00:11:36.715000 , end at: 2016-11-01 00:11:37.266000, Lasting : 551ms  
+		Partition_3 start from :2016-11-01 00:11:35.874000 , end at: 2016-11-01 00:11:35.885000, Lasting : 11ms  
 	 - RDD_3:Generating PythonRDD(4)
-		 Start:2016-11-01 00:11:36.716000 End: 2016-11-01 00:12:04.153000  Lasting: 27437ms
+		Partition_0 start from :2016-11-01 00:11:36.716000 , end at: 2016-11-01 00:12:04.153000, Lasting : 27437ms  
+		Partition_1 start from :2016-11-01 00:11:36.754000 , end at: 2016-11-01 00:12:03.098000, Lasting : 26344ms  
+		Partition_2 start from :2016-11-01 00:11:36.710000 , end at: 2016-11-01 00:12:02.948000, Lasting : 26238ms  
+		Partition_3 start from :2016-11-01 00:11:35.873000 , end at: 2016-11-01 00:11:51.949000, Lasting : 16076ms  
 
 
 Stage_2(4):ShuffleMapTask2
 	 - RDD_0:Generating InputData(4)
-		 Start:2016-11-01 00:12:04.957000 End: 2016-11-01 00:12:04.967000  Lasting: 10ms
+		Partition_0 start from :2016-11-01 00:12:04.946000 , end at: 2016-11-01 00:12:04.951000, Lasting : 5ms  
+		Partition_1 start from :2016-11-01 00:12:04.957000 , end at: 2016-11-01 00:12:04.967000, Lasting : 10ms  
+		Partition_2 start from :2016-11-01 00:12:04.950000 , end at: 2016-11-01 00:12:04.958000, Lasting : 8ms  
+		Partition_3 start from :2016-11-01 00:12:05.015000 , end at: 2016-11-01 00:12:05.024000, Lasting : 9ms  
 	 - RDD_1:Generating InputData(4)
-		 Start:2016-11-01 00:12:04.957000 End: 2016-11-01 00:12:04.968000  Lasting: 11ms
+		Partition_0 start from :2016-11-01 00:12:04.945000 , end at: 2016-11-01 00:12:04.952000, Lasting : 7ms  
+		Partition_1 start from :2016-11-01 00:12:04.957000 , end at: 2016-11-01 00:12:04.968000, Lasting : 11ms  
+		Partition_2 start from :2016-11-01 00:12:04.949000 , end at: 2016-11-01 00:12:04.959000, Lasting : 10ms  
+		Partition_3 start from :2016-11-01 00:12:05.015000 , end at: 2016-11-01 00:12:05.025000, Lasting : 10ms  
 	 - RDD_4:Generating PythonRDD(4)
-		 Start:2016-11-01 00:12:05.014000 End: 2016-11-01 00:12:05.102000  Lasting: 88ms
+		Partition_0 start from :2016-11-01 00:12:04.945000 , end at: 2016-11-01 00:12:05.017000, Lasting : 72ms  
+		Partition_1 start from :2016-11-01 00:12:04.956000 , end at: 2016-11-01 00:12:05.036000, Lasting : 80ms  
+		Partition_2 start from :2016-11-01 00:12:04.948000 , end at: 2016-11-01 00:12:05.034000, Lasting : 86ms  
+		Partition_3 start from :2016-11-01 00:12:05.014000 , end at: 2016-11-01 00:12:05.102000, Lasting : 88ms  
 	 - RDD_5:Generating PairwiseRDD(4)
-		 Start:2016-11-01 00:12:05.014000 End: 2016-11-01 00:12:05.106000  Lasting: 92ms
+		Partition_0 start from :2016-11-01 00:12:04.944000 , end at: 2016-11-01 00:12:05.022000, Lasting : 78ms  
+		Partition_1 start from :2016-11-01 00:12:04.956000 , end at: 2016-11-01 00:12:05.041000, Lasting : 85ms  
+		Partition_2 start from :2016-11-01 00:12:04.948000 , end at: 2016-11-01 00:12:05.039000, Lasting : 91ms  
+		Partition_3 start from :2016-11-01 00:12:05.014000 , end at: 2016-11-01 00:12:05.106000, Lasting : 92ms  
 
 
 Stage_3(8):ShuffleMapTask3
 	 - RDD_6:Generating ShuffledRDD(4)
-		 Start:2016-11-01 00:12:58.024000 End: 2016-11-01 00:12:58.276000  Lasting: 252ms
+		Partition_0 start from :2016-11-01 00:12:58.024000 , end at: 2016-11-01 00:12:58.276000, Lasting : 252ms  
+		Partition_1 start from :2016-11-01 00:12:57.819000 , end at: 2016-11-01 00:12:58.038000, Lasting : 219ms  
+		Partition_2 start from :2016-11-01 00:12:57.794000 , end at: 2016-11-01 00:12:58, Lasting : 206ms  
+		Partition_3 start from :2016-11-01 00:12:57.800000 , end at: 2016-11-01 00:12:57.966000, Lasting : 166ms  
 	 - RDD_7:Generating MapPartitionedRDD(4)
-		 Start:2016-11-01 00:12:58.016000 End: 2016-11-01 00:12:58.279000  Lasting: 263ms
+		Partition_0 start from :2016-11-01 00:12:58.016000 , end at: 2016-11-01 00:12:58.279000, Lasting : 263ms  
+		Partition_1 start from :2016-11-01 00:12:57.813000 , end at: 2016-11-01 00:12:58.040000, Lasting : 227ms  
+		Partition_2 start from :2016-11-01 00:12:57.789000 , end at: 2016-11-01 00:12:58.016000, Lasting : 227ms  
+		Partition_3 start from :2016-11-01 00:12:57.795000 , end at: 2016-11-01 00:12:57.974000, Lasting : 179ms  
 	 - RDD_8:Generating ParallelCollectionRDD(64)
-		 Start:2016-11-01 00:12:57.804000 End: 2016-11-01 00:12:57.915000  Lasting: 111ms
+		Partition_4 start from :2016-11-01 00:12:57.819000 , end at: 2016-11-01 00:12:57.899000, Lasting : 80ms  
+		Partition_5 start from :2016-11-01 00:12:57.780000 , end at: 2016-11-01 00:12:57.852000, Lasting : 72ms  
+		Partition_6 start from :2016-11-01 00:12:58.020000 , end at: 2016-11-01 00:12:58.112000, Lasting : 92ms  
+		Partition_7 start from :2016-11-01 00:12:57.788000 , end at: 2016-11-01 00:12:57.874000, Lasting : 86ms  
+		Partition_8 start from :2016-11-01 00:12:57.799000 , end at: 2016-11-01 00:12:57.873000, Lasting : 74ms  
+		Partition_9 start from :2016-11-01 00:12:57.778000 , end at: 2016-11-01 00:12:57.845000, Lasting : 67ms  
+		Partition_10 start from :2016-11-01 00:12:58.012000 , end at: 2016-11-01 00:12:58.061000, Lasting : 49ms  
+		Partition_11 start from :2016-11-01 00:12:57.810000 , end at: 2016-11-01 00:12:57.906000, Lasting : 96ms  
+		Partition_12 start from :2016-11-01 00:12:57.823000 , end at: 2016-11-01 00:12:57.919000, Lasting : 96ms  
+		Partition_13 start from :2016-11-01 00:12:57.786000 , end at: 2016-11-01 00:12:57.847000, Lasting : 61ms  
+		Partition_14 start from :2016-11-01 00:12:58.036000 , end at: 2016-11-01 00:12:58.105000, Lasting : 69ms  
+		Partition_15 start from :2016-11-01 00:12:57.801000 , end at: 2016-11-01 00:12:57.866000, Lasting : 65ms  
+		Partition_16 start from :2016-11-01 00:12:57.825000 , end at: 2016-11-01 00:12:57.921000, Lasting : 96ms  
+		Partition_17 start from :2016-11-01 00:12:57.796000 , end at: 2016-11-01 00:12:57.862000, Lasting : 66ms  
+		Partition_18 start from :2016-11-01 00:12:58.014000 , end at: 2016-11-01 00:12:58.100000, Lasting : 86ms  
+		Partition_19 start from :2016-11-01 00:12:57.795000 , end at: 2016-11-01 00:12:57.868000, Lasting : 73ms  
+		Partition_20 start from :2016-11-01 00:12:57.805000 , end at: 2016-11-01 00:12:57.886000, Lasting : 81ms  
+		Partition_21 start from :2016-11-01 00:12:57.795000 , end at: 2016-11-01 00:12:57.867000, Lasting : 72ms  
+		Partition_22 start from :2016-11-01 00:12:58.020000 , end at: 2016-11-01 00:12:58.109000, Lasting : 89ms  
+		Partition_23 start from :2016-11-01 00:12:57.811000 , end at: 2016-11-01 00:12:57.882000, Lasting : 71ms  
+		Partition_24 start from :2016-11-01 00:12:57.820000 , end at: 2016-11-01 00:12:57.911000, Lasting : 91ms  
+		Partition_25 start from :2016-11-01 00:12:57.801000 , end at: 2016-11-01 00:12:57.870000, Lasting : 69ms  
+		Partition_26 start from :2016-11-01 00:12:58.023000 , end at: 2016-11-01 00:12:58.078000, Lasting : 55ms  
+		Partition_27 start from :2016-11-01 00:12:57.798000 , end at: 2016-11-01 00:12:57.856000, Lasting : 58ms  
+		Partition_28 start from :2016-11-01 00:12:57.805000 , end at: 2016-11-01 00:12:57.866000, Lasting : 61ms  
+		Partition_29 start from :2016-11-01 00:12:57.793000 , end at: 2016-11-01 00:12:57.857000, Lasting : 64ms  
+		Partition_30 start from :2016-11-01 00:12:58.021000 , end at: 2016-11-01 00:12:58.081000, Lasting : 60ms  
+		Partition_31 start from :2016-11-01 00:12:57.788000 , end at: 2016-11-01 00:12:57.870000, Lasting : 82ms  
+		Partition_32 start from :2016-11-01 00:12:57.801000 , end at: 2016-11-01 00:12:57.871000, Lasting : 70ms  
+		Partition_33 start from :2016-11-01 00:12:57.772000 , end at: 2016-11-01 00:12:57.844000, Lasting : 72ms  
+		Partition_34 start from :2016-11-01 00:12:58.015000 , end at: 2016-11-01 00:12:58.067000, Lasting : 52ms  
+		Partition_35 start from :2016-11-01 00:12:57.802000 , end at: 2016-11-01 00:12:57.883000, Lasting : 81ms  
+		Partition_36 start from :2016-11-01 00:12:57.808000 , end at: 2016-11-01 00:12:57.890000, Lasting : 82ms  
+		Partition_37 start from :2016-11-01 00:12:57.794000 , end at: 2016-11-01 00:12:57.869000, Lasting : 75ms  
+		Partition_38 start from :2016-11-01 00:12:58.031000 , end at: 2016-11-01 00:12:58.090000, Lasting : 59ms  
+		Partition_39 start from :2016-11-01 00:12:57.793000 , end at: 2016-11-01 00:12:57.881000, Lasting : 88ms  
+		Partition_40 start from :2016-11-01 00:12:57.801000 , end at: 2016-11-01 00:12:57.883000, Lasting : 82ms  
+		Partition_41 start from :2016-11-01 00:12:57.793000 , end at: 2016-11-01 00:12:57.856000, Lasting : 63ms  
+		Partition_42 start from :2016-11-01 00:12:58.043000 , end at: 2016-11-01 00:12:58.118000, Lasting : 75ms  
+		Partition_43 start from :2016-11-01 00:12:57.818000 , end at: 2016-11-01 00:12:57.884000, Lasting : 66ms  
+		Partition_44 start from :2016-11-01 00:12:57.821000 , end at: 2016-11-01 00:12:57.885000, Lasting : 64ms  
+		Partition_45 start from :2016-11-01 00:12:57.790000 , end at: 2016-11-01 00:12:57.877000, Lasting : 87ms  
+		Partition_46 start from :2016-11-01 00:12:58.028000 , end at: 2016-11-01 00:12:58.080000, Lasting : 52ms  
+		Partition_47 start from :2016-11-01 00:12:57.800000 , end at: 2016-11-01 00:12:57.878000, Lasting : 78ms  
+		Partition_48 start from :2016-11-01 00:12:57.804000 , end at: 2016-11-01 00:12:57.915000, Lasting : 111ms  
+		Partition_49 start from :2016-11-01 00:12:57.792000 , end at: 2016-11-01 00:12:57.859000, Lasting : 67ms  
+		Partition_50 start from :2016-11-01 00:12:58 , end at: 2016-11-01 00:12:58.059000, Lasting : 59ms  
+		Partition_51 start from :2016-11-01 00:12:57.801000 , end at: 2016-11-01 00:12:57.887000, Lasting : 86ms  
+		Partition_52 start from :2016-11-01 00:12:57.809000 , end at: 2016-11-01 00:12:57.916000, Lasting : 107ms  
+		Partition_53 start from :2016-11-01 00:12:57.803000 , end at: 2016-11-01 00:12:57.883000, Lasting : 80ms  
+		Partition_54 start from :2016-11-01 00:12:58.015000 , end at: 2016-11-01 00:12:58.108000, Lasting : 93ms  
+		Partition_55 start from :2016-11-01 00:12:57.795000 , end at: 2016-11-01 00:12:57.869000, Lasting : 74ms  
+		Partition_56 start from :2016-11-01 00:12:57.804000 , end at: 2016-11-01 00:12:57.892000, Lasting : 88ms  
+		Partition_57 start from :2016-11-01 00:12:57.797000 , end at: 2016-11-01 00:12:57.876000, Lasting : 79ms  
+		Partition_58 start from :2016-11-01 00:12:58.029000 , end at: 2016-11-01 00:12:58.116000, Lasting : 87ms  
+		Partition_59 start from :2016-11-01 00:12:57.791000 , end at: 2016-11-01 00:12:57.853000, Lasting : 62ms  
+		Partition_60 start from :2016-11-01 00:12:57.814000 , end at: 2016-11-01 00:12:57.897000, Lasting : 83ms  
+		Partition_61 start from :2016-11-01 00:12:57.806000 , end at: 2016-11-01 00:12:57.874000, Lasting : 68ms  
+		Partition_62 start from :2016-11-01 00:12:58.004000 , end at: 2016-11-01 00:12:58.058000, Lasting : 54ms  
+		Partition_63 start from :2016-11-01 00:12:57.810000 , end at: 2016-11-01 00:12:57.891000, Lasting : 81ms  
+		Partition_64 start from :2016-11-01 00:12:58.165000 , end at: 2016-11-01 00:12:58.201000, Lasting : 36ms  
+		Partition_65 start from :2016-11-01 00:12:58.241000 , end at: 2016-11-01 00:12:58.347000, Lasting : 106ms  
+		Partition_66 start from :2016-11-01 00:12:58.241000 , end at: 2016-11-01 00:12:58.338000, Lasting : 97ms  
+		Partition_67 start from :2016-11-01 00:12:58.242000 , end at: 2016-11-01 00:12:58.340000, Lasting : 98ms  
 	 - RDD_9:Generating PythonRDD(4)
-		 Start:2016-11-01 00:12:57.785000 End: 2016-11-01 00:13:16.278000  Lasting: 18493ms
+		Partition_0 start from :2016-11-01 00:12:58.004000 , end at: 2016-11-01 00:13:15.583000, Lasting : 17579ms  
+		Partition_1 start from :2016-11-01 00:12:57.799000 , end at: 2016-11-01 00:13:16.110000, Lasting : 18311ms  
+		Partition_2 start from :2016-11-01 00:12:57.782000 , end at: 2016-11-01 00:13:16.017000, Lasting : 18235ms  
+		Partition_3 start from :2016-11-01 00:12:57.785000 , end at: 2016-11-01 00:13:16.278000, Lasting : 18493ms  
 	 - RDD_10:Generating PythonRDD(64)
-		 Start:2016-11-01 00:12:57.799000 End: 2016-11-01 00:12:58.214000  Lasting: 415ms
+		Partition_4 start from :2016-11-01 00:12:57.806000 , end at: 2016-11-01 00:12:58.118000, Lasting : 312ms  
+		Partition_5 start from :2016-11-01 00:12:57.767000 , end at: 2016-11-01 00:12:58.090000, Lasting : 323ms  
+		Partition_6 start from :2016-11-01 00:12:58.009000 , end at: 2016-11-01 00:12:58.298000, Lasting : 289ms  
+		Partition_7 start from :2016-11-01 00:12:57.778000 , end at: 2016-11-01 00:12:57.997000, Lasting : 219ms  
+		Partition_8 start from :2016-11-01 00:12:57.791000 , end at: 2016-11-01 00:12:58.059000, Lasting : 268ms  
+		Partition_9 start from :2016-11-01 00:12:57.776000 , end at: 2016-11-01 00:12:57.988000, Lasting : 212ms  
+		Partition_10 start from :2016-11-01 00:12:58 , end at: 2016-11-01 00:12:58.077000, Lasting : 77ms  
+		Partition_11 start from :2016-11-01 00:12:57.797000 , end at: 2016-11-01 00:12:58.075000, Lasting : 278ms  
+		Partition_12 start from :2016-11-01 00:12:57.803000 , end at: 2016-11-01 00:12:58.103000, Lasting : 300ms  
+		Partition_13 start from :2016-11-01 00:12:57.779000 , end at: 2016-11-01 00:12:58.128000, Lasting : 349ms  
+		Partition_14 start from :2016-11-01 00:12:58.022000 , end at: 2016-11-01 00:12:58.270000, Lasting : 248ms  
+		Partition_15 start from :2016-11-01 00:12:57.793000 , end at: 2016-11-01 00:12:58.076000, Lasting : 283ms  
+		Partition_16 start from :2016-11-01 00:12:57.821000 , end at: 2016-11-01 00:12:58.053000, Lasting : 232ms  
+		Partition_17 start from :2016-11-01 00:12:57.785000 , end at: 2016-11-01 00:12:57.971000, Lasting : 186ms  
+		Partition_18 start from :2016-11-01 00:12:57.998000 , end at: 2016-11-01 00:12:58.389000, Lasting : 391ms  
+		Partition_19 start from :2016-11-01 00:12:57.788000 , end at: 2016-11-01 00:12:58.055000, Lasting : 267ms  
+		Partition_20 start from :2016-11-01 00:12:57.794000 , end at: 2016-11-01 00:12:57.975000, Lasting : 181ms  
+		Partition_21 start from :2016-11-01 00:12:57.778000 , end at: 2016-11-01 00:12:58.128000, Lasting : 350ms  
+		Partition_22 start from :2016-11-01 00:12:58.009000 , end at: 2016-11-01 00:12:58.271000, Lasting : 262ms  
+		Partition_23 start from :2016-11-01 00:12:57.792000 , end at: 2016-11-01 00:12:58.074000, Lasting : 282ms  
+		Partition_24 start from :2016-11-01 00:12:57.795000 , end at: 2016-11-01 00:12:58.053000, Lasting : 258ms  
+		Partition_25 start from :2016-11-01 00:12:57.785000 , end at: 2016-11-01 00:12:58.128000, Lasting : 343ms  
+		Partition_26 start from :2016-11-01 00:12:58.013000 , end at: 2016-11-01 00:12:58.148000, Lasting : 135ms  
+		Partition_27 start from :2016-11-01 00:12:57.791000 , end at: 2016-11-01 00:12:57.997000, Lasting : 206ms  
+		Partition_28 start from :2016-11-01 00:12:57.796000 , end at: 2016-11-01 00:12:57.962000, Lasting : 166ms  
+		Partition_29 start from :2016-11-01 00:12:57.783000 , end at: 2016-11-01 00:12:57.966000, Lasting : 183ms  
+		Partition_30 start from :2016-11-01 00:12:58.006000 , end at: 2016-11-01 00:12:58.165000, Lasting : 159ms  
+		Partition_31 start from :2016-11-01 00:12:57.784000 , end at: 2016-11-01 00:12:57.995000, Lasting : 211ms  
+		Partition_32 start from :2016-11-01 00:12:57.795000 , end at: 2016-11-01 00:12:58.009000, Lasting : 214ms  
+		Partition_33 start from :2016-11-01 00:12:57.765000 , end at: 2016-11-01 00:12:57.937000, Lasting : 172ms  
+		Partition_34 start from :2016-11-01 00:12:58.003000 , end at: 2016-11-01 00:12:58.079000, Lasting : 76ms  
+		Partition_35 start from :2016-11-01 00:12:57.792000 , end at: 2016-11-01 00:12:58.071000, Lasting : 279ms  
+		Partition_36 start from :2016-11-01 00:12:57.796000 , end at: 2016-11-01 00:12:58.101000, Lasting : 305ms  
+		Partition_37 start from :2016-11-01 00:12:57.783000 , end at: 2016-11-01 00:12:58.061000, Lasting : 278ms  
+		Partition_38 start from :2016-11-01 00:12:58.005000 , end at: 2016-11-01 00:12:58.161000, Lasting : 156ms  
+		Partition_39 start from :2016-11-01 00:12:57.781000 , end at: 2016-11-01 00:12:58.171000, Lasting : 390ms  
+		Partition_40 start from :2016-11-01 00:12:57.789000 , end at: 2016-11-01 00:12:57.976000, Lasting : 187ms  
+		Partition_41 start from :2016-11-01 00:12:57.787000 , end at: 2016-11-01 00:12:58.119000, Lasting : 332ms  
+		Partition_42 start from :2016-11-01 00:12:58.034000 , end at: 2016-11-01 00:12:58.239000, Lasting : 205ms  
+		Partition_43 start from :2016-11-01 00:12:57.811000 , end at: 2016-11-01 00:12:58.073000, Lasting : 262ms  
+		Partition_44 start from :2016-11-01 00:12:57.813000 , end at: 2016-11-01 00:12:57.979000, Lasting : 166ms  
+		Partition_45 start from :2016-11-01 00:12:57.783000 , end at: 2016-11-01 00:12:58.145000, Lasting : 362ms  
+		Partition_46 start from :2016-11-01 00:12:58.011000 , end at: 2016-11-01 00:12:58.160000, Lasting : 149ms  
+		Partition_47 start from :2016-11-01 00:12:57.794000 , end at: 2016-11-01 00:12:58.170000, Lasting : 376ms  
+		Partition_48 start from :2016-11-01 00:12:57.799000 , end at: 2016-11-01 00:12:58.013000, Lasting : 214ms  
+		Partition_49 start from :2016-11-01 00:12:57.787000 , end at: 2016-11-01 00:12:57.971000, Lasting : 184ms  
+		Partition_50 start from :2016-11-01 00:12:57.993000 , end at: 2016-11-01 00:12:58.077000, Lasting : 84ms  
+		Partition_51 start from :2016-11-01 00:12:57.790000 , end at: 2016-11-01 00:12:58.137000, Lasting : 347ms  
+		Partition_52 start from :2016-11-01 00:12:57.797000 , end at: 2016-11-01 00:12:58.101000, Lasting : 304ms  
+		Partition_53 start from :2016-11-01 00:12:57.793000 , end at: 2016-11-01 00:12:58.127000, Lasting : 334ms  
+		Partition_54 start from :2016-11-01 00:12:58.004000 , end at: 2016-11-01 00:12:58.244000, Lasting : 240ms  
+		Partition_55 start from :2016-11-01 00:12:57.783000 , end at: 2016-11-01 00:12:57.999000, Lasting : 216ms  
+		Partition_56 start from :2016-11-01 00:12:57.792000 , end at: 2016-11-01 00:12:58.052000, Lasting : 260ms  
+		Partition_57 start from :2016-11-01 00:12:57.788000 , end at: 2016-11-01 00:12:58.062000, Lasting : 274ms  
+		Partition_58 start from :2016-11-01 00:12:58.011000 , end at: 2016-11-01 00:12:58.233000, Lasting : 222ms  
+		Partition_59 start from :2016-11-01 00:12:57.786000 , end at: 2016-11-01 00:12:57.994000, Lasting : 208ms  
+		Partition_60 start from :2016-11-01 00:12:57.799000 , end at: 2016-11-01 00:12:58.214000, Lasting : 415ms  
+		Partition_61 start from :2016-11-01 00:12:57.803000 , end at: 2016-11-01 00:12:58.059000, Lasting : 256ms  
+		Partition_62 start from :2016-11-01 00:12:57.993000 , end at: 2016-11-01 00:12:58.066000, Lasting : 73ms  
+		Partition_63 start from :2016-11-01 00:12:57.798000 , end at: 2016-11-01 00:12:58.171000, Lasting : 373ms  
+		Partition_64 start from :2016-11-01 00:12:58.164000 , end at: 2016-11-01 00:12:58.336000, Lasting : 172ms  
+		Partition_65 start from :2016-11-01 00:12:58.238000 , end at: 2016-11-01 00:12:58.396000, Lasting : 158ms  
+		Partition_66 start from :2016-11-01 00:12:58.240000 , end at: 2016-11-01 00:12:58.382000, Lasting : 142ms  
+		Partition_67 start from :2016-11-01 00:12:58.240000 , end at: 2016-11-01 00:12:58.363000, Lasting : 123ms  
 	 - RDD_11:Generating UnionRDD(68)
-		 Start:2016-11-01 00:12:57.778000 End: 2016-11-01 00:13:16.280000  Lasting: 18502ms
+		Partition_0 start from :2016-11-01 00:12:57.998000 , end at: 2016-11-01 00:13:15.583000, Lasting : 17585ms  
+		Partition_1 start from :2016-11-01 00:12:57.793000 , end at: 2016-11-01 00:13:16.110000, Lasting : 18317ms  
+		Partition_2 start from :2016-11-01 00:12:57.778000 , end at: 2016-11-01 00:13:16.018000, Lasting : 18240ms  
+		Partition_3 start from :2016-11-01 00:12:57.778000 , end at: 2016-11-01 00:13:16.280000, Lasting : 18502ms  
+		Partition_4 start from :2016-11-01 00:12:57.805000 , end at: 2016-11-01 00:12:58.119000, Lasting : 314ms  
+		Partition_5 start from :2016-11-01 00:12:57.762000 , end at: 2016-11-01 00:12:58.091000, Lasting : 329ms  
+		Partition_6 start from :2016-11-01 00:12:58.001000 , end at: 2016-11-01 00:12:58.299000, Lasting : 298ms  
+		Partition_7 start from :2016-11-01 00:12:57.772000 , end at: 2016-11-01 00:12:57.998000, Lasting : 226ms  
+		Partition_8 start from :2016-11-01 00:12:57.785000 , end at: 2016-11-01 00:12:58.060000, Lasting : 275ms  
+		Partition_9 start from :2016-11-01 00:12:57.772000 , end at: 2016-11-01 00:12:58.008000, Lasting : 236ms  
+		Partition_10 start from :2016-11-01 00:12:57.997000 , end at: 2016-11-01 00:12:58.078000, Lasting : 81ms  
+		Partition_11 start from :2016-11-01 00:12:57.785000 , end at: 2016-11-01 00:12:58.076000, Lasting : 291ms  
+		Partition_12 start from :2016-11-01 00:12:57.797000 , end at: 2016-11-01 00:12:58.104000, Lasting : 307ms  
+		Partition_13 start from :2016-11-01 00:12:57.771000 , end at: 2016-11-01 00:12:58.135000, Lasting : 364ms  
+		Partition_14 start from :2016-11-01 00:12:58.005000 , end at: 2016-11-01 00:12:58.277000, Lasting : 272ms  
+		Partition_15 start from :2016-11-01 00:12:57.787000 , end at: 2016-11-01 00:12:58.077000, Lasting : 290ms  
+		Partition_16 start from :2016-11-01 00:12:57.815000 , end at: 2016-11-01 00:12:58.060000, Lasting : 245ms  
+		Partition_17 start from :2016-11-01 00:12:57.779000 , end at: 2016-11-01 00:12:57.972000, Lasting : 193ms  
+		Partition_18 start from :2016-11-01 00:12:57.990000 , end at: 2016-11-01 00:12:58.389000, Lasting : 399ms  
+		Partition_19 start from :2016-11-01 00:12:57.782000 , end at: 2016-11-01 00:12:58.056000, Lasting : 274ms  
+		Partition_20 start from :2016-11-01 00:12:57.791000 , end at: 2016-11-01 00:12:57.977000, Lasting : 186ms  
+		Partition_21 start from :2016-11-01 00:12:57.765000 , end at: 2016-11-01 00:12:58.136000, Lasting : 371ms  
+		Partition_22 start from :2016-11-01 00:12:58 , end at: 2016-11-01 00:12:58.272000, Lasting : 272ms  
+		Partition_23 start from :2016-11-01 00:12:57.780000 , end at: 2016-11-01 00:12:58.075000, Lasting : 295ms  
+		Partition_24 start from :2016-11-01 00:12:57.784000 , end at: 2016-11-01 00:12:58.058000, Lasting : 274ms  
+		Partition_25 start from :2016-11-01 00:12:57.778000 , end at: 2016-11-01 00:12:58.145000, Lasting : 367ms  
+		Partition_26 start from :2016-11-01 00:12:58.004000 , end at: 2016-11-01 00:12:58.159000, Lasting : 155ms  
+		Partition_27 start from :2016-11-01 00:12:57.786000 , end at: 2016-11-01 00:12:57.998000, Lasting : 212ms  
+		Partition_28 start from :2016-11-01 00:12:57.790000 , end at: 2016-11-01 00:12:57.974000, Lasting : 184ms  
+		Partition_29 start from :2016-11-01 00:12:57.776000 , end at: 2016-11-01 00:12:57.975000, Lasting : 199ms  
+		Partition_30 start from :2016-11-01 00:12:57.998000 , end at: 2016-11-01 00:12:58.165000, Lasting : 167ms  
+		Partition_31 start from :2016-11-01 00:12:57.781000 , end at: 2016-11-01 00:12:57.996000, Lasting : 215ms  
+		Partition_32 start from :2016-11-01 00:12:57.789000 , end at: 2016-11-01 00:12:58.016000, Lasting : 227ms  
+		Partition_33 start from :2016-11-01 00:12:57.761000 , end at: 2016-11-01 00:12:57.943000, Lasting : 182ms  
+		Partition_34 start from :2016-11-01 00:12:58 , end at: 2016-11-01 00:12:58.079000, Lasting : 79ms  
+		Partition_35 start from :2016-11-01 00:12:57.784000 , end at: 2016-11-01 00:12:58.072000, Lasting : 288ms  
+		Partition_36 start from :2016-11-01 00:12:57.790000 , end at: 2016-11-01 00:12:58.103000, Lasting : 313ms  
+		Partition_37 start from :2016-11-01 00:12:57.779000 , end at: 2016-11-01 00:12:58.081000, Lasting : 302ms  
+		Partition_38 start from :2016-11-01 00:12:57.998000 , end at: 2016-11-01 00:12:58.163000, Lasting : 165ms  
+		Partition_39 start from :2016-11-01 00:12:57.777000 , end at: 2016-11-01 00:12:58.175000, Lasting : 398ms  
+		Partition_40 start from :2016-11-01 00:12:57.779000 , end at: 2016-11-01 00:12:57.977000, Lasting : 198ms  
+		Partition_41 start from :2016-11-01 00:12:57.780000 , end at: 2016-11-01 00:12:58.119000, Lasting : 339ms  
+		Partition_42 start from :2016-11-01 00:12:58.019000 , end at: 2016-11-01 00:12:58.241000, Lasting : 222ms  
+		Partition_43 start from :2016-11-01 00:12:57.804000 , end at: 2016-11-01 00:12:58.074000, Lasting : 270ms  
+		Partition_44 start from :2016-11-01 00:12:57.798000 , end at: 2016-11-01 00:12:57.981000, Lasting : 183ms  
+		Partition_45 start from :2016-11-01 00:12:57.776000 , end at: 2016-11-01 00:12:58.147000, Lasting : 371ms  
+		Partition_46 start from :2016-11-01 00:12:58.002000 , end at: 2016-11-01 00:12:58.160000, Lasting : 158ms  
+		Partition_47 start from :2016-11-01 00:12:57.783000 , end at: 2016-11-01 00:12:58.173000, Lasting : 390ms  
+		Partition_48 start from :2016-11-01 00:12:57.793000 , end at: 2016-11-01 00:12:58.014000, Lasting : 221ms  
+		Partition_49 start from :2016-11-01 00:12:57.780000 , end at: 2016-11-01 00:12:57.975000, Lasting : 195ms  
+		Partition_50 start from :2016-11-01 00:12:57.987000 , end at: 2016-11-01 00:12:58.079000, Lasting : 92ms  
+		Partition_51 start from :2016-11-01 00:12:57.784000 , end at: 2016-11-01 00:12:58.137000, Lasting : 353ms  
+		Partition_52 start from :2016-11-01 00:12:57.793000 , end at: 2016-11-01 00:12:58.102000, Lasting : 309ms  
+		Partition_53 start from :2016-11-01 00:12:57.788000 , end at: 2016-11-01 00:12:58.147000, Lasting : 359ms  
+		Partition_54 start from :2016-11-01 00:12:57.997000 , end at: 2016-11-01 00:12:58.244000, Lasting : 247ms  
+		Partition_55 start from :2016-11-01 00:12:57.782000 , end at: 2016-11-01 00:12:58.003000, Lasting : 221ms  
+		Partition_56 start from :2016-11-01 00:12:57.786000 , end at: 2016-11-01 00:12:58.060000, Lasting : 274ms  
+		Partition_57 start from :2016-11-01 00:12:57.781000 , end at: 2016-11-01 00:12:58.062000, Lasting : 281ms  
+		Partition_58 start from :2016-11-01 00:12:58.009000 , end at: 2016-11-01 00:12:58.237000, Lasting : 228ms  
+		Partition_59 start from :2016-11-01 00:12:57.784000 , end at: 2016-11-01 00:12:57.994000, Lasting : 210ms  
+		Partition_60 start from :2016-11-01 00:12:57.794000 , end at: 2016-11-01 00:12:58.224000, Lasting : 430ms  
+		Partition_61 start from :2016-11-01 00:12:57.792000 , end at: 2016-11-01 00:12:58.060000, Lasting : 268ms  
+		Partition_62 start from :2016-11-01 00:12:57.986000 , end at: 2016-11-01 00:12:58.068000, Lasting : 82ms  
+		Partition_63 start from :2016-11-01 00:12:57.792000 , end at: 2016-11-01 00:12:58.211000, Lasting : 419ms  
+		Partition_64 start from :2016-11-01 00:12:58.163000 , end at: 2016-11-01 00:12:58.337000, Lasting : 174ms  
+		Partition_65 start from :2016-11-01 00:12:58.237000 , end at: 2016-11-01 00:12:58.397000, Lasting : 160ms  
+		Partition_66 start from :2016-11-01 00:12:58.239000 , end at: 2016-11-01 00:12:58.383000, Lasting : 144ms  
+		Partition_67 start from :2016-11-01 00:12:58.240000 , end at: 2016-11-01 00:12:58.363000, Lasting : 123ms  
 	 - RDD_12:Generating PythonRDD(68)
-		 Start:2016-11-01 00:12:57.786000 End: 2016-11-01 00:13:35.455000  Lasting: 37669ms
+		Partition_0 start from :2016-11-01 00:12:57.978000 , end at: 2016-11-01 00:13:33.723000, Lasting : 35745ms  
+		Partition_1 start from :2016-11-01 00:12:57.786000 , end at: 2016-11-01 00:13:35.455000, Lasting : 37669ms  
+		Partition_2 start from :2016-11-01 00:12:57.774000 , end at: 2016-11-01 00:13:34.444000, Lasting : 36670ms  
+		Partition_3 start from :2016-11-01 00:12:57.765000 , end at: 2016-11-01 00:13:34.640000, Lasting : 36875ms  
+		Partition_4 start from :2016-11-01 00:12:57.795000 , end at: 2016-11-01 00:12:58.286000, Lasting : 491ms  
+		Partition_5 start from :2016-11-01 00:12:57.760000 , end at: 2016-11-01 00:12:58.181000, Lasting : 421ms  
+		Partition_6 start from :2016-11-01 00:12:57.985000 , end at: 2016-11-01 00:12:58.412000, Lasting : 427ms  
+		Partition_7 start from :2016-11-01 00:12:57.771000 , end at: 2016-11-01 00:12:58.164000, Lasting : 393ms  
+		Partition_8 start from :2016-11-01 00:12:57.781000 , end at: 2016-11-01 00:12:58.167000, Lasting : 386ms  
+		Partition_9 start from :2016-11-01 00:12:57.763000 , end at: 2016-11-01 00:12:58.217000, Lasting : 454ms  
+		Partition_10 start from :2016-11-01 00:12:57.980000 , end at: 2016-11-01 00:12:58.240000, Lasting : 260ms  
+		Partition_11 start from :2016-11-01 00:12:57.776000 , end at: 2016-11-01 00:12:58.302000, Lasting : 526ms  
+		Partition_12 start from :2016-11-01 00:12:57.779000 , end at: 2016-11-01 00:12:58.171000, Lasting : 392ms  
+		Partition_13 start from :2016-11-01 00:12:57.763000 , end at: 2016-11-01 00:12:58.255000, Lasting : 492ms  
+		Partition_14 start from :2016-11-01 00:12:57.985000 , end at: 2016-11-01 00:12:58.331000, Lasting : 346ms  
+		Partition_15 start from :2016-11-01 00:12:57.777000 , end at: 2016-11-01 00:12:58.235000, Lasting : 458ms  
+		Partition_16 start from :2016-11-01 00:12:57.790000 , end at: 2016-11-01 00:12:58.272000, Lasting : 482ms  
+		Partition_17 start from :2016-11-01 00:12:57.770000 , end at: 2016-11-01 00:12:58.145000, Lasting : 375ms  
+		Partition_18 start from :2016-11-01 00:12:57.985000 , end at: 2016-11-01 00:12:58.433000, Lasting : 448ms  
+		Partition_19 start from :2016-11-01 00:12:57.774000 , end at: 2016-11-01 00:12:58.240000, Lasting : 466ms  
+		Partition_20 start from :2016-11-01 00:12:57.785000 , end at: 2016-11-01 00:12:58.166000, Lasting : 381ms  
+		Partition_21 start from :2016-11-01 00:12:57.760000 , end at: 2016-11-01 00:12:58.168000, Lasting : 408ms  
+		Partition_22 start from :2016-11-01 00:12:57.986000 , end at: 2016-11-01 00:12:58.331000, Lasting : 345ms  
+		Partition_23 start from :2016-11-01 00:12:57.772000 , end at: 2016-11-01 00:12:58.329000, Lasting : 557ms  
+		Partition_24 start from :2016-11-01 00:12:57.780000 , end at: 2016-11-01 00:12:58.169000, Lasting : 389ms  
+		Partition_25 start from :2016-11-01 00:12:57.765000 , end at: 2016-11-01 00:12:58.255000, Lasting : 490ms  
+		Partition_26 start from :2016-11-01 00:12:57.987000 , end at: 2016-11-01 00:12:58.241000, Lasting : 254ms  
+		Partition_27 start from :2016-11-01 00:12:57.777000 , end at: 2016-11-01 00:12:58.168000, Lasting : 391ms  
+		Partition_28 start from :2016-11-01 00:12:57.785000 , end at: 2016-11-01 00:12:58.168000, Lasting : 383ms  
+		Partition_29 start from :2016-11-01 00:12:57.766000 , end at: 2016-11-01 00:12:58.157000, Lasting : 391ms  
+		Partition_30 start from :2016-11-01 00:12:57.989000 , end at: 2016-11-01 00:12:58.232000, Lasting : 243ms  
+		Partition_31 start from :2016-11-01 00:12:57.772000 , end at: 2016-11-01 00:12:58.212000, Lasting : 440ms  
+		Partition_32 start from :2016-11-01 00:12:57.780000 , end at: 2016-11-01 00:12:58.170000, Lasting : 390ms  
+		Partition_33 start from :2016-11-01 00:12:57.760000 , end at: 2016-11-01 00:12:58.063000, Lasting : 303ms  
+		Partition_34 start from :2016-11-01 00:12:57.983000 , end at: 2016-11-01 00:12:58.164000, Lasting : 181ms  
+		Partition_35 start from :2016-11-01 00:12:57.775000 , end at: 2016-11-01 00:12:58.308000, Lasting : 533ms  
+		Partition_36 start from :2016-11-01 00:12:57.783000 , end at: 2016-11-01 00:12:58.167000, Lasting : 384ms  
+		Partition_37 start from :2016-11-01 00:12:57.769000 , end at: 2016-11-01 00:12:58.186000, Lasting : 417ms  
+		Partition_38 start from :2016-11-01 00:12:57.986000 , end at: 2016-11-01 00:12:58.241000, Lasting : 255ms  
+		Partition_39 start from :2016-11-01 00:12:57.771000 , end at: 2016-11-01 00:12:58.246000, Lasting : 475ms  
+		Partition_40 start from :2016-11-01 00:12:57.778000 , end at: 2016-11-01 00:12:58.170000, Lasting : 392ms  
+		Partition_41 start from :2016-11-01 00:12:57.767000 , end at: 2016-11-01 00:12:58.255000, Lasting : 488ms  
+		Partition_42 start from :2016-11-01 00:12:57.984000 , end at: 2016-11-01 00:12:58.344000, Lasting : 360ms  
+		Partition_43 start from :2016-11-01 00:12:57.782000 , end at: 2016-11-01 00:12:58.167000, Lasting : 385ms  
+		Partition_44 start from :2016-11-01 00:12:57.792000 , end at: 2016-11-01 00:12:58.230000, Lasting : 438ms  
+		Partition_45 start from :2016-11-01 00:12:57.765000 , end at: 2016-11-01 00:12:58.340000, Lasting : 575ms  
+		Partition_46 start from :2016-11-01 00:12:57.984000 , end at: 2016-11-01 00:12:58.295000, Lasting : 311ms  
+		Partition_47 start from :2016-11-01 00:12:57.778000 , end at: 2016-11-01 00:12:58.303000, Lasting : 525ms  
+		Partition_48 start from :2016-11-01 00:12:57.787000 , end at: 2016-11-01 00:12:58.235000, Lasting : 448ms  
+		Partition_49 start from :2016-11-01 00:12:57.774000 , end at: 2016-11-01 00:12:58.161000, Lasting : 387ms  
+		Partition_50 start from :2016-11-01 00:12:57.984000 , end at: 2016-11-01 00:12:58.159000, Lasting : 175ms  
+		Partition_51 start from :2016-11-01 00:12:57.775000 , end at: 2016-11-01 00:12:58.360000, Lasting : 585ms  
+		Partition_52 start from :2016-11-01 00:12:57.780000 , end at: 2016-11-01 00:12:58.213000, Lasting : 433ms  
+		Partition_53 start from :2016-11-01 00:12:57.774000 , end at: 2016-11-01 00:12:58.269000, Lasting : 495ms  
+		Partition_54 start from :2016-11-01 00:12:57.983000 , end at: 2016-11-01 00:12:58.298000, Lasting : 315ms  
+		Partition_55 start from :2016-11-01 00:12:57.774000 , end at: 2016-11-01 00:12:58.210000, Lasting : 436ms  
+		Partition_56 start from :2016-11-01 00:12:57.779000 , end at: 2016-11-01 00:12:58.168000, Lasting : 389ms  
+		Partition_57 start from :2016-11-01 00:12:57.772000 , end at: 2016-11-01 00:12:58.144000, Lasting : 372ms  
+		Partition_58 start from :2016-11-01 00:12:57.993000 , end at: 2016-11-01 00:12:58.317000, Lasting : 324ms  
+		Partition_59 start from :2016-11-01 00:12:57.777000 , end at: 2016-11-01 00:12:58.165000, Lasting : 388ms  
+		Partition_60 start from :2016-11-01 00:12:57.785000 , end at: 2016-11-01 00:12:58.354000, Lasting : 569ms  
+		Partition_61 start from :2016-11-01 00:12:57.768000 , end at: 2016-11-01 00:12:58.180000, Lasting : 412ms  
+		Partition_62 start from :2016-11-01 00:12:57.982000 , end at: 2016-11-01 00:12:58.163000, Lasting : 181ms  
+		Partition_63 start from :2016-11-01 00:12:57.780000 , end at: 2016-11-01 00:12:58.280000, Lasting : 500ms  
+		Partition_64 start from :2016-11-01 00:12:58.163000 , end at: 2016-11-01 00:12:58.381000, Lasting : 218ms  
+		Partition_65 start from :2016-11-01 00:12:58.227000 , end at: 2016-11-01 00:12:58.404000, Lasting : 177ms  
+		Partition_66 start from :2016-11-01 00:12:58.237000 , end at: 2016-11-01 00:12:58.389000, Lasting : 152ms  
+		Partition_67 start from :2016-11-01 00:12:58.238000 , end at: 2016-11-01 00:12:58.392000, Lasting : 154ms  
 	 - RDD_13:Generating PairwiseRDD(68)
-		 Start:2016-11-01 00:12:57.781000 End: 2016-11-01 00:13:35.456000  Lasting: 37675ms
+		Partition_0 start from :2016-11-01 00:12:57.978000 , end at: 2016-11-01 00:13:33.723000, Lasting : 35745ms  
+		Partition_1 start from :2016-11-01 00:12:57.781000 , end at: 2016-11-01 00:13:35.456000, Lasting : 37675ms  
+		Partition_2 start from :2016-11-01 00:12:57.774000 , end at: 2016-11-01 00:13:34.444000, Lasting : 36670ms  
+		Partition_3 start from :2016-11-01 00:12:57.761000 , end at: 2016-11-01 00:13:34.641000, Lasting : 36880ms  
+		Partition_4 start from :2016-11-01 00:12:57.790000 , end at: 2016-11-01 00:12:58.286000, Lasting : 496ms  
+		Partition_5 start from :2016-11-01 00:12:57.760000 , end at: 2016-11-01 00:12:58.181000, Lasting : 421ms  
+		Partition_6 start from :2016-11-01 00:12:57.979000 , end at: 2016-11-01 00:12:58.412000, Lasting : 433ms  
+		Partition_7 start from :2016-11-01 00:12:57.770000 , end at: 2016-11-01 00:12:58.165000, Lasting : 395ms  
+		Partition_8 start from :2016-11-01 00:12:57.780000 , end at: 2016-11-01 00:12:58.168000, Lasting : 388ms  
+		Partition_9 start from :2016-11-01 00:12:57.763000 , end at: 2016-11-01 00:12:58.218000, Lasting : 455ms  
+		Partition_10 start from :2016-11-01 00:12:57.979000 , end at: 2016-11-01 00:12:58.242000, Lasting : 263ms  
+		Partition_11 start from :2016-11-01 00:12:57.771000 , end at: 2016-11-01 00:12:58.302000, Lasting : 531ms  
+		Partition_12 start from :2016-11-01 00:12:57.777000 , end at: 2016-11-01 00:12:58.171000, Lasting : 394ms  
+		Partition_13 start from :2016-11-01 00:12:57.760000 , end at: 2016-11-01 00:12:58.256000, Lasting : 496ms  
+		Partition_14 start from :2016-11-01 00:12:57.979000 , end at: 2016-11-01 00:12:58.331000, Lasting : 352ms  
+		Partition_15 start from :2016-11-01 00:12:57.775000 , end at: 2016-11-01 00:12:58.235000, Lasting : 460ms  
+		Partition_16 start from :2016-11-01 00:12:57.789000 , end at: 2016-11-01 00:12:58.272000, Lasting : 483ms  
+		Partition_17 start from :2016-11-01 00:12:57.765000 , end at: 2016-11-01 00:12:58.146000, Lasting : 381ms  
+		Partition_18 start from :2016-11-01 00:12:57.981000 , end at: 2016-11-01 00:12:58.433000, Lasting : 452ms  
+		Partition_19 start from :2016-11-01 00:12:57.774000 , end at: 2016-11-01 00:12:58.240000, Lasting : 466ms  
+		Partition_20 start from :2016-11-01 00:12:57.783000 , end at: 2016-11-01 00:12:58.167000, Lasting : 384ms  
+		Partition_21 start from :2016-11-01 00:12:57.760000 , end at: 2016-11-01 00:12:58.169000, Lasting : 409ms  
+		Partition_22 start from :2016-11-01 00:12:57.980000 , end at: 2016-11-01 00:12:58.332000, Lasting : 352ms  
+		Partition_23 start from :2016-11-01 00:12:57.771000 , end at: 2016-11-01 00:12:58.330000, Lasting : 559ms  
+		Partition_24 start from :2016-11-01 00:12:57.779000 , end at: 2016-11-01 00:12:58.169000, Lasting : 390ms  
+		Partition_25 start from :2016-11-01 00:12:57.761000 , end at: 2016-11-01 00:12:58.255000, Lasting : 494ms  
+		Partition_26 start from :2016-11-01 00:12:57.980000 , end at: 2016-11-01 00:12:58.250000, Lasting : 270ms  
+		Partition_27 start from :2016-11-01 00:12:57.776000 , end at: 2016-11-01 00:12:58.168000, Lasting : 392ms  
+		Partition_28 start from :2016-11-01 00:12:57.780000 , end at: 2016-11-01 00:12:58.168000, Lasting : 388ms  
+		Partition_29 start from :2016-11-01 00:12:57.763000 , end at: 2016-11-01 00:12:58.157000, Lasting : 394ms  
+		Partition_30 start from :2016-11-01 00:12:57.979000 , end at: 2016-11-01 00:12:58.232000, Lasting : 253ms  
+		Partition_31 start from :2016-11-01 00:12:57.771000 , end at: 2016-11-01 00:12:58.213000, Lasting : 442ms  
+		Partition_32 start from :2016-11-01 00:12:57.778000 , end at: 2016-11-01 00:12:58.170000, Lasting : 392ms  
+		Partition_33 start from :2016-11-01 00:12:57.759000 , end at: 2016-11-01 00:12:58.064000, Lasting : 305ms  
+		Partition_34 start from :2016-11-01 00:12:57.983000 , end at: 2016-11-01 00:12:58.165000, Lasting : 182ms  
+		Partition_35 start from :2016-11-01 00:12:57.774000 , end at: 2016-11-01 00:12:58.308000, Lasting : 534ms  
+		Partition_36 start from :2016-11-01 00:12:57.782000 , end at: 2016-11-01 00:12:58.167000, Lasting : 385ms  
+		Partition_37 start from :2016-11-01 00:12:57.767000 , end at: 2016-11-01 00:12:58.187000, Lasting : 420ms  
+		Partition_38 start from :2016-11-01 00:12:57.977000 , end at: 2016-11-01 00:12:58.243000, Lasting : 266ms  
+		Partition_39 start from :2016-11-01 00:12:57.771000 , end at: 2016-11-01 00:12:58.247000, Lasting : 476ms  
+		Partition_40 start from :2016-11-01 00:12:57.778000 , end at: 2016-11-01 00:12:58.170000, Lasting : 392ms  
+		Partition_41 start from :2016-11-01 00:12:57.765000 , end at: 2016-11-01 00:12:58.255000, Lasting : 490ms  
+		Partition_42 start from :2016-11-01 00:12:57.983000 , end at: 2016-11-01 00:12:58.344000, Lasting : 361ms  
+		Partition_43 start from :2016-11-01 00:12:57.778000 , end at: 2016-11-01 00:12:58.167000, Lasting : 389ms  
+		Partition_44 start from :2016-11-01 00:12:57.787000 , end at: 2016-11-01 00:12:58.230000, Lasting : 443ms  
+		Partition_45 start from :2016-11-01 00:12:57.764000 , end at: 2016-11-01 00:12:58.340000, Lasting : 576ms  
+		Partition_46 start from :2016-11-01 00:12:57.981000 , end at: 2016-11-01 00:12:58.296000, Lasting : 315ms  
+		Partition_47 start from :2016-11-01 00:12:57.774000 , end at: 2016-11-01 00:12:58.304000, Lasting : 530ms  
+		Partition_48 start from :2016-11-01 00:12:57.785000 , end at: 2016-11-01 00:12:58.235000, Lasting : 450ms  
+		Partition_49 start from :2016-11-01 00:12:57.768000 , end at: 2016-11-01 00:12:58.162000, Lasting : 394ms  
+		Partition_50 start from :2016-11-01 00:12:57.981000 , end at: 2016-11-01 00:12:58.161000, Lasting : 180ms  
+		Partition_51 start from :2016-11-01 00:12:57.775000 , end at: 2016-11-01 00:12:58.360000, Lasting : 585ms  
+		Partition_52 start from :2016-11-01 00:12:57.777000 , end at: 2016-11-01 00:12:58.213000, Lasting : 436ms  
+		Partition_53 start from :2016-11-01 00:12:57.768000 , end at: 2016-11-01 00:12:58.269000, Lasting : 501ms  
+		Partition_54 start from :2016-11-01 00:12:57.982000 , end at: 2016-11-01 00:12:58.303000, Lasting : 321ms  
+		Partition_55 start from :2016-11-01 00:12:57.773000 , end at: 2016-11-01 00:12:58.212000, Lasting : 439ms  
+		Partition_56 start from :2016-11-01 00:12:57.779000 , end at: 2016-11-01 00:12:58.169000, Lasting : 390ms  
+		Partition_57 start from :2016-11-01 00:12:57.769000 , end at: 2016-11-01 00:12:58.147000, Lasting : 378ms  
+		Partition_58 start from :2016-11-01 00:12:57.983000 , end at: 2016-11-01 00:12:58.318000, Lasting : 335ms  
+		Partition_59 start from :2016-11-01 00:12:57.776000 , end at: 2016-11-01 00:12:58.166000, Lasting : 390ms  
+		Partition_60 start from :2016-11-01 00:12:57.783000 , end at: 2016-11-01 00:12:58.355000, Lasting : 572ms  
+		Partition_61 start from :2016-11-01 00:12:57.764000 , end at: 2016-11-01 00:12:58.180000, Lasting : 416ms  
+		Partition_62 start from :2016-11-01 00:12:57.982000 , end at: 2016-11-01 00:12:58.164000, Lasting : 182ms  
+		Partition_63 start from :2016-11-01 00:12:57.776000 , end at: 2016-11-01 00:12:58.281000, Lasting : 505ms  
+		Partition_64 start from :2016-11-01 00:12:58.162000 , end at: 2016-11-01 00:12:58.381000, Lasting : 219ms  
+		Partition_65 start from :2016-11-01 00:12:58.226000 , end at: 2016-11-01 00:12:58.404000, Lasting : 178ms  
+		Partition_66 start from :2016-11-01 00:12:58.237000 , end at: 2016-11-01 00:12:58.390000, Lasting : 153ms  
+		Partition_67 start from :2016-11-01 00:12:58.237000 , end at: 2016-11-01 00:12:58.393000, Lasting : 156ms  
 
 
 Stage_4(8):ShuffleMapTask4
 	 - RDD_8:Generating ParallelCollectionRDD(64)
-		 Start:2016-11-01 00:13:36.863000 End: 2016-11-01 00:13:36.874000  Lasting: 11ms
+		Partition_4 start from :2016-11-01 00:13:36.871000 , end at: 2016-11-01 00:13:36.876000, Lasting : 5ms  
+		Partition_5 start from :2016-11-01 00:13:36.923000 , end at: 2016-11-01 00:13:36.927000, Lasting : 4ms  
+		Partition_6 start from :2016-11-01 00:13:36.850000 , end at: 2016-11-01 00:13:36.857000, Lasting : 7ms  
+		Partition_7 start from :2016-11-01 00:13:36.894000 , end at: 2016-11-01 00:13:36.898000, Lasting : 4ms  
+		Partition_8 start from :2016-11-01 00:13:36.892000 , end at: 2016-11-01 00:13:36.899000, Lasting : 7ms  
+		Partition_9 start from :2016-11-01 00:13:36.972000 , end at: 2016-11-01 00:13:36.974000, Lasting : 2ms  
+		Partition_10 start from :2016-11-01 00:13:36.888000 , end at: 2016-11-01 00:13:36.894000, Lasting : 6ms  
+		Partition_11 start from :2016-11-01 00:13:36.854000 , end at: 2016-11-01 00:13:36.861000, Lasting : 7ms  
+		Partition_12 start from :2016-11-01 00:13:36.891000 , end at: 2016-11-01 00:13:36.895000, Lasting : 4ms  
+		Partition_13 start from :2016-11-01 00:13:36.968000 , end at: 2016-11-01 00:13:36.973000, Lasting : 5ms  
+		Partition_14 start from :2016-11-01 00:13:36.892000 , end at: 2016-11-01 00:13:36.893000, Lasting : 1ms  
+		Partition_15 start from :2016-11-01 00:13:36.886000 , end at: 2016-11-01 00:13:36.893000, Lasting : 7ms  
+		Partition_16 start from :2016-11-01 00:13:36.881000 , end at: 2016-11-01 00:13:36.885000, Lasting : 4ms  
+		Partition_17 start from :2016-11-01 00:13:36.961000 , end at: 2016-11-01 00:13:36.962000, Lasting : 1ms  
+		Partition_18 start from :2016-11-01 00:13:36.882000 , end at: 2016-11-01 00:13:36.884000, Lasting : 2ms  
+		Partition_19 start from :2016-11-01 00:13:36.891000 , end at: 2016-11-01 00:13:36.897000, Lasting : 6ms  
+		Partition_20 start from :2016-11-01 00:13:36.895000 , end at: 2016-11-01 00:13:36.900000, Lasting : 5ms  
+		Partition_21 start from :2016-11-01 00:13:36.962000 , end at: 2016-11-01 00:13:36.965000, Lasting : 3ms  
+		Partition_22 start from :2016-11-01 00:13:36.887000 , end at: 2016-11-01 00:13:36.895000, Lasting : 8ms  
+		Partition_23 start from :2016-11-01 00:13:36.888000 , end at: 2016-11-01 00:13:36.891000, Lasting : 3ms  
+		Partition_24 start from :2016-11-01 00:13:36.886000 , end at: 2016-11-01 00:13:36.889000, Lasting : 3ms  
+		Partition_25 start from :2016-11-01 00:13:36.962000 , end at: 2016-11-01 00:13:36.964000, Lasting : 2ms  
+		Partition_26 start from :2016-11-01 00:13:36.880000 , end at: 2016-11-01 00:13:36.885000, Lasting : 5ms  
+		Partition_27 start from :2016-11-01 00:13:36.889000 , end at: 2016-11-01 00:13:36.894000, Lasting : 5ms  
+		Partition_28 start from :2016-11-01 00:13:36.898000 , end at: 2016-11-01 00:13:36.902000, Lasting : 4ms  
+		Partition_29 start from :2016-11-01 00:13:36.966000 , end at: 2016-11-01 00:13:36.968000, Lasting : 2ms  
+		Partition_30 start from :2016-11-01 00:13:36.870000 , end at: 2016-11-01 00:13:36.876000, Lasting : 6ms  
+		Partition_31 start from :2016-11-01 00:13:36.892000 , end at: 2016-11-01 00:13:36.900000, Lasting : 8ms  
+		Partition_32 start from :2016-11-01 00:13:36.891000 , end at: 2016-11-01 00:13:36.896000, Lasting : 5ms  
+		Partition_33 start from :2016-11-01 00:13:36.960000 , end at: 2016-11-01 00:13:36.966000, Lasting : 6ms  
+		Partition_34 start from :2016-11-01 00:13:36.863000 , end at: 2016-11-01 00:13:36.874000, Lasting : 11ms  
+		Partition_35 start from :2016-11-01 00:13:36.886000 , end at: 2016-11-01 00:13:36.890000, Lasting : 4ms  
+		Partition_36 start from :2016-11-01 00:13:36.882000 , end at: 2016-11-01 00:13:36.886000, Lasting : 4ms  
+		Partition_37 start from :2016-11-01 00:13:36.947000 , end at: 2016-11-01 00:13:36.950000, Lasting : 3ms  
+		Partition_38 start from :2016-11-01 00:13:36.859000 , end at: 2016-11-01 00:13:36.863000, Lasting : 4ms  
+		Partition_39 start from :2016-11-01 00:13:36.879000 , end at: 2016-11-01 00:13:36.885000, Lasting : 6ms  
+		Partition_40 start from :2016-11-01 00:13:36.883000 , end at: 2016-11-01 00:13:36.891000, Lasting : 8ms  
+		Partition_41 start from :2016-11-01 00:13:36.950000 , end at: 2016-11-01 00:13:36.957000, Lasting : 7ms  
+		Partition_42 start from :2016-11-01 00:13:36.858000 , end at: 2016-11-01 00:13:36.860000, Lasting : 2ms  
+		Partition_43 start from :2016-11-01 00:13:36.869000 , end at: 2016-11-01 00:13:36.876000, Lasting : 7ms  
+		Partition_44 start from :2016-11-01 00:13:36.882000 , end at: 2016-11-01 00:13:36.886000, Lasting : 4ms  
+		Partition_45 start from :2016-11-01 00:13:36.955000 , end at: 2016-11-01 00:13:36.962000, Lasting : 7ms  
+		Partition_46 start from :2016-11-01 00:13:36.861000 , end at: 2016-11-01 00:13:36.862000, Lasting : 1ms  
+		Partition_47 start from :2016-11-01 00:13:36.886000 , end at: 2016-11-01 00:13:36.893000, Lasting : 7ms  
+		Partition_48 start from :2016-11-01 00:13:36.901000 , end at: 2016-11-01 00:13:36.903000, Lasting : 2ms  
+		Partition_49 start from :2016-11-01 00:13:36.957000 , end at: 2016-11-01 00:13:36.960000, Lasting : 3ms  
+		Partition_50 start from :2016-11-01 00:13:36.857000 , end at: 2016-11-01 00:13:36.861000, Lasting : 4ms  
+		Partition_51 start from :2016-11-01 00:13:36.878000 , end at: 2016-11-01 00:13:36.884000, Lasting : 6ms  
+		Partition_52 start from :2016-11-01 00:13:36.872000 , end at: 2016-11-01 00:13:36.876000, Lasting : 4ms  
+		Partition_53 start from :2016-11-01 00:13:36.969000 , end at: 2016-11-01 00:13:36.973000, Lasting : 4ms  
+		Partition_54 start from :2016-11-01 00:13:36.858000 , end at: 2016-11-01 00:13:36.861000, Lasting : 3ms  
+		Partition_55 start from :2016-11-01 00:13:36.859000 , end at: 2016-11-01 00:13:36.867000, Lasting : 8ms  
+		Partition_56 start from :2016-11-01 00:13:36.861000 , end at: 2016-11-01 00:13:36.865000, Lasting : 4ms  
+		Partition_57 start from :2016-11-01 00:13:36.944000 , end at: 2016-11-01 00:13:36.951000, Lasting : 7ms  
+		Partition_58 start from :2016-11-01 00:13:36.866000 , end at: 2016-11-01 00:13:36.872000, Lasting : 6ms  
+		Partition_59 start from :2016-11-01 00:13:36.875000 , end at: 2016-11-01 00:13:36.880000, Lasting : 5ms  
+		Partition_60 start from :2016-11-01 00:13:36.863000 , end at: 2016-11-01 00:13:36.868000, Lasting : 5ms  
+		Partition_61 start from :2016-11-01 00:13:36.943000 , end at: 2016-11-01 00:13:36.944000, Lasting : 1ms  
+		Partition_62 start from :2016-11-01 00:13:36.854000 , end at: 2016-11-01 00:13:36.857000, Lasting : 3ms  
+		Partition_63 start from :2016-11-01 00:13:36.897000 , end at: 2016-11-01 00:13:36.904000, Lasting : 7ms  
+		Partition_64 start from :2016-11-01 00:13:36.934000 , end at: 2016-11-01 00:13:36.939000, Lasting : 5ms  
+		Partition_65 start from :2016-11-01 00:13:37.167000 , end at: 2016-11-01 00:13:37.168000, Lasting : 1ms  
+		Partition_66 start from :2016-11-01 00:13:37.171000 , end at: 2016-11-01 00:13:37.171000, Lasting : 0ms  
+		Partition_67 start from :2016-11-01 00:13:37.168000 , end at: 2016-11-01 00:13:37.169000, Lasting : 1ms  
 	 - RDD_14:Generating ShuffledRDD(4)
-		 Start:2016-11-01 00:13:37.112000 End: 2016-11-01 00:13:37.145000  Lasting: 33ms
+		Partition_0 start from :2016-11-01 00:13:37.125000 , end at: 2016-11-01 00:13:37.148000, Lasting : 23ms  
+		Partition_1 start from :2016-11-01 00:13:37.886000 , end at: 2016-11-01 00:13:37.912000, Lasting : 26ms  
+		Partition_2 start from :2016-11-01 00:13:37.112000 , end at: 2016-11-01 00:13:37.145000, Lasting : 33ms  
+		Partition_3 start from :2016-11-01 00:13:37.175000 , end at: 2016-11-01 00:13:37.202000, Lasting : 27ms  
 	 - RDD_15:Generating MapPartitionedRDD(4)
-		 Start:2016-11-01 00:13:37.112000 End: 2016-11-01 00:13:37.149000  Lasting: 37ms
+		Partition_0 start from :2016-11-01 00:13:37.124000 , end at: 2016-11-01 00:13:37.148000, Lasting : 24ms  
+		Partition_1 start from :2016-11-01 00:13:37.886000 , end at: 2016-11-01 00:13:37.912000, Lasting : 26ms  
+		Partition_2 start from :2016-11-01 00:13:37.112000 , end at: 2016-11-01 00:13:37.149000, Lasting : 37ms  
+		Partition_3 start from :2016-11-01 00:13:37.166000 , end at: 2016-11-01 00:13:37.203000, Lasting : 37ms  
 	 - RDD_16:Generating PythonRDD(4)
-		 Start:2016-11-01 00:13:37.111000 End: 2016-11-01 00:13:45.701000  Lasting: 8590ms
+		Partition_0 start from :2016-11-01 00:13:37.124000 , end at: 2016-11-01 00:13:45.530000, Lasting : 8406ms  
+		Partition_1 start from :2016-11-01 00:13:37.886000 , end at: 2016-11-01 00:13:46.466000, Lasting : 8580ms  
+		Partition_2 start from :2016-11-01 00:13:37.111000 , end at: 2016-11-01 00:13:45.701000, Lasting : 8590ms  
+		Partition_3 start from :2016-11-01 00:13:37.165000 , end at: 2016-11-01 00:13:45.535000, Lasting : 8370ms  
 	 - RDD_17:Generating PythonRDD(64)
-		 Start:2016-11-01 00:13:36.968000 End: 2016-11-01 00:13:37.108000  Lasting: 140ms
+		Partition_4 start from :2016-11-01 00:13:36.856000 , end at: 2016-11-01 00:13:36.937000, Lasting : 81ms  
+		Partition_5 start from :2016-11-01 00:13:36.923000 , end at: 2016-11-01 00:13:37.025000, Lasting : 102ms  
+		Partition_6 start from :2016-11-01 00:13:36.846000 , end at: 2016-11-01 00:13:36.915000, Lasting : 69ms  
+		Partition_7 start from :2016-11-01 00:13:36.877000 , end at: 2016-11-01 00:13:36.943000, Lasting : 66ms  
+		Partition_8 start from :2016-11-01 00:13:36.886000 , end at: 2016-11-01 00:13:36.909000, Lasting : 23ms  
+		Partition_9 start from :2016-11-01 00:13:36.968000 , end at: 2016-11-01 00:13:37.108000, Lasting : 140ms  
+		Partition_10 start from :2016-11-01 00:13:36.888000 , end at: 2016-11-01 00:13:36.998000, Lasting : 110ms  
+		Partition_11 start from :2016-11-01 00:13:36.854000 , end at: 2016-11-01 00:13:36.941000, Lasting : 87ms  
+		Partition_12 start from :2016-11-01 00:13:36.887000 , end at: 2016-11-01 00:13:36.917000, Lasting : 30ms  
+		Partition_13 start from :2016-11-01 00:13:36.963000 , end at: 2016-11-01 00:13:37.029000, Lasting : 66ms  
+		Partition_14 start from :2016-11-01 00:13:36.885000 , end at: 2016-11-01 00:13:36.984000, Lasting : 99ms  
+		Partition_15 start from :2016-11-01 00:13:36.881000 , end at: 2016-11-01 00:13:36.985000, Lasting : 104ms  
+		Partition_16 start from :2016-11-01 00:13:36.876000 , end at: 2016-11-01 00:13:36.902000, Lasting : 26ms  
+		Partition_17 start from :2016-11-01 00:13:36.957000 , end at: 2016-11-01 00:13:37.019000, Lasting : 62ms  
+		Partition_18 start from :2016-11-01 00:13:36.875000 , end at: 2016-11-01 00:13:36.956000, Lasting : 81ms  
+		Partition_19 start from :2016-11-01 00:13:36.884000 , end at: 2016-11-01 00:13:36.973000, Lasting : 89ms  
+		Partition_20 start from :2016-11-01 00:13:36.887000 , end at: 2016-11-01 00:13:36.930000, Lasting : 43ms  
+		Partition_21 start from :2016-11-01 00:13:36.954000 , end at: 2016-11-01 00:13:37.020000, Lasting : 66ms  
+		Partition_22 start from :2016-11-01 00:13:36.880000 , end at: 2016-11-01 00:13:36.955000, Lasting : 75ms  
+		Partition_23 start from :2016-11-01 00:13:36.882000 , end at: 2016-11-01 00:13:36.971000, Lasting : 89ms  
+		Partition_24 start from :2016-11-01 00:13:36.877000 , end at: 2016-11-01 00:13:36.951000, Lasting : 74ms  
+		Partition_25 start from :2016-11-01 00:13:36.956000 , end at: 2016-11-01 00:13:37.049000, Lasting : 93ms  
+		Partition_26 start from :2016-11-01 00:13:36.867000 , end at: 2016-11-01 00:13:36.956000, Lasting : 89ms  
+		Partition_27 start from :2016-11-01 00:13:36.882000 , end at: 2016-11-01 00:13:36.965000, Lasting : 83ms  
+		Partition_28 start from :2016-11-01 00:13:36.890000 , end at: 2016-11-01 00:13:36.958000, Lasting : 68ms  
+		Partition_29 start from :2016-11-01 00:13:36.960000 , end at: 2016-11-01 00:13:37.026000, Lasting : 66ms  
+		Partition_30 start from :2016-11-01 00:13:36.860000 , end at: 2016-11-01 00:13:36.891000, Lasting : 31ms  
+		Partition_31 start from :2016-11-01 00:13:36.883000 , end at: 2016-11-01 00:13:36.973000, Lasting : 90ms  
+		Partition_32 start from :2016-11-01 00:13:36.878000 , end at: 2016-11-01 00:13:36.932000, Lasting : 54ms  
+		Partition_33 start from :2016-11-01 00:13:36.952000 , end at: 2016-11-01 00:13:36.998000, Lasting : 46ms  
+		Partition_34 start from :2016-11-01 00:13:36.860000 , end at: 2016-11-01 00:13:36.919000, Lasting : 59ms  
+		Partition_35 start from :2016-11-01 00:13:36.879000 , end at: 2016-11-01 00:13:36.965000, Lasting : 86ms  
+		Partition_36 start from :2016-11-01 00:13:36.878000 , end at: 2016-11-01 00:13:36.934000, Lasting : 56ms  
+		Partition_37 start from :2016-11-01 00:13:36.945000 , end at: 2016-11-01 00:13:37.022000, Lasting : 77ms  
+		Partition_38 start from :2016-11-01 00:13:36.854000 , end at: 2016-11-01 00:13:36.914000, Lasting : 60ms  
+		Partition_39 start from :2016-11-01 00:13:36.872000 , end at: 2016-11-01 00:13:36.970000, Lasting : 98ms  
+		Partition_40 start from :2016-11-01 00:13:36.875000 , end at: 2016-11-01 00:13:36.909000, Lasting : 34ms  
+		Partition_41 start from :2016-11-01 00:13:36.946000 , end at: 2016-11-01 00:13:37.019000, Lasting : 73ms  
+		Partition_42 start from :2016-11-01 00:13:36.853000 , end at: 2016-11-01 00:13:36.915000, Lasting : 62ms  
+		Partition_43 start from :2016-11-01 00:13:36.864000 , end at: 2016-11-01 00:13:36.884000, Lasting : 20ms  
+		Partition_44 start from :2016-11-01 00:13:36.877000 , end at: 2016-11-01 00:13:36.903000, Lasting : 26ms  
+		Partition_45 start from :2016-11-01 00:13:36.947000 , end at: 2016-11-01 00:13:37.012000, Lasting : 65ms  
+		Partition_46 start from :2016-11-01 00:13:36.854000 , end at: 2016-11-01 00:13:36.923000, Lasting : 69ms  
+		Partition_47 start from :2016-11-01 00:13:36.873000 , end at: 2016-11-01 00:13:36.966000, Lasting : 93ms  
+		Partition_48 start from :2016-11-01 00:13:36.885000 , end at: 2016-11-01 00:13:36.919000, Lasting : 34ms  
+		Partition_49 start from :2016-11-01 00:13:36.949000 , end at: 2016-11-01 00:13:37.021000, Lasting : 72ms  
+		Partition_50 start from :2016-11-01 00:13:36.852000 , end at: 2016-11-01 00:13:36.875000, Lasting : 23ms  
+		Partition_51 start from :2016-11-01 00:13:36.866000 , end at: 2016-11-01 00:13:36.914000, Lasting : 48ms  
+		Partition_52 start from :2016-11-01 00:13:36.866000 , end at: 2016-11-01 00:13:36.931000, Lasting : 65ms  
+		Partition_53 start from :2016-11-01 00:13:36.957000 , end at: 2016-11-01 00:13:37.049000, Lasting : 92ms  
+		Partition_54 start from :2016-11-01 00:13:36.853000 , end at: 2016-11-01 00:13:36.915000, Lasting : 62ms  
+		Partition_55 start from :2016-11-01 00:13:36.857000 , end at: 2016-11-01 00:13:36.881000, Lasting : 24ms  
+		Partition_56 start from :2016-11-01 00:13:36.857000 , end at: 2016-11-01 00:13:36.875000, Lasting : 18ms  
+		Partition_57 start from :2016-11-01 00:13:36.941000 , end at: 2016-11-01 00:13:36.960000, Lasting : 19ms  
+		Partition_58 start from :2016-11-01 00:13:36.858000 , end at: 2016-11-01 00:13:36.884000, Lasting : 26ms  
+		Partition_59 start from :2016-11-01 00:13:36.867000 , end at: 2016-11-01 00:13:36.967000, Lasting : 100ms  
+		Partition_60 start from :2016-11-01 00:13:36.859000 , end at: 2016-11-01 00:13:36.918000, Lasting : 59ms  
+		Partition_61 start from :2016-11-01 00:13:36.937000 , end at: 2016-11-01 00:13:37.024000, Lasting : 87ms  
+		Partition_62 start from :2016-11-01 00:13:36.849000 , end at: 2016-11-01 00:13:36.873000, Lasting : 24ms  
+		Partition_63 start from :2016-11-01 00:13:36.885000 , end at: 2016-11-01 00:13:36.974000, Lasting : 89ms  
+		Partition_64 start from :2016-11-01 00:13:36.929000 , end at: 2016-11-01 00:13:37.023000, Lasting : 94ms  
+		Partition_65 start from :2016-11-01 00:13:37.155000 , end at: 2016-11-01 00:13:37.279000, Lasting : 124ms  
+		Partition_66 start from :2016-11-01 00:13:37.168000 , end at: 2016-11-01 00:13:37.236000, Lasting : 68ms  
+		Partition_67 start from :2016-11-01 00:13:37.167000 , end at: 2016-11-01 00:13:37.238000, Lasting : 71ms  
 	 - RDD_18:Generating UnionRDD(68)
-		 Start:2016-11-01 00:13:37.111000 End: 2016-11-01 00:13:45.701000  Lasting: 8590ms
+		Partition_0 start from :2016-11-01 00:13:37.123000 , end at: 2016-11-01 00:13:45.531000, Lasting : 8408ms  
+		Partition_1 start from :2016-11-01 00:13:37.885000 , end at: 2016-11-01 00:13:46.467000, Lasting : 8582ms  
+		Partition_2 start from :2016-11-01 00:13:37.111000 , end at: 2016-11-01 00:13:45.701000, Lasting : 8590ms  
+		Partition_3 start from :2016-11-01 00:13:37.165000 , end at: 2016-11-01 00:13:45.535000, Lasting : 8370ms  
+		Partition_4 start from :2016-11-01 00:13:36.854000 , end at: 2016-11-01 00:13:36.938000, Lasting : 84ms  
+		Partition_5 start from :2016-11-01 00:13:36.922000 , end at: 2016-11-01 00:13:37.025000, Lasting : 103ms  
+		Partition_6 start from :2016-11-01 00:13:36.845000 , end at: 2016-11-01 00:13:36.924000, Lasting : 79ms  
+		Partition_7 start from :2016-11-01 00:13:36.876000 , end at: 2016-11-01 00:13:36.944000, Lasting : 68ms  
+		Partition_8 start from :2016-11-01 00:13:36.882000 , end at: 2016-11-01 00:13:36.917000, Lasting : 35ms  
+		Partition_9 start from :2016-11-01 00:13:36.965000 , end at: 2016-11-01 00:13:37.109000, Lasting : 144ms  
+		Partition_10 start from :2016-11-01 00:13:36.885000 , end at: 2016-11-01 00:13:36.999000, Lasting : 114ms  
+		Partition_11 start from :2016-11-01 00:13:36.853000 , end at: 2016-11-01 00:13:36.973000, Lasting : 120ms  
+		Partition_12 start from :2016-11-01 00:13:36.883000 , end at: 2016-11-01 00:13:36.923000, Lasting : 40ms  
+		Partition_13 start from :2016-11-01 00:13:36.956000 , end at: 2016-11-01 00:13:37.030000, Lasting : 74ms  
+		Partition_14 start from :2016-11-01 00:13:36.879000 , end at: 2016-11-01 00:13:36.985000, Lasting : 106ms  
+		Partition_15 start from :2016-11-01 00:13:36.875000 , end at: 2016-11-01 00:13:36.986000, Lasting : 111ms  
+		Partition_16 start from :2016-11-01 00:13:36.872000 , end at: 2016-11-01 00:13:36.906000, Lasting : 34ms  
+		Partition_17 start from :2016-11-01 00:13:36.956000 , end at: 2016-11-01 00:13:37.019000, Lasting : 63ms  
+		Partition_18 start from :2016-11-01 00:13:36.870000 , end at: 2016-11-01 00:13:36.956000, Lasting : 86ms  
+		Partition_19 start from :2016-11-01 00:13:36.882000 , end at: 2016-11-01 00:13:36.989000, Lasting : 107ms  
+		Partition_20 start from :2016-11-01 00:13:36.883000 , end at: 2016-11-01 00:13:36.932000, Lasting : 49ms  
+		Partition_21 start from :2016-11-01 00:13:36.951000 , end at: 2016-11-01 00:13:37.020000, Lasting : 69ms  
+		Partition_22 start from :2016-11-01 00:13:36.877000 , end at: 2016-11-01 00:13:36.956000, Lasting : 79ms  
+		Partition_23 start from :2016-11-01 00:13:36.875000 , end at: 2016-11-01 00:13:36.983000, Lasting : 108ms  
+		Partition_24 start from :2016-11-01 00:13:36.873000 , end at: 2016-11-01 00:13:36.952000, Lasting : 79ms  
+		Partition_25 start from :2016-11-01 00:13:36.953000 , end at: 2016-11-01 00:13:37.049000, Lasting : 96ms  
+		Partition_26 start from :2016-11-01 00:13:36.863000 , end at: 2016-11-01 00:13:36.957000, Lasting : 94ms  
+		Partition_27 start from :2016-11-01 00:13:36.875000 , end at: 2016-11-01 00:13:36.966000, Lasting : 91ms  
+		Partition_28 start from :2016-11-01 00:13:36.881000 , end at: 2016-11-01 00:13:36.959000, Lasting : 78ms  
+		Partition_29 start from :2016-11-01 00:13:36.956000 , end at: 2016-11-01 00:13:37.027000, Lasting : 71ms  
+		Partition_30 start from :2016-11-01 00:13:36.857000 , end at: 2016-11-01 00:13:36.895000, Lasting : 38ms  
+		Partition_31 start from :2016-11-01 00:13:36.876000 , end at: 2016-11-01 00:13:36.987000, Lasting : 111ms  
+		Partition_32 start from :2016-11-01 00:13:36.878000 , end at: 2016-11-01 00:13:36.939000, Lasting : 61ms  
+		Partition_33 start from :2016-11-01 00:13:36.948000 , end at: 2016-11-01 00:13:36.998000, Lasting : 50ms  
+		Partition_34 start from :2016-11-01 00:13:36.854000 , end at: 2016-11-01 00:13:36.919000, Lasting : 65ms  
+		Partition_35 start from :2016-11-01 00:13:36.872000 , end at: 2016-11-01 00:13:36.966000, Lasting : 94ms  
+		Partition_36 start from :2016-11-01 00:13:36.869000 , end at: 2016-11-01 00:13:36.935000, Lasting : 66ms  
+		Partition_37 start from :2016-11-01 00:13:36.943000 , end at: 2016-11-01 00:13:37.023000, Lasting : 80ms  
+		Partition_38 start from :2016-11-01 00:13:36.852000 , end at: 2016-11-01 00:13:36.915000, Lasting : 63ms  
+		Partition_39 start from :2016-11-01 00:13:36.866000 , end at: 2016-11-01 00:13:36.971000, Lasting : 105ms  
+		Partition_40 start from :2016-11-01 00:13:36.874000 , end at: 2016-11-01 00:13:36.921000, Lasting : 47ms  
+		Partition_41 start from :2016-11-01 00:13:36.944000 , end at: 2016-11-01 00:13:37.020000, Lasting : 76ms  
+		Partition_42 start from :2016-11-01 00:13:36.851000 , end at: 2016-11-01 00:13:36.949000, Lasting : 98ms  
+		Partition_43 start from :2016-11-01 00:13:36.863000 , end at: 2016-11-01 00:13:36.889000, Lasting : 26ms  
+		Partition_44 start from :2016-11-01 00:13:36.877000 , end at: 2016-11-01 00:13:36.907000, Lasting : 30ms  
+		Partition_45 start from :2016-11-01 00:13:36.944000 , end at: 2016-11-01 00:13:37.012000, Lasting : 68ms  
+		Partition_46 start from :2016-11-01 00:13:36.853000 , end at: 2016-11-01 00:13:36.924000, Lasting : 71ms  
+		Partition_47 start from :2016-11-01 00:13:36.868000 , end at: 2016-11-01 00:13:36.978000, Lasting : 110ms  
+		Partition_48 start from :2016-11-01 00:13:36.876000 , end at: 2016-11-01 00:13:36.922000, Lasting : 46ms  
+		Partition_49 start from :2016-11-01 00:13:36.946000 , end at: 2016-11-01 00:13:37.021000, Lasting : 75ms  
+		Partition_50 start from :2016-11-01 00:13:36.851000 , end at: 2016-11-01 00:13:36.879000, Lasting : 28ms  
+		Partition_51 start from :2016-11-01 00:13:36.860000 , end at: 2016-11-01 00:13:36.915000, Lasting : 55ms  
+		Partition_52 start from :2016-11-01 00:13:36.861000 , end at: 2016-11-01 00:13:36.933000, Lasting : 72ms  
+		Partition_53 start from :2016-11-01 00:13:36.950000 , end at: 2016-11-01 00:13:37.049000, Lasting : 99ms  
+		Partition_54 start from :2016-11-01 00:13:36.848000 , end at: 2016-11-01 00:13:36.916000, Lasting : 68ms  
+		Partition_55 start from :2016-11-01 00:13:36.853000 , end at: 2016-11-01 00:13:36.885000, Lasting : 32ms  
+		Partition_56 start from :2016-11-01 00:13:36.856000 , end at: 2016-11-01 00:13:36.880000, Lasting : 24ms  
+		Partition_57 start from :2016-11-01 00:13:36.938000 , end at: 2016-11-01 00:13:36.964000, Lasting : 26ms  
+		Partition_58 start from :2016-11-01 00:13:36.853000 , end at: 2016-11-01 00:13:36.891000, Lasting : 38ms  
+		Partition_59 start from :2016-11-01 00:13:36.860000 , end at: 2016-11-01 00:13:36.967000, Lasting : 107ms  
+		Partition_60 start from :2016-11-01 00:13:36.856000 , end at: 2016-11-01 00:13:36.922000, Lasting : 66ms  
+		Partition_61 start from :2016-11-01 00:13:36.932000 , end at: 2016-11-01 00:13:37.024000, Lasting : 92ms  
+		Partition_62 start from :2016-11-01 00:13:36.847000 , end at: 2016-11-01 00:13:36.877000, Lasting : 30ms  
+		Partition_63 start from :2016-11-01 00:13:36.873000 , end at: 2016-11-01 00:13:36.984000, Lasting : 111ms  
+		Partition_64 start from :2016-11-01 00:13:36.928000 , end at: 2016-11-01 00:13:37.024000, Lasting : 96ms  
+		Partition_65 start from :2016-11-01 00:13:37.120000 , end at: 2016-11-01 00:13:37.279000, Lasting : 159ms  
+		Partition_66 start from :2016-11-01 00:13:37.166000 , end at: 2016-11-01 00:13:37.237000, Lasting : 71ms  
+		Partition_67 start from :2016-11-01 00:13:37.167000 , end at: 2016-11-01 00:13:37.238000, Lasting : 71ms  
 	 - RDD_19:Generating PythonRDD(68)
-		 Start:2016-11-01 00:13:37.110000 End: 2016-11-01 00:14:04.550000  Lasting: 27440ms
+		Partition_0 start from :2016-11-01 00:13:37.123000 , end at: 2016-11-01 00:14:04.027000, Lasting : 26904ms  
+		Partition_1 start from :2016-11-01 00:13:37.885000 , end at: 2016-11-01 00:14:04.971000, Lasting : 27086ms  
+		Partition_2 start from :2016-11-01 00:13:37.110000 , end at: 2016-11-01 00:14:04.550000, Lasting : 27440ms  
+		Partition_3 start from :2016-11-01 00:13:37.164000 , end at: 2016-11-01 00:14:03.844000, Lasting : 26680ms  
+		Partition_4 start from :2016-11-01 00:13:36.852000 , end at: 2016-11-01 00:13:37.035000, Lasting : 183ms  
+		Partition_5 start from :2016-11-01 00:13:36.922000 , end at: 2016-11-01 00:13:37.098000, Lasting : 176ms  
+		Partition_6 start from :2016-11-01 00:13:36.843000 , end at: 2016-11-01 00:13:36.976000, Lasting : 133ms  
+		Partition_7 start from :2016-11-01 00:13:36.870000 , end at: 2016-11-01 00:13:37.012000, Lasting : 142ms  
+		Partition_8 start from :2016-11-01 00:13:36.875000 , end at: 2016-11-01 00:13:37.009000, Lasting : 134ms  
+		Partition_9 start from :2016-11-01 00:13:36.953000 , end at: 2016-11-01 00:13:37.176000, Lasting : 223ms  
+		Partition_10 start from :2016-11-01 00:13:36.874000 , end at: 2016-11-01 00:13:37.123000, Lasting : 249ms  
+		Partition_11 start from :2016-11-01 00:13:36.850000 , end at: 2016-11-01 00:13:37.111000, Lasting : 261ms  
+		Partition_12 start from :2016-11-01 00:13:36.878000 , end at: 2016-11-01 00:13:37.012000, Lasting : 134ms  
+		Partition_13 start from :2016-11-01 00:13:36.948000 , end at: 2016-11-01 00:13:37.076000, Lasting : 128ms  
+		Partition_14 start from :2016-11-01 00:13:36.867000 , end at: 2016-11-01 00:13:37.029000, Lasting : 162ms  
+		Partition_15 start from :2016-11-01 00:13:36.868000 , end at: 2016-11-01 00:13:37.056000, Lasting : 188ms  
+		Partition_16 start from :2016-11-01 00:13:36.868000 , end at: 2016-11-01 00:13:36.970000, Lasting : 102ms  
+		Partition_17 start from :2016-11-01 00:13:36.948000 , end at: 2016-11-01 00:13:37.089000, Lasting : 141ms  
+		Partition_18 start from :2016-11-01 00:13:36.866000 , end at: 2016-11-01 00:13:37.133000, Lasting : 267ms  
+		Partition_19 start from :2016-11-01 00:13:36.870000 , end at: 2016-11-01 00:13:37.034000, Lasting : 164ms  
+		Partition_20 start from :2016-11-01 00:13:36.874000 , end at: 2016-11-01 00:13:37.055000, Lasting : 181ms  
+		Partition_21 start from :2016-11-01 00:13:36.945000 , end at: 2016-11-01 00:13:37.092000, Lasting : 147ms  
+		Partition_22 start from :2016-11-01 00:13:36.861000 , end at: 2016-11-01 00:13:37.012000, Lasting : 151ms  
+		Partition_23 start from :2016-11-01 00:13:36.866000 , end at: 2016-11-01 00:13:37.057000, Lasting : 191ms  
+		Partition_24 start from :2016-11-01 00:13:36.869000 , end at: 2016-11-01 00:13:37.033000, Lasting : 164ms  
+		Partition_25 start from :2016-11-01 00:13:36.946000 , end at: 2016-11-01 00:13:37.120000, Lasting : 174ms  
+		Partition_26 start from :2016-11-01 00:13:36.855000 , end at: 2016-11-01 00:13:37.019000, Lasting : 164ms  
+		Partition_27 start from :2016-11-01 00:13:36.864000 , end at: 2016-11-01 00:13:37.046000, Lasting : 182ms  
+		Partition_28 start from :2016-11-01 00:13:36.876000 , end at: 2016-11-01 00:13:37.068000, Lasting : 192ms  
+		Partition_29 start from :2016-11-01 00:13:36.949000 , end at: 2016-11-01 00:13:37.112000, Lasting : 163ms  
+		Partition_30 start from :2016-11-01 00:13:36.849000 , end at: 2016-11-01 00:13:36.976000, Lasting : 127ms  
+		Partition_31 start from :2016-11-01 00:13:36.864000 , end at: 2016-11-01 00:13:37.054000, Lasting : 190ms  
+		Partition_32 start from :2016-11-01 00:13:36.869000 , end at: 2016-11-01 00:13:37.056000, Lasting : 187ms  
+		Partition_33 start from :2016-11-01 00:13:36.944000 , end at: 2016-11-01 00:13:37.068000, Lasting : 124ms  
+		Partition_34 start from :2016-11-01 00:13:36.849000 , end at: 2016-11-01 00:13:37, Lasting : 151ms  
+		Partition_35 start from :2016-11-01 00:13:36.861000 , end at: 2016-11-01 00:13:37.028000, Lasting : 167ms  
+		Partition_36 start from :2016-11-01 00:13:36.865000 , end at: 2016-11-01 00:13:37.015000, Lasting : 150ms  
+		Partition_37 start from :2016-11-01 00:13:36.935000 , end at: 2016-11-01 00:13:37.119000, Lasting : 184ms  
+		Partition_38 start from :2016-11-01 00:13:36.848000 , end at: 2016-11-01 00:13:36.995000, Lasting : 147ms  
+		Partition_39 start from :2016-11-01 00:13:36.859000 , end at: 2016-11-01 00:13:37.027000, Lasting : 168ms  
+		Partition_40 start from :2016-11-01 00:13:36.860000 , end at: 2016-11-01 00:13:37.036000, Lasting : 176ms  
+		Partition_41 start from :2016-11-01 00:13:36.938000 , end at: 2016-11-01 00:13:37.114000, Lasting : 176ms  
+		Partition_42 start from :2016-11-01 00:13:36.846000 , end at: 2016-11-01 00:13:36.993000, Lasting : 147ms  
+		Partition_43 start from :2016-11-01 00:13:36.856000 , end at: 2016-11-01 00:13:36.964000, Lasting : 108ms  
+		Partition_44 start from :2016-11-01 00:13:36.867000 , end at: 2016-11-01 00:13:37.036000, Lasting : 169ms  
+		Partition_45 start from :2016-11-01 00:13:36.933000 , end at: 2016-11-01 00:13:37.097000, Lasting : 164ms  
+		Partition_46 start from :2016-11-01 00:13:36.850000 , end at: 2016-11-01 00:13:37.083000, Lasting : 233ms  
+		Partition_47 start from :2016-11-01 00:13:36.857000 , end at: 2016-11-01 00:13:37.055000, Lasting : 198ms  
+		Partition_48 start from :2016-11-01 00:13:36.867000 , end at: 2016-11-01 00:13:37.051000, Lasting : 184ms  
+		Partition_49 start from :2016-11-01 00:13:36.932000 , end at: 2016-11-01 00:13:37.095000, Lasting : 163ms  
+		Partition_50 start from :2016-11-01 00:13:36.847000 , end at: 2016-11-01 00:13:36.949000, Lasting : 102ms  
+		Partition_51 start from :2016-11-01 00:13:36.853000 , end at: 2016-11-01 00:13:37.015000, Lasting : 162ms  
+		Partition_52 start from :2016-11-01 00:13:36.858000 , end at: 2016-11-01 00:13:37.052000, Lasting : 194ms  
+		Partition_53 start from :2016-11-01 00:13:36.940000 , end at: 2016-11-01 00:13:37.108000, Lasting : 168ms  
+		Partition_54 start from :2016-11-01 00:13:36.846000 , end at: 2016-11-01 00:13:36.989000, Lasting : 143ms  
+		Partition_55 start from :2016-11-01 00:13:36.850000 , end at: 2016-11-01 00:13:36.966000, Lasting : 116ms  
+		Partition_56 start from :2016-11-01 00:13:36.854000 , end at: 2016-11-01 00:13:36.938000, Lasting : 84ms  
+		Partition_57 start from :2016-11-01 00:13:36.932000 , end at: 2016-11-01 00:13:37.026000, Lasting : 94ms  
+		Partition_58 start from :2016-11-01 00:13:36.846000 , end at: 2016-11-01 00:13:36.949000, Lasting : 103ms  
+		Partition_59 start from :2016-11-01 00:13:36.850000 , end at: 2016-11-01 00:13:37.046000, Lasting : 196ms  
+		Partition_60 start from :2016-11-01 00:13:36.853000 , end at: 2016-11-01 00:13:37.009000, Lasting : 156ms  
+		Partition_61 start from :2016-11-01 00:13:36.927000 , end at: 2016-11-01 00:13:37.112000, Lasting : 185ms  
+		Partition_62 start from :2016-11-01 00:13:36.844000 , end at: 2016-11-01 00:13:36.894000, Lasting : 50ms  
+		Partition_63 start from :2016-11-01 00:13:36.858000 , end at: 2016-11-01 00:13:37.055000, Lasting : 197ms  
+		Partition_64 start from :2016-11-01 00:13:36.926000 , end at: 2016-11-01 00:13:37.236000, Lasting : 310ms  
+		Partition_65 start from :2016-11-01 00:13:37.119000 , end at: 2016-11-01 00:13:37.321000, Lasting : 202ms  
+		Partition_66 start from :2016-11-01 00:13:37.143000 , end at: 2016-11-01 00:13:37.282000, Lasting : 139ms  
+		Partition_67 start from :2016-11-01 00:13:37.163000 , end at: 2016-11-01 00:13:37.257000, Lasting : 94ms  
 	 - RDD_20:Generating PairwiseRDD(68)
-		 Start:2016-11-01 00:13:37.110000 End: 2016-11-01 00:14:04.551000  Lasting: 27441ms
+		Partition_0 start from :2016-11-01 00:13:37.123000 , end at: 2016-11-01 00:14:04.027000, Lasting : 26904ms  
+		Partition_1 start from :2016-11-01 00:13:37.885000 , end at: 2016-11-01 00:14:04.971000, Lasting : 27086ms  
+		Partition_2 start from :2016-11-01 00:13:37.110000 , end at: 2016-11-01 00:14:04.551000, Lasting : 27441ms  
+		Partition_3 start from :2016-11-01 00:13:37.164000 , end at: 2016-11-01 00:14:03.844000, Lasting : 26680ms  
+		Partition_4 start from :2016-11-01 00:13:36.852000 , end at: 2016-11-01 00:13:37.043000, Lasting : 191ms  
+		Partition_5 start from :2016-11-01 00:13:36.921000 , end at: 2016-11-01 00:13:37.098000, Lasting : 177ms  
+		Partition_6 start from :2016-11-01 00:13:36.843000 , end at: 2016-11-01 00:13:36.976000, Lasting : 133ms  
+		Partition_7 start from :2016-11-01 00:13:36.869000 , end at: 2016-11-01 00:13:37.016000, Lasting : 147ms  
+		Partition_8 start from :2016-11-01 00:13:36.873000 , end at: 2016-11-01 00:13:37.010000, Lasting : 137ms  
+		Partition_9 start from :2016-11-01 00:13:36.951000 , end at: 2016-11-01 00:13:37.177000, Lasting : 226ms  
+		Partition_10 start from :2016-11-01 00:13:36.868000 , end at: 2016-11-01 00:13:37.124000, Lasting : 256ms  
+		Partition_11 start from :2016-11-01 00:13:36.850000 , end at: 2016-11-01 00:13:37.111000, Lasting : 261ms  
+		Partition_12 start from :2016-11-01 00:13:36.875000 , end at: 2016-11-01 00:13:37.014000, Lasting : 139ms  
+		Partition_13 start from :2016-11-01 00:13:36.947000 , end at: 2016-11-01 00:13:37.077000, Lasting : 130ms  
+		Partition_14 start from :2016-11-01 00:13:36.865000 , end at: 2016-11-01 00:13:37.029000, Lasting : 164ms  
+		Partition_15 start from :2016-11-01 00:13:36.866000 , end at: 2016-11-01 00:13:37.057000, Lasting : 191ms  
+		Partition_16 start from :2016-11-01 00:13:36.867000 , end at: 2016-11-01 00:13:36.971000, Lasting : 104ms  
+		Partition_17 start from :2016-11-01 00:13:36.948000 , end at: 2016-11-01 00:13:37.089000, Lasting : 141ms  
+		Partition_18 start from :2016-11-01 00:13:36.866000 , end at: 2016-11-01 00:13:37.133000, Lasting : 267ms  
+		Partition_19 start from :2016-11-01 00:13:36.869000 , end at: 2016-11-01 00:13:37.034000, Lasting : 165ms  
+		Partition_20 start from :2016-11-01 00:13:36.870000 , end at: 2016-11-01 00:13:37.056000, Lasting : 186ms  
+		Partition_21 start from :2016-11-01 00:13:36.945000 , end at: 2016-11-01 00:13:37.092000, Lasting : 147ms  
+		Partition_22 start from :2016-11-01 00:13:36.858000 , end at: 2016-11-01 00:13:37.012000, Lasting : 154ms  
+		Partition_23 start from :2016-11-01 00:13:36.865000 , end at: 2016-11-01 00:13:37.057000, Lasting : 192ms  
+		Partition_24 start from :2016-11-01 00:13:36.869000 , end at: 2016-11-01 00:13:37.033000, Lasting : 164ms  
+		Partition_25 start from :2016-11-01 00:13:36.943000 , end at: 2016-11-01 00:13:37.120000, Lasting : 177ms  
+		Partition_26 start from :2016-11-01 00:13:36.855000 , end at: 2016-11-01 00:13:37.019000, Lasting : 164ms  
+		Partition_27 start from :2016-11-01 00:13:36.863000 , end at: 2016-11-01 00:13:37.046000, Lasting : 183ms  
+		Partition_28 start from :2016-11-01 00:13:36.872000 , end at: 2016-11-01 00:13:37.068000, Lasting : 196ms  
+		Partition_29 start from :2016-11-01 00:13:36.947000 , end at: 2016-11-01 00:13:37.120000, Lasting : 173ms  
+		Partition_30 start from :2016-11-01 00:13:36.847000 , end at: 2016-11-01 00:13:36.977000, Lasting : 130ms  
+		Partition_31 start from :2016-11-01 00:13:36.863000 , end at: 2016-11-01 00:13:37.055000, Lasting : 192ms  
+		Partition_32 start from :2016-11-01 00:13:36.868000 , end at: 2016-11-01 00:13:37.056000, Lasting : 188ms  
+		Partition_33 start from :2016-11-01 00:13:36.942000 , end at: 2016-11-01 00:13:37.068000, Lasting : 126ms  
+		Partition_34 start from :2016-11-01 00:13:36.849000 , end at: 2016-11-01 00:13:37, Lasting : 151ms  
+		Partition_35 start from :2016-11-01 00:13:36.860000 , end at: 2016-11-01 00:13:37.028000, Lasting : 168ms  
+		Partition_36 start from :2016-11-01 00:13:36.865000 , end at: 2016-11-01 00:13:37.015000, Lasting : 150ms  
+		Partition_37 start from :2016-11-01 00:13:36.934000 , end at: 2016-11-01 00:13:37.143000, Lasting : 209ms  
+		Partition_38 start from :2016-11-01 00:13:36.848000 , end at: 2016-11-01 00:13:36.995000, Lasting : 147ms  
+		Partition_39 start from :2016-11-01 00:13:36.859000 , end at: 2016-11-01 00:13:37.028000, Lasting : 169ms  
+		Partition_40 start from :2016-11-01 00:13:36.857000 , end at: 2016-11-01 00:13:37.040000, Lasting : 183ms  
+		Partition_41 start from :2016-11-01 00:13:36.936000 , end at: 2016-11-01 00:13:37.114000, Lasting : 178ms  
+		Partition_42 start from :2016-11-01 00:13:36.846000 , end at: 2016-11-01 00:13:36.993000, Lasting : 147ms  
+		Partition_43 start from :2016-11-01 00:13:36.853000 , end at: 2016-11-01 00:13:36.969000, Lasting : 116ms  
+		Partition_44 start from :2016-11-01 00:13:36.866000 , end at: 2016-11-01 00:13:37.040000, Lasting : 174ms  
+		Partition_45 start from :2016-11-01 00:13:36.931000 , end at: 2016-11-01 00:13:37.097000, Lasting : 166ms  
+		Partition_46 start from :2016-11-01 00:13:36.847000 , end at: 2016-11-01 00:13:37.084000, Lasting : 237ms  
+		Partition_47 start from :2016-11-01 00:13:36.857000 , end at: 2016-11-01 00:13:37.056000, Lasting : 199ms  
+		Partition_48 start from :2016-11-01 00:13:36.862000 , end at: 2016-11-01 00:13:37.051000, Lasting : 189ms  
+		Partition_49 start from :2016-11-01 00:13:36.930000 , end at: 2016-11-01 00:13:37.096000, Lasting : 166ms  
+		Partition_50 start from :2016-11-01 00:13:36.844000 , end at: 2016-11-01 00:13:36.949000, Lasting : 105ms  
+		Partition_51 start from :2016-11-01 00:13:36.853000 , end at: 2016-11-01 00:13:37.016000, Lasting : 163ms  
+		Partition_52 start from :2016-11-01 00:13:36.857000 , end at: 2016-11-01 00:13:37.053000, Lasting : 196ms  
+		Partition_53 start from :2016-11-01 00:13:36.939000 , end at: 2016-11-01 00:13:37.108000, Lasting : 169ms  
+		Partition_54 start from :2016-11-01 00:13:36.845000 , end at: 2016-11-01 00:13:36.989000, Lasting : 144ms  
+		Partition_55 start from :2016-11-01 00:13:36.850000 , end at: 2016-11-01 00:13:36.975000, Lasting : 125ms  
+		Partition_56 start from :2016-11-01 00:13:36.854000 , end at: 2016-11-01 00:13:36.938000, Lasting : 84ms  
+		Partition_57 start from :2016-11-01 00:13:36.931000 , end at: 2016-11-01 00:13:37.028000, Lasting : 97ms  
+		Partition_58 start from :2016-11-01 00:13:36.844000 , end at: 2016-11-01 00:13:36.949000, Lasting : 105ms  
+		Partition_59 start from :2016-11-01 00:13:36.850000 , end at: 2016-11-01 00:13:37.046000, Lasting : 196ms  
+		Partition_60 start from :2016-11-01 00:13:36.852000 , end at: 2016-11-01 00:13:37.010000, Lasting : 158ms  
+		Partition_61 start from :2016-11-01 00:13:36.926000 , end at: 2016-11-01 00:13:37.112000, Lasting : 186ms  
+		Partition_62 start from :2016-11-01 00:13:36.843000 , end at: 2016-11-01 00:13:36.896000, Lasting : 53ms  
+		Partition_63 start from :2016-11-01 00:13:36.852000 , end at: 2016-11-01 00:13:37.057000, Lasting : 205ms  
+		Partition_64 start from :2016-11-01 00:13:36.926000 , end at: 2016-11-01 00:13:37.236000, Lasting : 310ms  
+		Partition_65 start from :2016-11-01 00:13:37.113000 , end at: 2016-11-01 00:13:37.321000, Lasting : 208ms  
+		Partition_66 start from :2016-11-01 00:13:37.110000 , end at: 2016-11-01 00:13:37.282000, Lasting : 172ms  
+		Partition_67 start from :2016-11-01 00:13:37.163000 , end at: 2016-11-01 00:13:37.257000, Lasting : 94ms  
 
 
 Stage_5(7):ShuffleMapTask5
 	 - RDD_21:Generating ShuffledRDD(8)
-		 Start:2016-11-01 00:14:06.274000 End: 2016-11-01 00:14:06.334000  Lasting: 60ms
+		Partition_0 start from :2016-11-01 00:14:06.256000 , end at: 2016-11-01 00:14:06.281000, Lasting : 25ms  
+		Partition_1 start from :2016-11-01 00:14:06.272000 , end at: 2016-11-01 00:14:06.301000, Lasting : 29ms  
+		Partition_2 start from :2016-11-01 00:14:06.267000 , end at: 2016-11-01 00:14:06.305000, Lasting : 38ms  
+		Partition_3 start from :2016-11-01 00:14:06.272000 , end at: 2016-11-01 00:14:06.309000, Lasting : 37ms  
+		Partition_4 start from :2016-11-01 00:14:06.259000 , end at: 2016-11-01 00:14:06.296000, Lasting : 37ms  
+		Partition_5 start from :2016-11-01 00:14:06.274000 , end at: 2016-11-01 00:14:06.334000, Lasting : 60ms  
+		Partition_6 start from :2016-11-01 00:14:06.267000 , end at: 2016-11-01 00:14:06.308000, Lasting : 41ms  
+		Partition_7 start from :2016-11-01 00:14:06.273000 , end at: 2016-11-01 00:14:06.316000, Lasting : 43ms  
 	 - RDD_22:Generating MapPartitionedRDD(8)
-		 Start:2016-11-01 00:14:06.259000 End: 2016-11-01 00:14:06.321000  Lasting: 62ms
+		Partition_0 start from :2016-11-01 00:14:06.256000 , end at: 2016-11-01 00:14:06.281000, Lasting : 25ms  
+		Partition_1 start from :2016-11-01 00:14:06.272000 , end at: 2016-11-01 00:14:06.301000, Lasting : 29ms  
+		Partition_2 start from :2016-11-01 00:14:06.266000 , end at: 2016-11-01 00:14:06.306000, Lasting : 40ms  
+		Partition_3 start from :2016-11-01 00:14:06.271000 , end at: 2016-11-01 00:14:06.310000, Lasting : 39ms  
+		Partition_4 start from :2016-11-01 00:14:06.259000 , end at: 2016-11-01 00:14:06.321000, Lasting : 62ms  
+		Partition_5 start from :2016-11-01 00:14:06.273000 , end at: 2016-11-01 00:14:06.335000, Lasting : 62ms  
+		Partition_6 start from :2016-11-01 00:14:06.266000 , end at: 2016-11-01 00:14:06.308000, Lasting : 42ms  
+		Partition_7 start from :2016-11-01 00:14:06.272000 , end at: 2016-11-01 00:14:06.316000, Lasting : 44ms  
 	 - RDD_23:Generating PythonRDD(4)
-		 Start:2016-11-01 00:14:06.255000 End: 2016-11-01 00:15:25.211000  Lasting: 78956ms
+		Partition_0 start from :2016-11-01 00:14:06.255000 , end at: 2016-11-01 00:15:25.211000, Lasting : 78956ms  
+		Partition_1 start from :2016-11-01 00:14:06.270000 , end at: 2016-11-01 00:14:16.575000, Lasting : 10305ms  
+		Partition_2 start from :2016-11-01 00:14:06.265000 , end at: 2016-11-01 00:14:16.950000, Lasting : 10685ms  
+		Partition_3 start from :2016-11-01 00:14:06.270000 , end at: 2016-11-01 00:14:16.291000, Lasting : 10021ms  
 	 - RDD_24:Generating PythonRDD(4)
-		 Start:2016-11-01 00:14:06.258000 End: 2016-11-01 00:15:19.499000  Lasting: 73241ms
+		Partition_4 start from :2016-11-01 00:14:06.258000 , end at: 2016-11-01 00:15:19.499000, Lasting : 73241ms  
+		Partition_5 start from :2016-11-01 00:14:06.272000 , end at: 2016-11-01 00:14:21.635000, Lasting : 15363ms  
+		Partition_6 start from :2016-11-01 00:14:06.266000 , end at: 2016-11-01 00:14:11.307000, Lasting : 5041ms  
+		Partition_7 start from :2016-11-01 00:14:06.271000 , end at: 2016-11-01 00:14:10.030000, Lasting : 3759ms  
 	 - RDD_25:Generating UnionRDD(8)
-		 Start:2016-11-01 00:14:06.254000 End: 2016-11-01 00:15:25.211000  Lasting: 78957ms
+		Partition_0 start from :2016-11-01 00:14:06.254000 , end at: 2016-11-01 00:15:25.211000, Lasting : 78957ms  
+		Partition_1 start from :2016-11-01 00:14:06.270000 , end at: 2016-11-01 00:14:16.576000, Lasting : 10306ms  
+		Partition_2 start from :2016-11-01 00:14:06.265000 , end at: 2016-11-01 00:14:16.952000, Lasting : 10687ms  
+		Partition_3 start from :2016-11-01 00:14:06.270000 , end at: 2016-11-01 00:14:16.291000, Lasting : 10021ms  
+		Partition_4 start from :2016-11-01 00:14:06.258000 , end at: 2016-11-01 00:15:19.499000, Lasting : 73241ms  
+		Partition_5 start from :2016-11-01 00:14:06.272000 , end at: 2016-11-01 00:14:21.636000, Lasting : 15364ms  
+		Partition_6 start from :2016-11-01 00:14:06.265000 , end at: 2016-11-01 00:14:11.308000, Lasting : 5043ms  
+		Partition_7 start from :2016-11-01 00:14:06.270000 , end at: 2016-11-01 00:14:10.031000, Lasting : 3761ms  
 	 - RDD_26:Generating PythonRDD(8)
-		 Start:2016-11-01 00:14:06.254000 End: 2016-11-01 00:15:44.967000  Lasting: 98713ms
+		Partition_0 start from :2016-11-01 00:14:06.254000 , end at: 2016-11-01 00:15:44.967000, Lasting : 98713ms  
+		Partition_1 start from :2016-11-01 00:14:06.269000 , end at: 2016-11-01 00:14:36.562000, Lasting : 30293ms  
+		Partition_2 start from :2016-11-01 00:14:06.264000 , end at: 2016-11-01 00:14:36.639000, Lasting : 30375ms  
+		Partition_3 start from :2016-11-01 00:14:06.268000 , end at: 2016-11-01 00:14:35.029000, Lasting : 28761ms  
+		Partition_4 start from :2016-11-01 00:14:06.256000 , end at: 2016-11-01 00:15:19.550000, Lasting : 73294ms  
+		Partition_5 start from :2016-11-01 00:14:06.270000 , end at: 2016-11-01 00:14:21.659000, Lasting : 15389ms  
+		Partition_6 start from :2016-11-01 00:14:06.264000 , end at: 2016-11-01 00:14:11.328000, Lasting : 5064ms  
+		Partition_7 start from :2016-11-01 00:14:06.269000 , end at: 2016-11-01 00:14:10.053000, Lasting : 3784ms  
 	 - RDD_27:Generating PairwiseRDD(8)
-		 Start:2016-11-01 00:14:06.254000 End: 2016-11-01 00:15:44.967000  Lasting: 98713ms
+		Partition_0 start from :2016-11-01 00:14:06.254000 , end at: 2016-11-01 00:15:44.967000, Lasting : 98713ms  
+		Partition_1 start from :2016-11-01 00:14:06.269000 , end at: 2016-11-01 00:14:36.562000, Lasting : 30293ms  
+		Partition_2 start from :2016-11-01 00:14:06.264000 , end at: 2016-11-01 00:14:36.640000, Lasting : 30376ms  
+		Partition_3 start from :2016-11-01 00:14:06.268000 , end at: 2016-11-01 00:14:35.029000, Lasting : 28761ms  
+		Partition_4 start from :2016-11-01 00:14:06.256000 , end at: 2016-11-01 00:15:19.550000, Lasting : 73294ms  
+		Partition_5 start from :2016-11-01 00:14:06.270000 , end at: 2016-11-01 00:14:21.659000, Lasting : 15389ms  
+		Partition_6 start from :2016-11-01 00:14:06.264000 , end at: 2016-11-01 00:14:11.328000, Lasting : 5064ms  
+		Partition_7 start from :2016-11-01 00:14:06.269000 , end at: 2016-11-01 00:14:10.054000, Lasting : 3785ms  
 
 
 Stage_6(7):ShuffleMapTask6
 	 - RDD_32:Generating UnionRDD(8)
-		 Start:2016-11-01 00:15:46.271000 End: 2016-11-01 00:17:07.135000  Lasting: 80864ms
+		Partition_0 start from :2016-11-01 00:15:46.253000 , end at: 2016-11-01 00:16:04.558000, Lasting : 18305ms  
+		Partition_1 start from :2016-11-01 00:15:46.267000 , end at: 2016-11-01 00:15:57.967000, Lasting : 11700ms  
+		Partition_2 start from :2016-11-01 00:15:46.266000 , end at: 2016-11-01 00:15:56.009000, Lasting : 9743ms  
+		Partition_3 start from :2016-11-01 00:15:46.271000 , end at: 2016-11-01 00:17:07.135000, Lasting : 80864ms  
+		Partition_4 start from :2016-11-01 00:15:46.255000 , end at: 2016-11-01 00:15:49.862000, Lasting : 3607ms  
+		Partition_5 start from :2016-11-01 00:15:46.267000 , end at: 2016-11-01 00:15:51.608000, Lasting : 5341ms  
+		Partition_6 start from :2016-11-01 00:15:46.265000 , end at: 2016-11-01 00:15:50.613000, Lasting : 4348ms  
+		Partition_7 start from :2016-11-01 00:15:46.271000 , end at: 2016-11-01 00:17:01.259000, Lasting : 74988ms  
 	 - RDD_33:Generating PythonRDD(8)
-		 Start:2016-11-01 00:15:46.269000 End: 2016-11-01 00:17:24.736000  Lasting: 98467ms
+		Partition_0 start from :2016-11-01 00:15:46.252000 , end at: 2016-11-01 00:16:23.773000, Lasting : 37521ms  
+		Partition_1 start from :2016-11-01 00:15:46.266000 , end at: 2016-11-01 00:16:16.225000, Lasting : 29959ms  
+		Partition_2 start from :2016-11-01 00:15:46.265000 , end at: 2016-11-01 00:16:14.583000, Lasting : 28318ms  
+		Partition_3 start from :2016-11-01 00:15:46.269000 , end at: 2016-11-01 00:17:24.736000, Lasting : 98467ms  
+		Partition_4 start from :2016-11-01 00:15:46.254000 , end at: 2016-11-01 00:15:49.884000, Lasting : 3630ms  
+		Partition_5 start from :2016-11-01 00:15:46.266000 , end at: 2016-11-01 00:15:51.661000, Lasting : 5395ms  
+		Partition_6 start from :2016-11-01 00:15:46.264000 , end at: 2016-11-01 00:15:50.664000, Lasting : 4400ms  
+		Partition_7 start from :2016-11-01 00:15:46.270000 , end at: 2016-11-01 00:17:01.309000, Lasting : 75039ms  
 	 - RDD_34:Generating PairwiseRDD(8)
-		 Start:2016-11-01 00:15:46.269000 End: 2016-11-01 00:17:24.737000  Lasting: 98468ms
+		Partition_0 start from :2016-11-01 00:15:46.252000 , end at: 2016-11-01 00:16:23.773000, Lasting : 37521ms  
+		Partition_1 start from :2016-11-01 00:15:46.266000 , end at: 2016-11-01 00:16:16.225000, Lasting : 29959ms  
+		Partition_2 start from :2016-11-01 00:15:46.265000 , end at: 2016-11-01 00:16:14.583000, Lasting : 28318ms  
+		Partition_3 start from :2016-11-01 00:15:46.269000 , end at: 2016-11-01 00:17:24.737000, Lasting : 98468ms  
+		Partition_4 start from :2016-11-01 00:15:46.253000 , end at: 2016-11-01 00:15:49.884000, Lasting : 3631ms  
+		Partition_5 start from :2016-11-01 00:15:46.266000 , end at: 2016-11-01 00:15:51.661000, Lasting : 5395ms  
+		Partition_6 start from :2016-11-01 00:15:46.264000 , end at: 2016-11-01 00:15:50.664000, Lasting : 4400ms  
+		Partition_7 start from :2016-11-01 00:15:46.270000 , end at: 2016-11-01 00:17:01.309000, Lasting : 75039ms  
 	 - RDD_28:Generating ShuffledRDD(8)
-		 Start:2016-11-01 00:15:46.267000 End: 2016-11-01 00:15:46.286000  Lasting: 19ms
+		Partition_0 start from :2016-11-01 00:15:46.256000 , end at: 2016-11-01 00:15:46.274000, Lasting : 18ms  
+		Partition_1 start from :2016-11-01 00:15:46.268000 , end at: 2016-11-01 00:15:46.286000, Lasting : 18ms  
+		Partition_2 start from :2016-11-01 00:15:46.269000 , end at: 2016-11-01 00:15:46.285000, Lasting : 16ms  
+		Partition_3 start from :2016-11-01 00:15:46.272000 , end at: 2016-11-01 00:15:46.286000, Lasting : 14ms  
+		Partition_4 start from :2016-11-01 00:15:46.257000 , end at: 2016-11-01 00:15:46.273000, Lasting : 16ms  
+		Partition_5 start from :2016-11-01 00:15:46.268000 , end at: 2016-11-01 00:15:46.285000, Lasting : 17ms  
+		Partition_6 start from :2016-11-01 00:15:46.267000 , end at: 2016-11-01 00:15:46.286000, Lasting : 19ms  
+		Partition_7 start from :2016-11-01 00:15:46.272000 , end at: 2016-11-01 00:15:46.287000, Lasting : 15ms  
 	 - RDD_29:Generating MapPartitionedRDD(8)
-		 Start:2016-11-01 00:15:46.255000 End: 2016-11-01 00:15:46.275000  Lasting: 20ms
+		Partition_0 start from :2016-11-01 00:15:46.255000 , end at: 2016-11-01 00:15:46.275000, Lasting : 20ms  
+		Partition_1 start from :2016-11-01 00:15:46.268000 , end at: 2016-11-01 00:15:46.287000, Lasting : 19ms  
+		Partition_2 start from :2016-11-01 00:15:46.268000 , end at: 2016-11-01 00:15:46.285000, Lasting : 17ms  
+		Partition_3 start from :2016-11-01 00:15:46.272000 , end at: 2016-11-01 00:15:46.286000, Lasting : 14ms  
+		Partition_4 start from :2016-11-01 00:15:46.257000 , end at: 2016-11-01 00:15:46.273000, Lasting : 16ms  
+		Partition_5 start from :2016-11-01 00:15:46.268000 , end at: 2016-11-01 00:15:46.286000, Lasting : 18ms  
+		Partition_6 start from :2016-11-01 00:15:46.267000 , end at: 2016-11-01 00:15:46.286000, Lasting : 19ms  
+		Partition_7 start from :2016-11-01 00:15:46.272000 , end at: 2016-11-01 00:15:46.287000, Lasting : 15ms  
 	 - RDD_30:Generating PythonRDD(4)
-		 Start:2016-11-01 00:15:46.271000 End: 2016-11-01 00:17:07.134000  Lasting: 80863ms
+		Partition_0 start from :2016-11-01 00:15:46.254000 , end at: 2016-11-01 00:16:04.558000, Lasting : 18304ms  
+		Partition_1 start from :2016-11-01 00:15:46.267000 , end at: 2016-11-01 00:15:57.966000, Lasting : 11699ms  
+		Partition_2 start from :2016-11-01 00:15:46.267000 , end at: 2016-11-01 00:15:56.008000, Lasting : 9741ms  
+		Partition_3 start from :2016-11-01 00:15:46.271000 , end at: 2016-11-01 00:17:07.134000, Lasting : 80863ms  
 	 - RDD_31:Generating PythonRDD(4)
-		 Start:2016-11-01 00:15:46.271000 End: 2016-11-01 00:17:01.258000  Lasting: 74987ms
+		Partition_4 start from :2016-11-01 00:15:46.256000 , end at: 2016-11-01 00:15:49.858000, Lasting : 3602ms  
+		Partition_5 start from :2016-11-01 00:15:46.267000 , end at: 2016-11-01 00:15:51.607000, Lasting : 5340ms  
+		Partition_6 start from :2016-11-01 00:15:46.266000 , end at: 2016-11-01 00:15:50.612000, Lasting : 4346ms  
+		Partition_7 start from :2016-11-01 00:15:46.271000 , end at: 2016-11-01 00:17:01.258000, Lasting : 74987ms  
 
 
 Stage_7(7):ShuffleMapTask7
 	 - RDD_35:Generating ShuffledRDD(8)
-		 Start:2016-11-01 00:17:25.963000 End: 2016-11-01 00:17:25.984000  Lasting: 21ms
+		Partition_0 start from :2016-11-01 00:17:25.964000 , end at: 2016-11-01 00:17:25.980000, Lasting : 16ms  
+		Partition_1 start from :2016-11-01 00:17:25.974000 , end at: 2016-11-01 00:17:25.987000, Lasting : 13ms  
+		Partition_2 start from :2016-11-01 00:17:25.963000 , end at: 2016-11-01 00:17:25.984000, Lasting : 21ms  
+		Partition_3 start from :2016-11-01 00:17:25.973000 , end at: 2016-11-01 00:17:25.993000, Lasting : 20ms  
+		Partition_4 start from :2016-11-01 00:17:25.964000 , end at: 2016-11-01 00:17:25.980000, Lasting : 16ms  
+		Partition_5 start from :2016-11-01 00:17:25.979000 , end at: 2016-11-01 00:17:25.991000, Lasting : 12ms  
+		Partition_6 start from :2016-11-01 00:17:25.964000 , end at: 2016-11-01 00:17:25.985000, Lasting : 21ms  
+		Partition_7 start from :2016-11-01 00:17:25.974000 , end at: 2016-11-01 00:17:25.995000, Lasting : 21ms  
 	 - RDD_36:Generating MapPartitionedRDD(8)
-		 Start:2016-11-01 00:17:25.963000 End: 2016-11-01 00:17:25.986000  Lasting: 23ms
+		Partition_0 start from :2016-11-01 00:17:25.963000 , end at: 2016-11-01 00:17:25.982000, Lasting : 19ms  
+		Partition_1 start from :2016-11-01 00:17:25.974000 , end at: 2016-11-01 00:17:25.987000, Lasting : 13ms  
+		Partition_2 start from :2016-11-01 00:17:25.963000 , end at: 2016-11-01 00:17:25.985000, Lasting : 22ms  
+		Partition_3 start from :2016-11-01 00:17:25.973000 , end at: 2016-11-01 00:17:25.994000, Lasting : 21ms  
+		Partition_4 start from :2016-11-01 00:17:25.963000 , end at: 2016-11-01 00:17:25.982000, Lasting : 19ms  
+		Partition_5 start from :2016-11-01 00:17:25.978000 , end at: 2016-11-01 00:17:25.991000, Lasting : 13ms  
+		Partition_6 start from :2016-11-01 00:17:25.963000 , end at: 2016-11-01 00:17:25.986000, Lasting : 23ms  
+		Partition_7 start from :2016-11-01 00:17:25.973000 , end at: 2016-11-01 00:17:25.996000, Lasting : 23ms  
 	 - RDD_37:Generating PythonRDD(4)
-		 Start:2016-11-01 00:17:25.962000 End: 2016-11-01 00:18:45.628000  Lasting: 79666ms
+		Partition_0 start from :2016-11-01 00:17:25.963000 , end at: 2016-11-01 00:17:45.561000, Lasting : 19598ms  
+		Partition_1 start from :2016-11-01 00:17:25.973000 , end at: 2016-11-01 00:17:35.990000, Lasting : 10017ms  
+		Partition_2 start from :2016-11-01 00:17:25.962000 , end at: 2016-11-01 00:18:45.628000, Lasting : 79666ms  
+		Partition_3 start from :2016-11-01 00:17:25.972000 , end at: 2016-11-01 00:17:35.574000, Lasting : 9602ms  
 	 - RDD_38:Generating PythonRDD(4)
-		 Start:2016-11-01 00:17:25.962000 End: 2016-11-01 00:18:40.186000  Lasting: 74224ms
+		Partition_4 start from :2016-11-01 00:17:25.963000 , end at: 2016-11-01 00:17:39.273000, Lasting : 13310ms  
+		Partition_5 start from :2016-11-01 00:17:25.977000 , end at: 2016-11-01 00:17:30.261000, Lasting : 4284ms  
+		Partition_6 start from :2016-11-01 00:17:25.962000 , end at: 2016-11-01 00:18:40.186000, Lasting : 74224ms  
+		Partition_7 start from :2016-11-01 00:17:25.973000 , end at: 2016-11-01 00:17:38.480000, Lasting : 12507ms  
 	 - RDD_39:Generating UnionRDD(8)
-		 Start:2016-11-01 00:17:25.961000 End: 2016-11-01 00:18:45.628000  Lasting: 79667ms
+		Partition_0 start from :2016-11-01 00:17:25.962000 , end at: 2016-11-01 00:17:45.561000, Lasting : 19599ms  
+		Partition_1 start from :2016-11-01 00:17:25.973000 , end at: 2016-11-01 00:17:35.991000, Lasting : 10018ms  
+		Partition_2 start from :2016-11-01 00:17:25.961000 , end at: 2016-11-01 00:18:45.628000, Lasting : 79667ms  
+		Partition_3 start from :2016-11-01 00:17:25.972000 , end at: 2016-11-01 00:17:35.574000, Lasting : 9602ms  
+		Partition_4 start from :2016-11-01 00:17:25.962000 , end at: 2016-11-01 00:17:39.274000, Lasting : 13312ms  
+		Partition_5 start from :2016-11-01 00:17:25.977000 , end at: 2016-11-01 00:17:30.261000, Lasting : 4284ms  
+		Partition_6 start from :2016-11-01 00:17:25.962000 , end at: 2016-11-01 00:18:40.187000, Lasting : 74225ms  
+		Partition_7 start from :2016-11-01 00:17:25.972000 , end at: 2016-11-01 00:17:38.481000, Lasting : 12509ms  
 	 - RDD_40:Generating PythonRDD(8)
-		 Start:2016-11-01 00:17:25.960000 End: 2016-11-01 00:19:04.404000  Lasting: 98444ms
+		Partition_0 start from :2016-11-01 00:17:25.961000 , end at: 2016-11-01 00:18:04.042000, Lasting : 38081ms  
+		Partition_1 start from :2016-11-01 00:17:25.972000 , end at: 2016-11-01 00:17:54.849000, Lasting : 28877ms  
+		Partition_2 start from :2016-11-01 00:17:25.960000 , end at: 2016-11-01 00:19:04.404000, Lasting : 98444ms  
+		Partition_3 start from :2016-11-01 00:17:25.971000 , end at: 2016-11-01 00:17:53.490000, Lasting : 27519ms  
+		Partition_4 start from :2016-11-01 00:17:25.960000 , end at: 2016-11-01 00:17:39.324000, Lasting : 13364ms  
+		Partition_5 start from :2016-11-01 00:17:25.976000 , end at: 2016-11-01 00:17:30.312000, Lasting : 4336ms  
+		Partition_6 start from :2016-11-01 00:17:25.960000 , end at: 2016-11-01 00:18:40.245000, Lasting : 74285ms  
+		Partition_7 start from :2016-11-01 00:17:25.972000 , end at: 2016-11-01 00:17:38.500000, Lasting : 12528ms  
 	 - RDD_41:Generating PairwiseRDD(8)
-		 Start:2016-11-01 00:17:25.959000 End: 2016-11-01 00:19:04.405000  Lasting: 98446ms
+		Partition_0 start from :2016-11-01 00:17:25.960000 , end at: 2016-11-01 00:18:04.043000, Lasting : 38083ms  
+		Partition_1 start from :2016-11-01 00:17:25.972000 , end at: 2016-11-01 00:17:54.849000, Lasting : 28877ms  
+		Partition_2 start from :2016-11-01 00:17:25.959000 , end at: 2016-11-01 00:19:04.405000, Lasting : 98446ms  
+		Partition_3 start from :2016-11-01 00:17:25.971000 , end at: 2016-11-01 00:17:53.490000, Lasting : 27519ms  
+		Partition_4 start from :2016-11-01 00:17:25.960000 , end at: 2016-11-01 00:17:39.324000, Lasting : 13364ms  
+		Partition_5 start from :2016-11-01 00:17:25.976000 , end at: 2016-11-01 00:17:30.312000, Lasting : 4336ms  
+		Partition_6 start from :2016-11-01 00:17:25.960000 , end at: 2016-11-01 00:18:40.246000, Lasting : 74286ms  
+		Partition_7 start from :2016-11-01 00:17:25.971000 , end at: 2016-11-01 00:17:38.500000, Lasting : 12529ms  
 
 
 Stage_8(7):ShuffleMapTask8
 	 - RDD_42:Generating ShuffledRDD(8)
-		 Start:2016-11-01 00:19:05.649000 End: 2016-11-01 00:19:05.678000  Lasting: 29ms
+		Partition_0 start from :2016-11-01 00:19:05.639000 , end at: 2016-11-01 00:19:05.657000, Lasting : 18ms  
+		Partition_1 start from :2016-11-01 00:19:05.649000 , end at: 2016-11-01 00:19:05.678000, Lasting : 29ms  
+		Partition_2 start from :2016-11-01 00:19:05.645000 , end at: 2016-11-01 00:19:05.659000, Lasting : 14ms  
+		Partition_3 start from :2016-11-01 00:19:05.652000 , end at: 2016-11-01 00:19:05.670000, Lasting : 18ms  
+		Partition_4 start from :2016-11-01 00:19:05.639000 , end at: 2016-11-01 00:19:05.662000, Lasting : 23ms  
+		Partition_5 start from :2016-11-01 00:19:05.650000 , end at: 2016-11-01 00:19:05.677000, Lasting : 27ms  
+		Partition_6 start from :2016-11-01 00:19:05.646000 , end at: 2016-11-01 00:19:05.658000, Lasting : 12ms  
+		Partition_7 start from :2016-11-01 00:19:05.652000 , end at: 2016-11-01 00:19:05.668000, Lasting : 16ms  
 	 - RDD_43:Generating MapPartitionedRDD(8)
-		 Start:2016-11-01 00:19:05.649000 End: 2016-11-01 00:19:05.679000  Lasting: 30ms
+		Partition_0 start from :2016-11-01 00:19:05.638000 , end at: 2016-11-01 00:19:05.658000, Lasting : 20ms  
+		Partition_1 start from :2016-11-01 00:19:05.649000 , end at: 2016-11-01 00:19:05.679000, Lasting : 30ms  
+		Partition_2 start from :2016-11-01 00:19:05.645000 , end at: 2016-11-01 00:19:05.660000, Lasting : 15ms  
+		Partition_3 start from :2016-11-01 00:19:05.652000 , end at: 2016-11-01 00:19:05.671000, Lasting : 19ms  
+		Partition_4 start from :2016-11-01 00:19:05.639000 , end at: 2016-11-01 00:19:05.662000, Lasting : 23ms  
+		Partition_5 start from :2016-11-01 00:19:05.649000 , end at: 2016-11-01 00:19:05.678000, Lasting : 29ms  
+		Partition_6 start from :2016-11-01 00:19:05.645000 , end at: 2016-11-01 00:19:05.658000, Lasting : 13ms  
+		Partition_7 start from :2016-11-01 00:19:05.652000 , end at: 2016-11-01 00:19:05.669000, Lasting : 17ms  
 	 - RDD_44:Generating PythonRDD(4)
-		 Start:2016-11-01 00:19:05.648000 End: 2016-11-01 00:20:27.810000  Lasting: 82162ms
+		Partition_0 start from :2016-11-01 00:19:05.637000 , end at: 2016-11-01 00:19:14.678000, Lasting : 9041ms  
+		Partition_1 start from :2016-11-01 00:19:05.648000 , end at: 2016-11-01 00:20:27.810000, Lasting : 82162ms  
+		Partition_2 start from :2016-11-01 00:19:05.644000 , end at: 2016-11-01 00:19:24.418000, Lasting : 18774ms  
+		Partition_3 start from :2016-11-01 00:19:05.651000 , end at: 2016-11-01 00:19:17.268000, Lasting : 11617ms  
 	 - RDD_45:Generating PythonRDD(4)
-		 Start:2016-11-01 00:19:05.648000 End: 2016-11-01 00:20:22.374000  Lasting: 76726ms
+		Partition_4 start from :2016-11-01 00:19:05.638000 , end at: 2016-11-01 00:19:18.154000, Lasting : 12516ms  
+		Partition_5 start from :2016-11-01 00:19:05.648000 , end at: 2016-11-01 00:20:22.374000, Lasting : 76726ms  
+		Partition_6 start from :2016-11-01 00:19:05.644000 , end at: 2016-11-01 00:19:09.042000, Lasting : 3398ms  
+		Partition_7 start from :2016-11-01 00:19:05.651000 , end at: 2016-11-01 00:19:10.381000, Lasting : 4730ms  
 	 - RDD_46:Generating UnionRDD(8)
-		 Start:2016-11-01 00:19:05.647000 End: 2016-11-01 00:20:27.810000  Lasting: 82163ms
+		Partition_0 start from :2016-11-01 00:19:05.636000 , end at: 2016-11-01 00:19:14.679000, Lasting : 9043ms  
+		Partition_1 start from :2016-11-01 00:19:05.647000 , end at: 2016-11-01 00:20:27.810000, Lasting : 82163ms  
+		Partition_2 start from :2016-11-01 00:19:05.644000 , end at: 2016-11-01 00:19:24.419000, Lasting : 18775ms  
+		Partition_3 start from :2016-11-01 00:19:05.651000 , end at: 2016-11-01 00:19:17.268000, Lasting : 11617ms  
+		Partition_4 start from :2016-11-01 00:19:05.637000 , end at: 2016-11-01 00:19:18.155000, Lasting : 12518ms  
+		Partition_5 start from :2016-11-01 00:19:05.648000 , end at: 2016-11-01 00:20:22.374000, Lasting : 76726ms  
+		Partition_6 start from :2016-11-01 00:19:05.644000 , end at: 2016-11-01 00:19:09.043000, Lasting : 3399ms  
+		Partition_7 start from :2016-11-01 00:19:05.651000 , end at: 2016-11-01 00:19:10.381000, Lasting : 4730ms  
 	 - RDD_47:Generating PythonRDD(8)
-		 Start:2016-11-01 00:19:05.646000 End: 2016-11-01 00:20:46.210000  Lasting: 100564ms
+		Partition_0 start from :2016-11-01 00:19:05.635000 , end at: 2016-11-01 00:19:32.920000, Lasting : 27285ms  
+		Partition_1 start from :2016-11-01 00:19:05.646000 , end at: 2016-11-01 00:20:46.210000, Lasting : 100564ms  
+		Partition_2 start from :2016-11-01 00:19:05.643000 , end at: 2016-11-01 00:19:43.825000, Lasting : 38182ms  
+		Partition_3 start from :2016-11-01 00:19:05.649000 , end at: 2016-11-01 00:19:35.978000, Lasting : 30329ms  
+		Partition_4 start from :2016-11-01 00:19:05.636000 , end at: 2016-11-01 00:19:18.171000, Lasting : 12535ms  
+		Partition_5 start from :2016-11-01 00:19:05.647000 , end at: 2016-11-01 00:20:22.427000, Lasting : 76780ms  
+		Partition_6 start from :2016-11-01 00:19:05.643000 , end at: 2016-11-01 00:19:09.066000, Lasting : 3423ms  
+		Partition_7 start from :2016-11-01 00:19:05.650000 , end at: 2016-11-01 00:19:10.427000, Lasting : 4777ms  
 	 - RDD_48:Generating PairwiseRDD(8)
-		 Start:2016-11-01 00:19:05.646000 End: 2016-11-01 00:20:46.210000  Lasting: 100564ms
+		Partition_0 start from :2016-11-01 00:19:05.635000 , end at: 2016-11-01 00:19:32.921000, Lasting : 27286ms  
+		Partition_1 start from :2016-11-01 00:19:05.646000 , end at: 2016-11-01 00:20:46.210000, Lasting : 100564ms  
+		Partition_2 start from :2016-11-01 00:19:05.642000 , end at: 2016-11-01 00:19:43.825000, Lasting : 38183ms  
+		Partition_3 start from :2016-11-01 00:19:05.649000 , end at: 2016-11-01 00:19:35.979000, Lasting : 30330ms  
+		Partition_4 start from :2016-11-01 00:19:05.636000 , end at: 2016-11-01 00:19:18.172000, Lasting : 12536ms  
+		Partition_5 start from :2016-11-01 00:19:05.647000 , end at: 2016-11-01 00:20:22.427000, Lasting : 76780ms  
+		Partition_6 start from :2016-11-01 00:19:05.643000 , end at: 2016-11-01 00:19:09.067000, Lasting : 3424ms  
+		Partition_7 start from :2016-11-01 00:19:05.650000 , end at: 2016-11-01 00:19:10.427000, Lasting : 4777ms  
 
 
 Stage_9(3):ResultTask9
 	 - RDD_49:Generating ShuffledRDD(4)
-		 Start:2016-11-01 00:20:47.459000 End: 2016-11-01 00:20:47.481000  Lasting: 22ms
+		Partition_0 start from :2016-11-01 00:20:47.457000 , end at: 2016-11-01 00:20:47.472000, Lasting : 15ms  
+		Partition_1 start from :2016-11-01 00:20:47.486000 , end at: 2016-11-01 00:20:47.502000, Lasting : 16ms  
+		Partition_2 start from :2016-11-01 00:20:47.459000 , end at: 2016-11-01 00:20:47.481000, Lasting : 22ms  
+		Partition_3 start from :2016-11-01 00:20:47.470000 , end at: 2016-11-01 00:20:47.487000, Lasting : 17ms  
 	 - RDD_50:Generating MapPartitionedRDD(4)
-		 Start:2016-11-01 00:20:47.459000 End: 2016-11-01 00:20:47.482000  Lasting: 23ms
+		Partition_0 start from :2016-11-01 00:20:47.456000 , end at: 2016-11-01 00:20:47.473000, Lasting : 17ms  
+		Partition_1 start from :2016-11-01 00:20:47.485000 , end at: 2016-11-01 00:20:47.503000, Lasting : 18ms  
+		Partition_2 start from :2016-11-01 00:20:47.459000 , end at: 2016-11-01 00:20:47.482000, Lasting : 23ms  
+		Partition_3 start from :2016-11-01 00:20:47.470000 , end at: 2016-11-01 00:20:47.488000, Lasting : 18ms  
 	 - RDD_51:Generating PythonRDD(4)
-		 Start:2016-11-01 00:20:47.455000 End: 2016-11-01 00:21:02.376000  Lasting: 14921ms
+		Partition_0 start from :2016-11-01 00:20:47.455000 , end at: 2016-11-01 00:21:02.376000, Lasting : 14921ms  
+		Partition_1 start from :2016-11-01 00:20:47.485000 , end at: 2016-11-01 00:20:50.593000, Lasting : 3108ms  
+		Partition_2 start from :2016-11-01 00:20:47.458000 , end at: 2016-11-01 00:20:50.757000, Lasting : 3299ms  
+		Partition_3 start from :2016-11-01 00:20:47.469000 , end at: 2016-11-01 00:20:50.564000, Lasting : 3095ms  
 
 
 Stage_16(7):ShuffleMapTask16
 	 - RDD_42:Generating ShuffledRDD(8)
-		 Start:2016-11-01 00:21:02.678000 End: 2016-11-01 00:21:02.694000  Lasting: 16ms
+		Partition_0 start from :2016-11-01 00:21:02.664000 , end at: 2016-11-01 00:21:02.675000, Lasting : 11ms  
+		Partition_1 start from :2016-11-01 00:21:02.677000 , end at: 2016-11-01 00:21:02.689000, Lasting : 12ms  
+		Partition_2 start from :2016-11-01 00:21:02.667000 , end at: 2016-11-01 00:21:02.678000, Lasting : 11ms  
+		Partition_3 start from :2016-11-01 00:21:02.676000 , end at: 2016-11-01 00:21:02.690000, Lasting : 14ms  
+		Partition_4 start from :2016-11-01 00:21:02.665000 , end at: 2016-11-01 00:21:02.676000, Lasting : 11ms  
+		Partition_5 start from :2016-11-01 00:21:02.678000 , end at: 2016-11-01 00:21:02.694000, Lasting : 16ms  
+		Partition_6 start from :2016-11-01 00:21:02.668000 , end at: 2016-11-01 00:21:02.678000, Lasting : 10ms  
+		Partition_7 start from :2016-11-01 00:21:02.679000 , end at: 2016-11-01 00:21:02.691000, Lasting : 12ms  
 	 - RDD_43:Generating MapPartitionedRDD(8)
-		 Start:2016-11-01 00:21:02.678000 End: 2016-11-01 00:21:02.694000  Lasting: 16ms
+		Partition_0 start from :2016-11-01 00:21:02.664000 , end at: 2016-11-01 00:21:02.675000, Lasting : 11ms  
+		Partition_1 start from :2016-11-01 00:21:02.676000 , end at: 2016-11-01 00:21:02.690000, Lasting : 14ms  
+		Partition_2 start from :2016-11-01 00:21:02.667000 , end at: 2016-11-01 00:21:02.678000, Lasting : 11ms  
+		Partition_3 start from :2016-11-01 00:21:02.675000 , end at: 2016-11-01 00:21:02.690000, Lasting : 15ms  
+		Partition_4 start from :2016-11-01 00:21:02.664000 , end at: 2016-11-01 00:21:02.676000, Lasting : 12ms  
+		Partition_5 start from :2016-11-01 00:21:02.678000 , end at: 2016-11-01 00:21:02.694000, Lasting : 16ms  
+		Partition_6 start from :2016-11-01 00:21:02.668000 , end at: 2016-11-01 00:21:02.679000, Lasting : 11ms  
+		Partition_7 start from :2016-11-01 00:21:02.678000 , end at: 2016-11-01 00:21:02.691000, Lasting : 13ms  
 	 - RDD_52:Generating PythonRDD(4)
-		 Start:2016-11-01 00:21:02.675000 End: 2016-11-01 00:22:33.340000  Lasting: 90665ms
+		Partition_0 start from :2016-11-01 00:21:02.663000 , end at: 2016-11-01 00:21:21.704000, Lasting : 19041ms  
+		Partition_1 start from :2016-11-01 00:21:02.675000 , end at: 2016-11-01 00:22:33.340000, Lasting : 90665ms  
+		Partition_2 start from :2016-11-01 00:21:02.666000 , end at: 2016-11-01 00:21:22.874000, Lasting : 20208ms  
+		Partition_3 start from :2016-11-01 00:21:02.675000 , end at: 2016-11-01 00:21:23.228000, Lasting : 20553ms  
 	 - RDD_53:Generating PythonRDD(4)
-		 Start:2016-11-01 00:21:02.676000 End: 2016-11-01 00:22:29.243000  Lasting: 86567ms
+		Partition_4 start from :2016-11-01 00:21:02.664000 , end at: 2016-11-01 00:21:06.283000, Lasting : 3619ms  
+		Partition_5 start from :2016-11-01 00:21:02.676000 , end at: 2016-11-01 00:22:29.243000, Lasting : 86567ms  
+		Partition_6 start from :2016-11-01 00:21:02.667000 , end at: 2016-11-01 00:21:06.441000, Lasting : 3774ms  
+		Partition_7 start from :2016-11-01 00:21:02.677000 , end at: 2016-11-01 00:21:06.940000, Lasting : 4263ms  
 	 - RDD_54:Generating UnionRDD(8)
-		 Start:2016-11-01 00:21:02.674000 End: 2016-11-01 00:22:33.340000  Lasting: 90666ms
+		Partition_0 start from :2016-11-01 00:21:02.663000 , end at: 2016-11-01 00:21:21.704000, Lasting : 19041ms  
+		Partition_1 start from :2016-11-01 00:21:02.674000 , end at: 2016-11-01 00:22:33.340000, Lasting : 90666ms  
+		Partition_2 start from :2016-11-01 00:21:02.666000 , end at: 2016-11-01 00:21:22.874000, Lasting : 20208ms  
+		Partition_3 start from :2016-11-01 00:21:02.674000 , end at: 2016-11-01 00:21:23.228000, Lasting : 20554ms  
+		Partition_4 start from :2016-11-01 00:21:02.663000 , end at: 2016-11-01 00:21:06.284000, Lasting : 3621ms  
+		Partition_5 start from :2016-11-01 00:21:02.676000 , end at: 2016-11-01 00:22:29.243000, Lasting : 86567ms  
+		Partition_6 start from :2016-11-01 00:21:02.667000 , end at: 2016-11-01 00:21:06.442000, Lasting : 3775ms  
+		Partition_7 start from :2016-11-01 00:21:02.677000 , end at: 2016-11-01 00:21:06.941000, Lasting : 4264ms  
 	 - RDD_55:Generating PythonRDD(8)
-		 Start:2016-11-01 00:21:02.673000 End: 2016-11-01 00:22:52.330000  Lasting: 109657ms
+		Partition_0 start from :2016-11-01 00:21:02.662000 , end at: 2016-11-01 00:21:39.391000, Lasting : 36729ms  
+		Partition_1 start from :2016-11-01 00:21:02.673000 , end at: 2016-11-01 00:22:52.330000, Lasting : 109657ms  
+		Partition_2 start from :2016-11-01 00:21:02.665000 , end at: 2016-11-01 00:21:40.999000, Lasting : 38334ms  
+		Partition_3 start from :2016-11-01 00:21:02.674000 , end at: 2016-11-01 00:21:43.227000, Lasting : 40553ms  
+		Partition_4 start from :2016-11-01 00:21:02.662000 , end at: 2016-11-01 00:21:06.337000, Lasting : 3675ms  
+		Partition_5 start from :2016-11-01 00:21:02.675000 , end at: 2016-11-01 00:22:29.311000, Lasting : 86636ms  
+		Partition_6 start from :2016-11-01 00:21:02.666000 , end at: 2016-11-01 00:21:06.494000, Lasting : 3828ms  
+		Partition_7 start from :2016-11-01 00:21:02.676000 , end at: 2016-11-01 00:21:06.986000, Lasting : 4310ms  
 	 - RDD_56:Generating PairwiseRDD(8)
-		 Start:2016-11-01 00:21:02.673000 End: 2016-11-01 00:22:52.331000  Lasting: 109658ms
+		Partition_0 start from :2016-11-01 00:21:02.661000 , end at: 2016-11-01 00:21:39.391000, Lasting : 36730ms  
+		Partition_1 start from :2016-11-01 00:21:02.673000 , end at: 2016-11-01 00:22:52.331000, Lasting : 109658ms  
+		Partition_2 start from :2016-11-01 00:21:02.665000 , end at: 2016-11-01 00:21:41, Lasting : 38335ms  
+		Partition_3 start from :2016-11-01 00:21:02.674000 , end at: 2016-11-01 00:21:43.227000, Lasting : 40553ms  
+		Partition_4 start from :2016-11-01 00:21:02.662000 , end at: 2016-11-01 00:21:06.337000, Lasting : 3675ms  
+		Partition_5 start from :2016-11-01 00:21:02.674000 , end at: 2016-11-01 00:22:29.311000, Lasting : 86637ms  
+		Partition_6 start from :2016-11-01 00:21:02.666000 , end at: 2016-11-01 00:21:06.495000, Lasting : 3829ms  
+		Partition_7 start from :2016-11-01 00:21:02.676000 , end at: 2016-11-01 00:21:06.986000, Lasting : 4310ms  
 
 
 Stage_17(3):ResultTask17
 	 - RDD_57:Generating ShuffledRDD(4)
-		 Start:2016-11-01 00:22:53.555000 End: 2016-11-01 00:22:53.574000  Lasting: 19ms
+		Partition_0 start from :2016-11-01 00:22:53.555000 , end at: 2016-11-01 00:22:53.574000, Lasting : 19ms  
+		Partition_1 start from :2016-11-01 00:22:53.573000 , end at: 2016-11-01 00:22:53.591000, Lasting : 18ms  
+		Partition_2 start from :2016-11-01 00:22:53.564000 , end at: 2016-11-01 00:22:53.580000, Lasting : 16ms  
+		Partition_3 start from :2016-11-01 00:22:53.573000 , end at: 2016-11-01 00:22:53.592000, Lasting : 19ms  
 	 - RDD_58:Generating MapPartitionedRDD(4)
-		 Start:2016-11-01 00:22:53.572000 End: 2016-11-01 00:22:53.594000  Lasting: 22ms
+		Partition_0 start from :2016-11-01 00:22:53.554000 , end at: 2016-11-01 00:22:53.575000, Lasting : 21ms  
+		Partition_1 start from :2016-11-01 00:22:53.573000 , end at: 2016-11-01 00:22:53.592000, Lasting : 19ms  
+		Partition_2 start from :2016-11-01 00:22:53.564000 , end at: 2016-11-01 00:22:53.581000, Lasting : 17ms  
+		Partition_3 start from :2016-11-01 00:22:53.572000 , end at: 2016-11-01 00:22:53.594000, Lasting : 22ms  
 	 - RDD_59:Generating PythonRDD(4)
-		 Start:2016-11-01 00:22:53.571000 End: 2016-11-01 00:23:08.065000  Lasting: 14494ms
+		Partition_0 start from :2016-11-01 00:22:53.554000 , end at: 2016-11-01 00:22:56.583000, Lasting : 3029ms  
+		Partition_1 start from :2016-11-01 00:22:53.572000 , end at: 2016-11-01 00:22:56.612000, Lasting : 3040ms  
+		Partition_2 start from :2016-11-01 00:22:53.563000 , end at: 2016-11-01 00:22:56.708000, Lasting : 3145ms  
+		Partition_3 start from :2016-11-01 00:22:53.571000 , end at: 2016-11-01 00:23:08.065000, Lasting : 14494ms  
 
 
 Stage_32(7):ShuffleMapTask32
 	 - RDD_68:Generating PythonRDD(4)
-		 Start:2016-11-01 00:25:15.339000 End: 2016-11-01 00:26:47.774000  Lasting: 92435ms
+		Partition_0 start from :2016-11-01 00:25:15.324000 , end at: 2016-11-01 00:25:24.455000, Lasting : 9131ms  
+		Partition_1 start from :2016-11-01 00:25:15.339000 , end at: 2016-11-01 00:26:47.774000, Lasting : 92435ms  
+		Partition_2 start from :2016-11-01 00:25:15.332000 , end at: 2016-11-01 00:25:34.536000, Lasting : 19204ms  
+		Partition_3 start from :2016-11-01 00:25:15.342000 , end at: 2016-11-01 00:25:35.207000, Lasting : 19865ms  
 	 - RDD_69:Generating PythonRDD(4)
-		 Start:2016-11-01 00:25:15.341000 End: 2016-11-01 00:26:40.627000  Lasting: 85286ms
+		Partition_4 start from :2016-11-01 00:25:15.325000 , end at: 2016-11-01 00:25:28.149000, Lasting : 12824ms  
+		Partition_5 start from :2016-11-01 00:25:15.341000 , end at: 2016-11-01 00:26:40.627000, Lasting : 85286ms  
+		Partition_6 start from :2016-11-01 00:25:15.335000 , end at: 2016-11-01 00:25:19.244000, Lasting : 3909ms  
+		Partition_7 start from :2016-11-01 00:25:15.342000 , end at: 2016-11-01 00:25:19.583000, Lasting : 4241ms  
 	 - RDD_70:Generating UnionRDD(8)
-		 Start:2016-11-01 00:25:15.339000 End: 2016-11-01 00:26:47.774000  Lasting: 92435ms
+		Partition_0 start from :2016-11-01 00:25:15.323000 , end at: 2016-11-01 00:25:24.455000, Lasting : 9132ms  
+		Partition_1 start from :2016-11-01 00:25:15.339000 , end at: 2016-11-01 00:26:47.774000, Lasting : 92435ms  
+		Partition_2 start from :2016-11-01 00:25:15.332000 , end at: 2016-11-01 00:25:34.536000, Lasting : 19204ms  
+		Partition_3 start from :2016-11-01 00:25:15.341000 , end at: 2016-11-01 00:25:35.207000, Lasting : 19866ms  
+		Partition_4 start from :2016-11-01 00:25:15.324000 , end at: 2016-11-01 00:25:28.149000, Lasting : 12825ms  
+		Partition_5 start from :2016-11-01 00:25:15.340000 , end at: 2016-11-01 00:26:40.627000, Lasting : 85287ms  
+		Partition_6 start from :2016-11-01 00:25:15.335000 , end at: 2016-11-01 00:25:19.244000, Lasting : 3909ms  
+		Partition_7 start from :2016-11-01 00:25:15.342000 , end at: 2016-11-01 00:25:19.583000, Lasting : 4241ms  
 	 - RDD_71:Generating PythonRDD(8)
-		 Start:2016-11-01 00:25:15.338000 End: 2016-11-01 00:27:07.823000  Lasting: 112485ms
+		Partition_0 start from :2016-11-01 00:25:15.323000 , end at: 2016-11-01 00:25:42.584000, Lasting : 27261ms  
+		Partition_1 start from :2016-11-01 00:25:15.338000 , end at: 2016-11-01 00:27:07.823000, Lasting : 112485ms  
+		Partition_2 start from :2016-11-01 00:25:15.331000 , end at: 2016-11-01 00:25:53.141000, Lasting : 37810ms  
+		Partition_3 start from :2016-11-01 00:25:15.340000 , end at: 2016-11-01 00:25:54.117000, Lasting : 38777ms  
+		Partition_4 start from :2016-11-01 00:25:15.324000 , end at: 2016-11-01 00:25:28.168000, Lasting : 12844ms  
+		Partition_5 start from :2016-11-01 00:25:15.339000 , end at: 2016-11-01 00:26:40.678000, Lasting : 85339ms  
+		Partition_6 start from :2016-11-01 00:25:15.334000 , end at: 2016-11-01 00:25:19.301000, Lasting : 3967ms  
+		Partition_7 start from :2016-11-01 00:25:15.341000 , end at: 2016-11-01 00:25:19.629000, Lasting : 4288ms  
 	 - RDD_72:Generating PairwiseRDD(8)
-		 Start:2016-11-01 00:25:15.337000 End: 2016-11-01 00:27:07.823000  Lasting: 112486ms
+		Partition_0 start from :2016-11-01 00:25:15.322000 , end at: 2016-11-01 00:25:42.584000, Lasting : 27262ms  
+		Partition_1 start from :2016-11-01 00:25:15.337000 , end at: 2016-11-01 00:27:07.823000, Lasting : 112486ms  
+		Partition_2 start from :2016-11-01 00:25:15.331000 , end at: 2016-11-01 00:25:53.142000, Lasting : 37811ms  
+		Partition_3 start from :2016-11-01 00:25:15.340000 , end at: 2016-11-01 00:25:54.117000, Lasting : 38777ms  
+		Partition_4 start from :2016-11-01 00:25:15.323000 , end at: 2016-11-01 00:25:28.168000, Lasting : 12845ms  
+		Partition_5 start from :2016-11-01 00:25:15.339000 , end at: 2016-11-01 00:26:40.678000, Lasting : 85339ms  
+		Partition_6 start from :2016-11-01 00:25:15.333000 , end at: 2016-11-01 00:25:19.301000, Lasting : 3968ms  
+		Partition_7 start from :2016-11-01 00:25:15.340000 , end at: 2016-11-01 00:25:19.630000, Lasting : 4290ms  
 	 - RDD_42:Generating ShuffledRDD(8)
-		 Start:2016-11-01 00:25:15.344000 End: 2016-11-01 00:25:15.360000  Lasting: 16ms
+		Partition_0 start from :2016-11-01 00:25:15.325000 , end at: 2016-11-01 00:25:15.337000, Lasting : 12ms  
+		Partition_1 start from :2016-11-01 00:25:15.341000 , end at: 2016-11-01 00:25:15.353000, Lasting : 12ms  
+		Partition_2 start from :2016-11-01 00:25:15.334000 , end at: 2016-11-01 00:25:15.345000, Lasting : 11ms  
+		Partition_3 start from :2016-11-01 00:25:15.344000 , end at: 2016-11-01 00:25:15.358000, Lasting : 14ms  
+		Partition_4 start from :2016-11-01 00:25:15.326000 , end at: 2016-11-01 00:25:15.336000, Lasting : 10ms  
+		Partition_5 start from :2016-11-01 00:25:15.343000 , end at: 2016-11-01 00:25:15.354000, Lasting : 11ms  
+		Partition_6 start from :2016-11-01 00:25:15.336000 , end at: 2016-11-01 00:25:15.346000, Lasting : 10ms  
+		Partition_7 start from :2016-11-01 00:25:15.344000 , end at: 2016-11-01 00:25:15.360000, Lasting : 16ms  
 	 - RDD_43:Generating MapPartitionedRDD(8)
-		 Start:2016-11-01 00:25:15.343000 End: 2016-11-01 00:25:15.361000  Lasting: 18ms
+		Partition_0 start from :2016-11-01 00:25:15.325000 , end at: 2016-11-01 00:25:15.337000, Lasting : 12ms  
+		Partition_1 start from :2016-11-01 00:25:15.340000 , end at: 2016-11-01 00:25:15.353000, Lasting : 13ms  
+		Partition_2 start from :2016-11-01 00:25:15.333000 , end at: 2016-11-01 00:25:15.345000, Lasting : 12ms  
+		Partition_3 start from :2016-11-01 00:25:15.343000 , end at: 2016-11-01 00:25:15.359000, Lasting : 16ms  
+		Partition_4 start from :2016-11-01 00:25:15.326000 , end at: 2016-11-01 00:25:15.336000, Lasting : 10ms  
+		Partition_5 start from :2016-11-01 00:25:15.342000 , end at: 2016-11-01 00:25:15.354000, Lasting : 12ms  
+		Partition_6 start from :2016-11-01 00:25:15.336000 , end at: 2016-11-01 00:25:15.346000, Lasting : 10ms  
+		Partition_7 start from :2016-11-01 00:25:15.343000 , end at: 2016-11-01 00:25:15.361000, Lasting : 18ms  
 
 
 Stage_24(7):ShuffleMapTask24
 	 - RDD_64:Generating PairwiseRDD(8)
-		 Start:2016-11-01 00:23:08.338000 End: 2016-11-01 00:24:58.905000  Lasting: 110567ms
+		Partition_0 start from :2016-11-01 00:23:08.324000 , end at: 2016-11-01 00:23:45.933000, Lasting : 37609ms  
+		Partition_1 start from :2016-11-01 00:23:08.338000 , end at: 2016-11-01 00:24:58.905000, Lasting : 110567ms  
+		Partition_2 start from :2016-11-01 00:23:08.334000 , end at: 2016-11-01 00:23:45.836000, Lasting : 37502ms  
+		Partition_3 start from :2016-11-01 00:23:08.337000 , end at: 2016-11-01 00:23:47.646000, Lasting : 39309ms  
+		Partition_4 start from :2016-11-01 00:23:08.325000 , end at: 2016-11-01 00:23:11.996000, Lasting : 3671ms  
+		Partition_5 start from :2016-11-01 00:23:08.339000 , end at: 2016-11-01 00:24:35.247000, Lasting : 86908ms  
+		Partition_6 start from :2016-11-01 00:23:08.335000 , end at: 2016-11-01 00:23:11.849000, Lasting : 3514ms  
+		Partition_7 start from :2016-11-01 00:23:08.339000 , end at: 2016-11-01 00:23:13.010000, Lasting : 4671ms  
 	 - RDD_42:Generating ShuffledRDD(8)
-		 Start:2016-11-01 00:23:08.339000 End: 2016-11-01 00:23:08.353000  Lasting: 14ms
+		Partition_0 start from :2016-11-01 00:23:08.327000 , end at: 2016-11-01 00:23:08.339000, Lasting : 12ms  
+		Partition_1 start from :2016-11-01 00:23:08.343000 , end at: 2016-11-01 00:23:08.353000, Lasting : 10ms  
+		Partition_2 start from :2016-11-01 00:23:08.338000 , end at: 2016-11-01 00:23:08.351000, Lasting : 13ms  
+		Partition_3 start from :2016-11-01 00:23:08.340000 , end at: 2016-11-01 00:23:08.352000, Lasting : 12ms  
+		Partition_4 start from :2016-11-01 00:23:08.329000 , end at: 2016-11-01 00:23:08.342000, Lasting : 13ms  
+		Partition_5 start from :2016-11-01 00:23:08.343000 , end at: 2016-11-01 00:23:08.355000, Lasting : 12ms  
+		Partition_6 start from :2016-11-01 00:23:08.339000 , end at: 2016-11-01 00:23:08.353000, Lasting : 14ms  
+		Partition_7 start from :2016-11-01 00:23:08.342000 , end at: 2016-11-01 00:23:08.353000, Lasting : 11ms  
 	 - RDD_43:Generating MapPartitionedRDD(8)
-		 Start:2016-11-01 00:23:08.328000 End: 2016-11-01 00:23:08.343000  Lasting: 15ms
+		Partition_0 start from :2016-11-01 00:23:08.327000 , end at: 2016-11-01 00:23:08.340000, Lasting : 13ms  
+		Partition_1 start from :2016-11-01 00:23:08.342000 , end at: 2016-11-01 00:23:08.354000, Lasting : 12ms  
+		Partition_2 start from :2016-11-01 00:23:08.337000 , end at: 2016-11-01 00:23:08.351000, Lasting : 14ms  
+		Partition_3 start from :2016-11-01 00:23:08.339000 , end at: 2016-11-01 00:23:08.352000, Lasting : 13ms  
+		Partition_4 start from :2016-11-01 00:23:08.328000 , end at: 2016-11-01 00:23:08.343000, Lasting : 15ms  
+		Partition_5 start from :2016-11-01 00:23:08.342000 , end at: 2016-11-01 00:23:08.356000, Lasting : 14ms  
+		Partition_6 start from :2016-11-01 00:23:08.339000 , end at: 2016-11-01 00:23:08.353000, Lasting : 14ms  
+		Partition_7 start from :2016-11-01 00:23:08.342000 , end at: 2016-11-01 00:23:08.353000, Lasting : 11ms  
 	 - RDD_60:Generating PythonRDD(4)
-		 Start:2016-11-01 00:23:08.341000 End: 2016-11-01 00:24:39.900000  Lasting: 91559ms
+		Partition_0 start from :2016-11-01 00:23:08.326000 , end at: 2016-11-01 00:23:27.007000, Lasting : 18681ms  
+		Partition_1 start from :2016-11-01 00:23:08.341000 , end at: 2016-11-01 00:24:39.900000, Lasting : 91559ms  
+		Partition_2 start from :2016-11-01 00:23:08.336000 , end at: 2016-11-01 00:23:27.087000, Lasting : 18751ms  
+		Partition_3 start from :2016-11-01 00:23:08.338000 , end at: 2016-11-01 00:23:27.844000, Lasting : 19506ms  
 	 - RDD_61:Generating PythonRDD(4)
-		 Start:2016-11-01 00:23:08.341000 End: 2016-11-01 00:24:35.192000  Lasting: 86851ms
+		Partition_4 start from :2016-11-01 00:23:08.327000 , end at: 2016-11-01 00:23:11.936000, Lasting : 3609ms  
+		Partition_5 start from :2016-11-01 00:23:08.341000 , end at: 2016-11-01 00:24:35.192000, Lasting : 86851ms  
+		Partition_6 start from :2016-11-01 00:23:08.337000 , end at: 2016-11-01 00:23:11.795000, Lasting : 3458ms  
+		Partition_7 start from :2016-11-01 00:23:08.341000 , end at: 2016-11-01 00:23:12.963000, Lasting : 4622ms  
 	 - RDD_62:Generating UnionRDD(8)
-		 Start:2016-11-01 00:23:08.340000 End: 2016-11-01 00:24:39.901000  Lasting: 91561ms
+		Partition_0 start from :2016-11-01 00:23:08.325000 , end at: 2016-11-01 00:23:27.007000, Lasting : 18682ms  
+		Partition_1 start from :2016-11-01 00:23:08.340000 , end at: 2016-11-01 00:24:39.901000, Lasting : 91561ms  
+		Partition_2 start from :2016-11-01 00:23:08.335000 , end at: 2016-11-01 00:23:27.087000, Lasting : 18752ms  
+		Partition_3 start from :2016-11-01 00:23:08.338000 , end at: 2016-11-01 00:23:27.844000, Lasting : 19506ms  
+		Partition_4 start from :2016-11-01 00:23:08.327000 , end at: 2016-11-01 00:23:11.936000, Lasting : 3609ms  
+		Partition_5 start from :2016-11-01 00:23:08.340000 , end at: 2016-11-01 00:24:35.192000, Lasting : 86852ms  
+		Partition_6 start from :2016-11-01 00:23:08.337000 , end at: 2016-11-01 00:23:11.796000, Lasting : 3459ms  
+		Partition_7 start from :2016-11-01 00:23:08.340000 , end at: 2016-11-01 00:23:12.963000, Lasting : 4623ms  
 	 - RDD_63:Generating PythonRDD(8)
-		 Start:2016-11-01 00:23:08.339000 End: 2016-11-01 00:24:58.905000  Lasting: 110566ms
+		Partition_0 start from :2016-11-01 00:23:08.324000 , end at: 2016-11-01 00:23:45.932000, Lasting : 37608ms  
+		Partition_1 start from :2016-11-01 00:23:08.339000 , end at: 2016-11-01 00:24:58.905000, Lasting : 110566ms  
+		Partition_2 start from :2016-11-01 00:23:08.334000 , end at: 2016-11-01 00:23:45.836000, Lasting : 37502ms  
+		Partition_3 start from :2016-11-01 00:23:08.337000 , end at: 2016-11-01 00:23:47.646000, Lasting : 39309ms  
+		Partition_4 start from :2016-11-01 00:23:08.325000 , end at: 2016-11-01 00:23:11.995000, Lasting : 3670ms  
+		Partition_5 start from :2016-11-01 00:23:08.339000 , end at: 2016-11-01 00:24:35.246000, Lasting : 86907ms  
+		Partition_6 start from :2016-11-01 00:23:08.336000 , end at: 2016-11-01 00:23:11.849000, Lasting : 3513ms  
+		Partition_7 start from :2016-11-01 00:23:08.339000 , end at: 2016-11-01 00:23:13.010000, Lasting : 4671ms  
 
 
 Stage_25(3):ResultTask25
 	 - RDD_65:Generating ShuffledRDD(4)
-		 Start:2016-11-01 00:25:00.111000 End: 2016-11-01 00:25:00.131000  Lasting: 20ms
+		Partition_0 start from :2016-11-01 00:25:00.111000 , end at: 2016-11-01 00:25:00.131000, Lasting : 20ms  
+		Partition_1 start from :2016-11-01 00:25:00.130000 , end at: 2016-11-01 00:25:00.145000, Lasting : 15ms  
+		Partition_2 start from :2016-11-01 00:25:00.124000 , end at: 2016-11-01 00:25:00.139000, Lasting : 15ms  
+		Partition_3 start from :2016-11-01 00:25:00.130000 , end at: 2016-11-01 00:25:00.149000, Lasting : 19ms  
 	 - RDD_66:Generating MapPartitionedRDD(4)
-		 Start:2016-11-01 00:25:00.111000 End: 2016-11-01 00:25:00.131000  Lasting: 20ms
+		Partition_0 start from :2016-11-01 00:25:00.111000 , end at: 2016-11-01 00:25:00.131000, Lasting : 20ms  
+		Partition_1 start from :2016-11-01 00:25:00.130000 , end at: 2016-11-01 00:25:00.145000, Lasting : 15ms  
+		Partition_2 start from :2016-11-01 00:25:00.124000 , end at: 2016-11-01 00:25:00.141000, Lasting : 17ms  
+		Partition_3 start from :2016-11-01 00:25:00.130000 , end at: 2016-11-01 00:25:00.149000, Lasting : 19ms  
 	 - RDD_67:Generating PythonRDD(4)
-		 Start:2016-11-01 00:25:00.123000 End: 2016-11-01 00:25:15.094000  Lasting: 14971ms
+		Partition_0 start from :2016-11-01 00:25:00.110000 , end at: 2016-11-01 00:25:03.284000, Lasting : 3174ms  
+		Partition_1 start from :2016-11-01 00:25:00.129000 , end at: 2016-11-01 00:25:03.119000, Lasting : 2990ms  
+		Partition_2 start from :2016-11-01 00:25:00.123000 , end at: 2016-11-01 00:25:15.094000, Lasting : 14971ms  
+		Partition_3 start from :2016-11-01 00:25:00.129000 , end at: 2016-11-01 00:25:03.215000, Lasting : 3086ms  
 
 
 Stage_33(3):ResultTask33
 	 - RDD_73:Generating ShuffledRDD(4)
-		 Start:2016-11-01 00:27:09.058000 End: 2016-11-01 00:27:09.080000  Lasting: 22ms
+		Partition_0 start from :2016-11-01 00:27:09.050000 , end at: 2016-11-01 00:27:09.069000, Lasting : 19ms  
+		Partition_1 start from :2016-11-01 00:27:09.066000 , end at: 2016-11-01 00:27:09.084000, Lasting : 18ms  
+		Partition_2 start from :2016-11-01 00:27:09.058000 , end at: 2016-11-01 00:27:09.080000, Lasting : 22ms  
+		Partition_3 start from :2016-11-01 00:27:09.068000 , end at: 2016-11-01 00:27:09.084000, Lasting : 16ms  
 	 - RDD_74:Generating MapPartitionedRDD(4)
-		 Start:2016-11-01 00:27:09.049000 End: 2016-11-01 00:27:09.075000  Lasting: 26ms
+		Partition_0 start from :2016-11-01 00:27:09.049000 , end at: 2016-11-01 00:27:09.075000, Lasting : 26ms  
+		Partition_1 start from :2016-11-01 00:27:09.066000 , end at: 2016-11-01 00:27:09.085000, Lasting : 19ms  
+		Partition_2 start from :2016-11-01 00:27:09.057000 , end at: 2016-11-01 00:27:09.081000, Lasting : 24ms  
+		Partition_3 start from :2016-11-01 00:27:09.068000 , end at: 2016-11-01 00:27:09.085000, Lasting : 17ms  
 	 - RDD_75:Generating PythonRDD(4)
-		 Start:2016-11-01 00:27:09.065000 End: 2016-11-01 00:27:23.427000  Lasting: 14362ms
+		Partition_0 start from :2016-11-01 00:27:09.048000 , end at: 2016-11-01 00:27:12.185000, Lasting : 3137ms  
+		Partition_1 start from :2016-11-01 00:27:09.065000 , end at: 2016-11-01 00:27:23.427000, Lasting : 14362ms  
+		Partition_2 start from :2016-11-01 00:27:09.057000 , end at: 2016-11-01 00:27:12.099000, Lasting : 3042ms  
+		Partition_3 start from :2016-11-01 00:27:09.067000 , end at: 2016-11-01 00:27:12.365000, Lasting : 3298ms  
 
 
