@@ -22,6 +22,10 @@ rdd_id_name_map = defaultdict(str)
 stage_id_name_map = defaultdict(str)
 #[stage_id, [part_id, [startTime, endTime]]]
 stage_time_map = defaultdict(lambda: defaultdict(list))
+#[stage_id, [part_id, [shuffle_starTime, shuffle_endTime]]]
+rdd_partition_shuffle_write = defaultdict(lambda: defaultdict(list))
+#[stage_id, [part_id, [shuffle_starTime, shuffle_endTime]]]
+rdd_partition_shuffle_read = defaultdict(lambda: defaultdict(list))
 
 # Given the time in ms, return the string that is readable. 
 def milli2Readable(target_date_time_ms): 
@@ -88,6 +92,37 @@ def output_stage_info(stage_info, stage_id, output, stage_id_name_map, rdd_id_na
 	output.write("\n\n")
 
 
+def output_stage_shuffle_info(rdd_partition_shuffle_write, rdd_partition_shuffle_read, stage_id, output): 
+	part_list_write = rdd_partition_shuffle_write[stage_id] 
+	part_list_read = rdd_partition_shuffle_read[stage_id] 
+
+	output.write("\t\t\tShuffle Write Timing:[" + str(len(part_list_write)) + "]\n")
+	for part_id, time_interval in part_list_write.iteritems(): 
+			output.write("\t\t\tPartition_" + str(part_id) + " start from :" + str(milli2Readable(time_interval[0]))\
+			+  " , end at: " + str(milli2Readable(time_interval[1])) + ", Lasting : " \
+			+ str(long(time_interval[1]) - long(time_interval[0])) +  "ms  \n")
+	output.write("\n\n")		
+
+	output.write("\t\t\tShuffle Read Timing:["+ str(len(part_list_read)) +"]\n")
+	for part_id, time_interval in part_list_read.iteritems(): 
+			output.write("\t\t\tPartition_" + str(part_id) + " start from :" + str(milli2Readable(time_interval[0]))\
+			+  " , end at: " + str(milli2Readable(time_interval[1])) + ", Lasting : " \
+			+ str(long(time_interval[1]) - long(time_interval[0])) +  "ms  \n")			
+	output.write("\n\n")
+
+
+# This calculate the actual blocking time of shuffle write. 
+def calculate_total_shuffle_write_time(rdd_partition_shuffle_write, output): 
+	total_time = 0 
+	for stage_id, part_list in rdd_partition_shuffle_write.iteritems(): 
+		[straggler_id, start_time, end_time] = getSlowestPartitionTime(part_list)
+		output.write("\t\t Start:" + str(milli2Readable(start_time)) + " End: " + str(milli2Readable(end_time)) \
+		+ "  Lasting: " + str(end_time - start_time ) + "ms" + "\n"
+		) 
+		total_time += (end_time - start_time) 
+
+	print total_time, "ms"
+
 def main(argv):
 	# This part is put to enable the verbose. 
 	inputfile = ''
@@ -121,12 +156,18 @@ def main(argv):
 				split_result = line.split(",") 
 				rdd_name = ""
 				rdd_id = ""
+				shuffle_id_or_reader_tag = ""
+				shuffle_id = ""
+				reader_rdd = ""
 				# task_type can be: ShuffleMapTask, ResultTask, iterator.FromParent, iterator.FromCache
 				if (len(split_result) == 4 ):
 					[task_type, task_attmpt_id, part_id, stage_id] = split_result
+				elif (len(split_result) == 5 ):
+					[task_type, shuffle_id_or_reader_tag, task_attmpt_id, part_id, stage_id] = split_result 
 				elif ( len(split_result) == 6): 
 					[task_type, rdd_id, rdd_name, task_attmpt_id, part_id, stage_id] = split_result			
 
+				# Hanlde common parameters
 				stage_id = int(stage_id.split(":")[1])
 				part_id = int(part_id[(part_id.find(":")+1):]) 		
 				task_attmpt_id = int(task_attmpt_id[(task_attmpt_id.find(":")+1):])
@@ -134,20 +175,32 @@ def main(argv):
 				# End or start is not important, just make sure each operation's time interval has two elements. 
 				timestamp = long(task_type.split("]")[1].split(":")[1])
 
+				# Handle special parameters
 				if (len(split_result) == 6 ): 
 					rdd_name = rdd_name.split(":")[1]
 					rdd_id = int(rdd_id.split(":")[1])
 					rdd_id_name_map[rdd_id] = rdd_name
 					# ***  Info Assemble  ***
 					stage_info[stage_id][rdd_id][part_id].append(timestamp)						
+				elif (len(split_result) == 5 ): 
+					# Writer info 
+					if ( ':' in shuffle_id_or_reader_tag):
+						shuffle_id = int(shuffle_id_or_reader_tag.split(":")[1]) 
+						rdd_partition_shuffle_write[stage_id][part_id].append(timestamp)
+					# Reader info	
+					else: 
+						reader_rdd = shuffle_id_or_reader_tag
+						rdd_partition_shuffle_read[stage_id][part_id].append(timestamp)
 				elif (len(split_result) == 4): 
 					stage_id_name_map[stage_id] = task_name
 					stage_time_map[stage_id][part_id].append(timestamp)
 		
 		# Output all the stage. 
 		for stage_id, rdd_list in stage_info.iteritems(): 
-			output_stage_info( stage_info, stage_id, f, stage_id_name_map, rdd_id_name_map, verbose)
-
+			output_stage_info( stage_info, stage_id, f, stage_id_name_map, rdd_id_name_map, verbose) 
+			if (stage_id_name_map[stage_id][0] == 'S'):				
+				output_stage_shuffle_info(rdd_partition_shuffle_write, rdd_partition_shuffle_read, stage_id, f)
+		calculate_total_shuffle_write_time(rdd_partition_shuffle_write, f)
 		fd.close()
 	f.close()
 

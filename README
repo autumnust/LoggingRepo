@@ -7,4 +7,10 @@ Note:
 - k_10_iter_1_part_4_10M inside /history_plus_log is for history server to render the DAG, so that we can compare the result in output with the DAG. 
 - In the top and middle (around line 50) of `extra_logParser.py` there's explanation of format for the output.
 
+--- 
+
+This repo is storing all the logging to parse the result. 
+Inside each of folder, there's configuration  parameter list for that application. 
+
+The ultimate local version is in /Users/Sun/Dropbox/16Fall/Capstone/LoggingRepo/
 
