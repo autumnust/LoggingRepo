@@ -92,22 +92,34 @@ def output_stage_info(stage_info, stage_id, output, stage_id_name_map, rdd_id_na
 	output.write("\n\n")
 
 
-def output_stage_shuffle_info(rdd_partition_shuffle_write, rdd_partition_shuffle_read, stage_id, output): 
+def output_stage_shuffle_info(rdd_partition_shuffle_write, rdd_partition_shuffle_read, stage_id, output, verbose): 
 	part_list_write = rdd_partition_shuffle_write[stage_id] 
 	part_list_read = rdd_partition_shuffle_read[stage_id] 
 
 	output.write("\t\t\tShuffle Write Timing:[" + str(len(part_list_write)) + "]\n")
-	for part_id, time_interval in part_list_write.iteritems(): 
-			output.write("\t\t\tPartition_" + str(part_id) + " start from :" + str(milli2Readable(time_interval[0]))\
-			+  " , end at: " + str(milli2Readable(time_interval[1])) + ", Lasting : " \
-			+ str(long(time_interval[1]) - long(time_interval[0])) +  "ms  \n")
+	if ( verbose == 1 ): 
+		for part_id, time_interval in part_list_write.iteritems(): 
+				output.write("\t\t\tPartition_" + str(part_id) + " start from :" + str(milli2Readable(time_interval[0]))\
+				+  " , end at: " + str(milli2Readable(time_interval[1])) + ", Lasting : " \
+				+ str(long(time_interval[1]) - long(time_interval[0])) +  "ms  \n")
+	else: 
+		[straggler_id, start_time, end_time] = getSlowestPartitionTime(part_list_write)
+		output.write("\t\t Start:" + str(milli2Readable(start_time)) + " End: " + str(milli2Readable(end_time)) \
+					+ "  Lasting: " + str(end_time - start_time ) + "ms" + "\n"
+					) 	
 	output.write("\n\n")		
 
 	output.write("\t\t\tShuffle Read Timing:["+ str(len(part_list_read)) +"]\n")
-	for part_id, time_interval in part_list_read.iteritems(): 
-			output.write("\t\t\tPartition_" + str(part_id) + " start from :" + str(milli2Readable(time_interval[0]))\
-			+  " , end at: " + str(milli2Readable(time_interval[1])) + ", Lasting : " \
-			+ str(long(time_interval[1]) - long(time_interval[0])) +  "ms  \n")			
+	if ( verbose == 1 ) : 
+		for part_id, time_interval in part_list_read.iteritems(): 
+				output.write("\t\t\tPartition_" + str(part_id) + " start from :" + str(milli2Readable(time_interval[0]))\
+				+  " , end at: " + str(milli2Readable(time_interval[1])) + ", Lasting : " \
+				+ str(long(time_interval[1]) - long(time_interval[0])) +  "ms  \n")			
+	else: 
+		[straggler_id, start_time, end_time] = getSlowestPartitionTime(part_list_read)
+		output.write("\t\t Start:" + str(milli2Readable(start_time)) + " End: " + str(milli2Readable(end_time)) \
+					+ "  Lasting: " + str(end_time - start_time ) + "ms" + "\n"
+					) 	
 	output.write("\n\n")
 
 
@@ -130,7 +142,7 @@ def main(argv):
 	try:
   		opts, args = getopt.getopt(argv,"hi:o:",["ifile=","ofile="])
 	except getopt.GetoptError:
-		print 'test.py -i <inputfile> -o <outputfile>'
+		print 'extra_logParser.py -i <inputfile> -o <outputfile>'
 		sys.exit(2)
 	for opt, arg in opts:
 		if opt == '-h':
@@ -144,7 +156,7 @@ def main(argv):
 	print 'Output file is "', outputfile
 
 	# Switch to control if each partitions' time can be output. 
-	verbose = 1 
+	verbose = 0 
 
 	# Main program
 	with open (output, 'w') as f : 
@@ -199,7 +211,7 @@ def main(argv):
 		for stage_id, rdd_list in stage_info.iteritems(): 
 			output_stage_info( stage_info, stage_id, f, stage_id_name_map, rdd_id_name_map, verbose) 
 			if (stage_id_name_map[stage_id][0] == 'S'):				
-				output_stage_shuffle_info(rdd_partition_shuffle_write, rdd_partition_shuffle_read, stage_id, f)
+				output_stage_shuffle_info(rdd_partition_shuffle_write, rdd_partition_shuffle_read, stage_id, f, verbose)
 		calculate_total_shuffle_write_time(rdd_partition_shuffle_write, f)
 		fd.close()
 	f.close()
