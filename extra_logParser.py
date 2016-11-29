@@ -12,6 +12,13 @@ filename = "combined.log"
 output = "operation_break"
 old_stage_id = 0
 op_info = defaultdict(list)
+sum_blocking_time = 0.0
+
+# Among a stage, shuffle write time is the avg time.
+# This value sum each stage'avg up
+shuffle_write_time_total = 0.0
+task_time_total = 0.0
+py_related_operation_time_total = 0.0
 
 # nested defaultdict
 #[stage_id, [rdd_id, [part_id, [starTime, endTime]]]]
@@ -122,6 +129,10 @@ def reorder_rdd_list(rdd_list, rdd_id_name_map):
 # stage_single_part_info structure : [stage_id, [part_id, [rdd_id, [startTime, endTime]]]]
 def output_part_oriented_stage_info(stage_single_part_info, stage_id, output, stage_id_name_map, rdd_id_name_map,\
 									rdd_partition_shuffle_write, verbose, stats_output):
+	global sum_blocking_time
+	global shuffle_write_time_total
+	global task_time_total
+	global py_related_operation_time_total
 	if ( stage_id < 5 ):
 		return
 	part_list = stage_single_part_info[stage_id]
@@ -129,11 +140,14 @@ def output_part_oriented_stage_info(stage_single_part_info, stage_id, output, st
 	output.write("Stage_"+ str(stage_id) + ":" + stage_id_name_map[stage_id] + "\n")
 	stats_output.write("Stage_"+ str(stage_id) + ":" + stage_id_name_map[stage_id] + "\n")
 	rdd_real_name = ''
-	start_time=''
+	start_time= -1
 	end_time =''
 
-	max_swt = 0 ;
-	sum_swt = 0 ;
+	max_end_time = 0.0
+	sum_end_time = 0.0
+	max_swt = 0.0
+	sum_swt = 0.0
+	sum_each_operation = defaultdict(int)
 	for part_id, rdd_list in part_list.iteritems():
 		output.write("\t" + str(part_id) + ":")
 		# Enforce the RDD order here.
@@ -141,29 +155,55 @@ def output_part_oriented_stage_info(stage_single_part_info, stage_id, output, st
 		for i in xrange( len(result_list) ):
 			rdd_real_name = result_list[i][0]
 			time_interval = result_list[i][1]
+			if (start_time < 0 ):
+				start_time = time_interval[0]
 			if ( verbose == 0 ):
 				output.write( rdd_real_name + "[" + str(milli2Readable(time_interval[0])) + "-" + str(milli2Readable(time_interval[1])) + "] --> ")
 			else:
 				output.write( rdd_real_name + "[" + str( time_interval[1] - time_interval[0] ) + "] --> ")
 
 			if ( i > 0 ):
-				stats_output.write("\t\t" + result_list[i-1][0] + "->" + rdd_real_name + ":" + str( time_interval[1] - result_list[i-1][1][1]) + "ms\n" )
+				sum_each_operation[result_list[i-1][0] + "->" + rdd_real_name] += time_interval[1] - result_list[i-1][1][1]
+				# stats_output.write("\t\t" + result_list[i-1][0] + "->" + rdd_real_name + ":" + str( time_interval[1] - result_list[i-1][1][1]) + "ms\n" )
 		if (len(part_list_write) == len(part_list)):
 			output.write("SWT:" + str(milli2Readable(part_list_write[part_id][0])) + "-" + str(milli2Readable(part_list_write[part_id][1])) )
 			# Blocking time related stats
 		if (len(part_list_write) == len(part_list)):
-			if ( part_list_write[part_id][1] > max_swt ) :
-				max_swt = part_list_write[part_id][1]
-			sum_swt += part_list_write[part_id][1]
+			if ( part_list_write[part_id][1] > max_end_time ) :
+				max_end_time = part_list_write[part_id][1]
+			sum_end_time += part_list_write[part_id][1]
+
+			tmp_swt = part_list_write[part_id][1] - part_list_write[part_id][0]
+			sum_swt +=tmp_swt
+			if ( tmp_swt > max_swt ) :
+				max_swt = tmp_swt
 		else :
-			if ( result_list[len(result_list)-1][1][1] > max_swt ) :
-				max_swt = result_list[len(result_list)-1][1][1]
-			sum_swt += result_list[len(result_list)-1][1][1]
+			if ( result_list[len(result_list)-1][1][1] > max_end_time ) :
+				max_end_time = result_list[len(result_list)-1][1][1]
+			sum_end_time += result_list[len(result_list)-1][1][1]
 		output.write("\n")
+	for operation_name, _sum in sum_each_operation.iteritems():
+		stats_output.write( "\t"+ operation_name + ":" + str( float(_sum)/len(part_list)) + "ms\n")
 	output.write("\n\n")
 
 	# Blocking time stats write
-	stats_output.write("\tBlocking Time: " + str( max_swt - float(sum_swt) / len(part_list)) + "ms\n")
+	sum_blocking_time += (max_end_time - float(sum_end_time) / len(part_list))
+	shuffle_write_time_total += ( max_swt - float(sum_swt) / len(part_list))
+	task_time_total += (max_end_time - start_time)
+
+	tmp_py_related =0.0
+	# ShuffleMapTask
+	if ( len(sum_each_operation) == 5 ):
+		tmp_py_related= ( float(sum_each_operation["MapPartitionedRDD->PythonRDD"])/len(part_list) + float(sum_each_operation["UnionRDD->PythonRDD"])/len(part_list))
+	# ResultTask
+	else:
+		tmp_py_related= ( float(sum_each_operation["MapPartitionedRDD->PythonRDD"])/len(part_list))
+	py_related_operation_time_total += 	tmp_py_related
+
+	stats_output.write("\t\tTask Time: " + str(  max_end_time - start_time) + "ms\n")
+	stats_output.write("\t\tOverall blocking Time: " + str( max_end_time - float(sum_end_time) / len(part_list)) + "ms\n")
+	stats_output.write("\t\tSW blocking Time: " + str( max_swt - float(sum_swt) / len(part_list)) + "ms\n")
+	stats_output.write("\tpy-related Computation Time: " + str(tmp_py_related) + "ms\n")
 	stats_output.write("\n")
 
 def output_stage_shuffle_info(rdd_partition_shuffle_write, rdd_partition_shuffle_read, stage_id, output, verbose):
@@ -196,18 +236,19 @@ def output_stage_shuffle_info(rdd_partition_shuffle_write, rdd_partition_shuffle
 					)
 	output.write("\n\n")
 
-
-# This calculate the actual blocking time of shuffle write.
+# This calculate the slowest shuffle write among all partitions.
 def calculate_total_shuffle_write_time(rdd_partition_shuffle_write, output):
 	total_time = 0
 	for stage_id, part_list in rdd_partition_shuffle_write.iteritems():
-		[straggler_id, start_time, end_time] = getSlowestPartitionTime(part_list)
-		output.write("\t\t Start:" + str(milli2Readable(start_time)) + " End: " + str(milli2Readable(end_time)) \
-		+ "  Lasting: " + str(end_time - start_time ) + "ms" + "\n"
-		)
-		total_time += (end_time - start_time)
+		stage_max_sw = 0.0
+		for part_id, time_interval in part_list.iteritems():
+			time_diff = time_interval[1] - time_interval[0]
+			if (time_diff > stage_max_sw):
+				stage_max_sw = time_diff
+		total_time += stage_max_sw
 
-	print total_time, "ms"
+	print "Total Shuffle writing time:", total_time, "ms"
+
 
 def main(argv):
 	# This part is put to enable the verbose.
@@ -293,12 +334,13 @@ def main(argv):
 			if (stage_id_name_map[stage_id][0] == 'S'):
 				output_stage_shuffle_info(rdd_partition_shuffle_write, rdd_partition_shuffle_read, stage_id, f, verbose)
 		calculate_total_shuffle_write_time(rdd_partition_shuffle_write, f)
+
+		print "Overall Blocking: ", sum_blocking_time, "ms"
+		print "Application Time:", task_time_total, "ms"
+		print  "SW Blocking: ", shuffle_write_time_total, "ms"
+		print "Python Related Time", py_related_operation_time_total
 		fd.close()
 	f.close()
-
-
-
-
 
 
 if __name__ == "__main__":
