@@ -1,0 +1,122 @@
+         529605307 function calls (529594124 primitive calls) in 9330.089 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     5968 3042.308    0.510 3042.308    0.510 {cPickle.dumps}
+     8486 1887.942    0.222 1887.942    0.222 {cPickle.loads}
+     2016 1718.568    0.852 1865.747    0.925 sgdmf.py:69(sgd_on_one_partition)
+ 60021999 1434.865    0.000 1434.865    0.000 {method 'read' of 'file' objects}
+     2618  246.771    0.094 3978.530    1.520 serializers.py:259(dump_stream)
+ 98787524  177.369    0.000  177.369    0.000 {numpy.core._dotblas.dot}
+     2085  110.863    0.053 1905.288    0.914 serializers.py:132(dump_stream)
+ 30000162   92.653    0.000  112.387    0.000 sgdmf.py:39(parse_line)
+      512   86.012    0.168  116.214    0.227 sgdmf.py:98(evaluate_on_one_partition)
+ 30013351   64.670    0.000 1343.821    0.000 serializers.py:542(read_int)
+    18636   61.888    0.003   61.888    0.003 {method 'write' of 'file' objects}
+     6682   53.615    0.008 3445.289    0.516 rdd.py:316(func)
+ 30000177   49.997    0.000  245.088    0.000 serializers.py:505(loads)
+ 30000162   37.977    0.000   64.599    0.000 utf_8.py:15(decode)
+       10   31.230    3.123  249.011   24.901 {_functools.reduce}
+     8785   30.677    0.003 1761.552    0.201 rdd.py:1697(add_shuffle_key)
+ 30000162   28.769    0.000   93.368    0.000 {method 'decode' of 'str' objects}
+ 30000162   26.622    0.000   26.622    0.000 {_codecs.utf_8_decode}
+ 20000108   26.575    0.000   26.575    0.000 sgdmf.py:28(get_block_id)
+ 30000177   23.113    0.000  268.201    0.000 serializers.py:514(load_stream)
+ 30000162   19.734    0.000   19.734    0.000 {method 'split' of 'unicode' objects}
+ 10002134   13.656    0.000   20.084    0.000 rdd.py:61(portable_hash)
+ 20007276   13.037    0.000   13.037    0.000 {method 'append' of 'list' objects}
+       32   11.251    0.352   45.921    1.435 sgdmf.py:43(blockify_matrix)
+ 30013351   10.147    0.000   10.147    0.000 {_struct.unpack}
+ 10000054    7.718    0.000   28.180    0.000 sgdmf.py:146(<lambda>)
+ 10006758    4.433    0.000    4.433    0.000 {isinstance}
+ 10000054    2.608    0.000    2.608    0.000 sgdmf.py:142(<lambda>)
+ 10000054    2.474    0.000    2.474    0.000 sgdmf.py:141(<lambda>)
+ 10002134    2.006    0.000    2.006    0.000 {hash}
+    14579    1.621    0.000    2.582    0.000 shuffle.py:50(get_used_memory)
+       48    0.950    0.020    0.950    0.020 {method 'rand' of 'mtrand.RandomState' objects}
+    13174    0.791    0.000 3296.954    0.250 serializers.py:155(_read_with_length)
+    13174    0.679    0.000 3297.633    0.250 serializers.py:136(load_stream)
+    14579    0.669    0.000    0.669    0.000 {open}
+     4624    0.463    0.000    2.036    0.000 shuffle.py:196(__init__)
+     4703    0.438    0.000 9330.081    1.984 worker.py:104(process)
+     4624    0.435    0.000    1.065    0.000 shuffle.py:69(_get_local_dirs)
+     2544    0.374    0.000 2702.415    1.062 shuffle.py:263(mergeCombiners)
+     4624    0.246    0.000    0.329    0.000 posixpath.py:68(join)
+     4688    0.237    0.000    0.331    0.000 serializers.py:217(load_stream)
+     8486    0.229    0.000 1888.170    0.223 serializers.py:421(loads)
+     9318    0.199    0.000    0.405    0.000 serializers.py:549(write_int)
+     2080    0.181    0.000  570.501    0.274 shuffle.py:229(mergeValues)
+     4624    0.175    0.000    0.238    0.000 UserDict.py:58(get)
+     5968    0.152    0.000 3042.460    0.510 serializers.py:414(dumps)
+     4624    0.151    0.000    0.471    0.000 shuffle.py:134(_compressed_serializer)
+15886/4703    0.143    0.000 3445.494    0.733 rdd.py:2345(pipeline_func)
+   261715    0.136    0.000    0.136    0.000 {method 'startswith' of 'str' objects}
+     4640    0.135    0.000    0.176    0.000 rdd.py:1898(<lambda>)
+     2544    0.133    0.000 2703.939    1.063 rdd.py:1866(groupByKey)
+     6700    0.128    0.000   32.873    0.005 serializers.py:143(_write_with_length)
+     4624    0.115    0.000    0.128    0.000 shuffle.py:337(items)
+    12668    0.112    0.000    0.112    0.000 {_struct.pack}
+     2080    0.109    0.000  571.383    0.275 rdd.py:1858(combine)
+     9248    0.104    0.000    0.104    0.000 serializers.py:127(__init__)
+    19203    0.097    0.000    0.097    0.000 {method 'split' of 'str' objects}
+     4624    0.090    0.000    0.123    0.000 serializers.py:481(__init__)
+     2544    0.084    0.000    0.088    0.000 rdd.py:1850(mergeCombiners)
+    14579    0.083    0.000    0.136    0.000 platform.py:1326(system)
+     4688    0.079    0.000    0.079    0.000 serializers.py:220(_load_stream_without_unbatching)
+     4624    0.077    0.000    0.115    0.000 serializers.py:255(__init__)
+    40669    0.068    0.000    0.068    0.000 {len}
+     5088    0.067    0.000    0.089    0.000 rdd.py:1884(<genexpr>)
+    14579    0.052    0.000    0.052    0.000 platform.py:1189(uname)
+     2544    0.051    0.000    0.055    0.000 join.py:45(dispatch)
+     2016    0.046    0.000 1865.794    0.925 sgdmf.py:174(<lambda>)
+    13872    0.041    0.000    0.041    0.000 {method 'endswith' of 'str' objects}
+     4624    0.038    0.000    0.038    0.000 serializers.py:190(__init__)
+     5088    0.037    0.000    0.043    0.000 shuffle.py:704(_object_size)
+     4624    0.036    0.000    0.036    0.000 UserDict.py:70(__contains__)
+     9262    0.036    0.000    0.036    0.000 rdd.py:288(func)
+      512    0.035    0.000  116.330    0.227 rdd.py:743(processPartition)
+     2544    0.034    0.000    0.035    0.000 resultiterable.py:30(__init__)
+     2544    0.033    0.000    0.103    0.000 join.py:41(<lambda>)
+     4624    0.027    0.000    0.027    0.000 UserDict.py:18(__getitem__)
+     4624    0.026    0.000    0.026    0.000 shuffle.py:118(__init__)
+     2544    0.025    0.000    0.027    0.000 rdd.py:303(func)
+     5088    0.022    0.000    0.022    0.000 join.py:52(<genexpr>)
+      512    0.021    0.000  116.248    0.227 sgdmf.py:123(accumulate_error)
+     2544    0.020    0.000    0.123    0.000 rdd.py:1884(<lambda>)
+     4624    0.019    0.000    0.019    0.000 {posix.getpid}
+     7232    0.017    0.000    0.017    0.000 {built-in method from_iterable}
+      512    0.016    0.000    0.020    0.000 rdd.py:1004(<lambda>)
+     3350    0.014    0.000    0.042    0.000 serializers.py:538(pack_long)
+     5056    0.013    0.000    0.013    0.000 sgdmf.py:18(get_block_offset)
+    10308    0.013    0.000    0.013    0.000 {iter}
+     1024    0.012    0.000    0.013    0.000 accumulators.py:160(add)
+     9248    0.011    0.000    0.011    0.000 {id}
+     2085    0.010    0.000    0.010    0.000 {min}
+     2544    0.010    0.000    0.015    0.000 resultiterable.py:35(__iter__)
+     6725    0.009    0.000    0.009    0.000 {method 'items' of 'dict' objects}
+     2080    0.008    0.000    0.008    0.000 rdd.py:1843(createCombiner)
+     4703    0.008    0.000    0.008    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+       48    0.007    0.000    0.957    0.020 sgdmf.py:54(initialize_factor_matrix)
+     1008    0.006    0.000    0.006    0.000 sgdmf.py:177(<lambda>)
+     1024    0.006    0.000    0.007    0.000 rdd.py:861(func)
+     2544    0.004    0.000    0.004    0.000 {method 'extend' of 'list' objects}
+     1024    0.004    0.000    0.005    0.000 {sum}
+     6700    0.004    0.000    0.004    0.000 serializers.py:335(dumps)
+      512    0.004    0.000  116.252    0.227 sgdmf.py:184(<lambda>)
+     1008    0.003    0.000    0.003    0.000 sgdmf.py:201(<lambda>)
+     1040    0.003    0.000    0.003    0.000 join.py:39(<lambda>)
+     1056    0.003    0.000    0.003    0.000 join.py:40(<lambda>)
+      512    0.002    0.000    0.002    0.000 sgdmf.py:180(<lambda>)
+       32    0.002    0.000    0.707    0.022 sgdmf.py:156(<lambda>)
+     1024    0.001    0.000    0.001    0.000 accumulators.py:211(addInPlace)
+      512    0.001    0.000    0.001    0.000 {operator.add}
+      512    0.001    0.000    0.001    0.000 rdd.py:995(<lambda>)
+       20    0.001    0.000  249.016   12.451 rdd.py:789(func)
+      512    0.001    0.000    0.001    0.000 rdd.py:1004(<genexpr>)
+       10    0.001    0.000    0.005    0.000 {next}
+       16    0.000    0.000    0.252    0.016 sgdmf.py:159(<lambda>)
+       48    0.000    0.000    0.000    0.000 sgdmf.py:9(get_block_dim)
+       16    0.000    0.000    0.000    0.000 sgdmf.py:148(<lambda>)
+      101    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+       16    0.000    0.000    0.000    0.000 sgdmf.py:44(<lambda>)
